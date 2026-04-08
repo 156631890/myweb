@@ -1,0 +1,40 @@
+[
+  {
+    "id": "sunglasses",
+    "label": "Luxury Eyewear",
+    "category": "sunglasses",
+    "url": "https://luxuryeyewear.x.yupoo.com/",
+    "note": "Primary sunglasses source."
+  },
+  {
+    "id": "women-clothes",
+    "label": "Designer Women Clothes",
+    "category": "women-clothes",
+    "url": "https://dapaiclothing.x.yupoo.com/categories"
+  },
+  {
+    "id": "bags",
+    "label": "Designer Bags / Handbags",
+    "category": "bags",
+    "url": "https://a.wsxc.cn/RIH6uYO"
+  },
+  {
+    "id": "shoes",
+    "label": "Designer Shoes",
+    "category": "shoes",
+    "url": "https://s.wsxc.cn/dpMfMm"
+  },
+  {
+    "id": "jewelry",
+    "label": "Designer Jewelry",
+    "category": "jewelry",
+    "url": "http://cwj366988.x.yupoo.com",
+    "password": "222888"
+  },
+  {
+    "id": "men-clothes",
+    "label": "Designer Men Clothes",
+    "category": "men-clothes",
+    "url": "https://1234qwer888.x.yupoo.com/categories"
+  }
+]
