@@ -27,17 +27,17 @@ export function ProductCard({ product, className }: ProductCardProps) {
 
   return (
     <Link href={`/products/${product.slug}`} className={className}>
-      <article className="group overflow-hidden border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-gold/25 hover:shadow-[0_16px_60px_rgba(0,0,0,0.08)]">
-        <div className="relative aspect-square overflow-hidden bg-surface">
+      <article className="group overflow-hidden border border-border bg-card transition-all duration-300 hover:border-foreground/30">
+        <div className="relative aspect-[4/5] overflow-hidden bg-surface">
           <Image
             src={product.images[0]}
             alt={product.name}
             fill
-            className="object-cover transition-transform duration-700 group-hover:scale-105"
-            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/35 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
+          <div className="absolute inset-0 bg-gradient-to-t from-black/12 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
 
           <div className="absolute left-4 top-4 flex flex-col gap-2">
             {product.isNew && <Badge variant="primary">New</Badge>}
@@ -59,20 +59,17 @@ export function ProductCard({ product, className }: ProductCardProps) {
           </button>
         </div>
 
-        <div className="space-y-3.5 p-4">
+        <div className="space-y-3 p-4">
           <div className="space-y-2">
             <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
               {product.brand} / {product.categoryLabel}
             </p>
-            <h3 className="max-w-[14ch] font-serif text-[1.55rem] leading-[1.04] group-hover:text-gold">
+            <h3 className="max-w-[16ch] text-[1rem] leading-[1.35] text-foreground">
               {product.name}
             </h3>
-            <p className="line-clamp-2 text-sm leading-6 text-text-muted">
-              {product.shortDescription}
-            </p>
           </div>
 
-          <div className="flex items-center justify-between gap-3">
+          <div className="flex items-center justify-between gap-3 border-t border-border pt-3">
             <Price price={product.price} comparePrice={product.comparePrice} size="md" />
             <span className="text-[10px] tracking-[0.2em] uppercase text-text-muted">
               View

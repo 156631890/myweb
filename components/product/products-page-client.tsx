@@ -98,20 +98,16 @@ export default function ProductsPageClient() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:py-12">
-      <div className="mb-8 grid gap-5 lg:grid-cols-[0.8fr_1.2fr] lg:items-end">
-        <div className="space-y-4">
-          <p className="text-[10px] tracking-[0.34em] uppercase text-text-muted">Directory</p>
-          <h1 className="max-w-md text-4xl sm:text-5xl">
+    <div className="mx-auto max-w-[88rem] px-4 py-8 sm:px-6 lg:py-10">
+      <div className="mb-6 flex flex-wrap items-end justify-between gap-4 border-b border-border pb-5">
+        <div className="space-y-2">
+          <p className="text-[10px] tracking-[0.34em] uppercase text-text-muted">Products</p>
+          <h1 className="text-[2rem] leading-[0.96] sm:text-[2.8rem]">
             {mode === "trade" ? "Trade inventory" : "Directory listings"}
           </h1>
-          <p className="max-w-lg text-base leading-8 text-text-muted">
-            Browse the directory by category and price. Product pages stay public and shareable
-            for retail customers, social forwarding, and trade follow-up.
-          </p>
         </div>
 
-        <div className="flex flex-wrap items-center justify-start gap-3 lg:justify-end">
+        <div className="flex items-center gap-3">
           <div className="inline-flex rounded-full border border-border bg-card p-1">
             {[
               { label: "Retail", value: "retail" as ViewMode },
@@ -122,7 +118,7 @@ export default function ProductsPageClient() {
                 onClick={() => setMode(tab.value)}
                 className={`rounded-full px-4 py-2 text-[10px] tracking-[0.24em] uppercase transition-colors ${
                   mode === tab.value
-                    ? "bg-gold text-primary-foreground"
+                    ? "bg-foreground text-background"
                     : "text-text-muted hover:text-foreground"
                 }`}
               >
@@ -130,23 +126,53 @@ export default function ProductsPageClient() {
               </button>
             ))}
           </div>
-          <div className="rounded-full border border-border bg-card px-5 py-3 text-[10px] tracking-[0.24em] uppercase text-text-muted">
+          <div className="rounded-full border border-border bg-card px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-text-muted">
             {filteredProducts.length} items
           </div>
         </div>
       </div>
 
-      <div className="sticky top-20 z-20 mb-8 rounded-[28px] border border-border bg-card/90 p-4 shadow-sm backdrop-blur-md">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
+      <div className="mb-5 rounded-[20px] border border-border bg-card p-4">
+        <div className="flex flex-col gap-4 xl:flex-row xl:items-center xl:justify-between">
+          <div className="flex flex-1 flex-wrap gap-2">
+            {categories.map((category) => {
+              const active = activeCategories.includes(category.id);
+              return (
+                <button
+                  key={category.id}
+                  onClick={() => toggleCategory(category.id)}
+                  className={`inline-flex items-center justify-between rounded-full border px-4 py-2 text-[10px] tracking-[0.22em] uppercase transition-colors ${
+                    active
+                      ? "border-foreground bg-foreground text-background"
+                      : "border-border bg-background text-text-muted hover:border-foreground/25 hover:text-foreground"
+                  }`}
+                >
+                  <span>{category.name}</span>
+                  <span className="ml-3 text-[10px] tracking-[0.2em] uppercase">
+                    {String(category.productCount).padStart(2, "0")}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+          <div className="rounded-full border border-border bg-background px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-text-muted">
+            {filteredProducts.length} items
+          </div>
+        </div>
+      </div>
+
+      <div className="sticky top-20 z-20 mb-8 rounded-[20px] border border-border bg-card/95 p-4 backdrop-blur-md">
+        <div className="flex flex-col gap-4 xl:flex-row xl:items-center">
           <div className="flex flex-1 flex-col gap-3 sm:flex-row">
             <Input
-              placeholder="Search brand, category, or product"
+              aria-label="Search products"
+              placeholder="Search"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
             />
-            <div className="sm:w-56">
+            <div className="sm:w-52">
               <Select
-                label="Sort"
+                aria-label="Sort products"
                 value={sortBy}
                 onChange={(event) => setSortBy(event.target.value as SortOption)}
                 options={sortOptions}
@@ -165,7 +191,7 @@ export default function ProductsPageClient() {
                   onClick={() => setMode(tab.value)}
                   className={`rounded-full px-3 py-2 text-[10px] tracking-[0.22em] uppercase transition-colors ${
                     mode === tab.value
-                      ? "bg-gold text-primary-foreground"
+                      ? "bg-foreground text-background"
                       : "text-text-muted hover:text-foreground"
                   }`}
                 >
@@ -184,7 +210,7 @@ export default function ProductsPageClient() {
             </button>
 
             {hasActiveFilters && (
-              <button onClick={clearFilters} className="text-[10px] tracking-[0.24em] uppercase text-gold">
+              <button onClick={clearFilters} className="text-[10px] tracking-[0.24em] uppercase text-text-muted">
                 Clear all
               </button>
             )}
@@ -192,43 +218,12 @@ export default function ProductsPageClient() {
         </div>
       </div>
 
-      <div className="mb-8 rounded-[28px] border border-border bg-card/90 p-4 shadow-sm backdrop-blur-md">
-        <div className="flex flex-col gap-4 lg:flex-row lg:items-start lg:justify-between">
-          <div>
-            <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Category filter</p>
-            <p className="mt-2 text-sm text-text-muted">{categories.length} top-level categories</p>
-          </div>
-          <div className="flex flex-1 flex-wrap gap-2 lg:justify-end">
-            {categories.map((category) => {
-              const active = activeCategories.includes(category.id);
-              return (
-                <button
-                  key={category.id}
-                  onClick={() => toggleCategory(category.id)}
-                  className={`inline-flex items-center justify-between rounded-full border px-4 py-2 text-[10px] tracking-[0.22em] uppercase transition-colors ${
-                    active
-                      ? "border-gold bg-gold/10 text-foreground"
-                      : "border-border bg-background text-text-muted hover:border-gold/30"
-                  }`}
-                >
-                  <span>{category.name}</span>
-                  <span className="ml-3 text-[10px] tracking-[0.2em] uppercase">
-                    {String(category.productCount).padStart(2, "0")}
-                  </span>
-                </button>
-              );
-            })}
-          </div>
-        </div>
-      </div>
-
-      <div className="grid gap-8 lg:grid-cols-[320px_1fr]">
+      <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
         <aside className={`space-y-6 ${showFilters ? "block" : "hidden lg:block"}`}>
-          <div className="sticky top-40 rounded-[32px] border border-border bg-card/80 p-5 backdrop-blur-sm">
+          <div className="sticky top-40 rounded-[20px] border border-border bg-card p-5">
             <div className="mb-5 flex items-center justify-between">
               <div>
                 <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Filters</p>
-                <p className="mt-2 text-sm text-text-muted">Price range and view mode</p>
               </div>
               {hasActiveFilters && (
                 <button onClick={clearFilters} className="text-xs text-gold lg:hidden">
@@ -266,7 +261,7 @@ export default function ProductsPageClient() {
                 <button
                   key={category}
                   onClick={() => toggleCategory(category)}
-                  className="inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-gold"
+                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
                 >
                   {categories.find((item) => item.id === category)?.name}
                   <X className="h-3 w-3" />
@@ -275,9 +270,9 @@ export default function ProductsPageClient() {
               {query.trim() && (
                 <button
                   onClick={() => setQuery("")}
-                  className="inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-gold"
+                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
                 >
-                  Search: {query}
+                  {query}
                   <X className="h-3 w-3" />
                 </button>
               )}
