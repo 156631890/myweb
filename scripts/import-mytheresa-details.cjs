@@ -5,6 +5,7 @@ const WebSocket = require("ws");
 
 const PROJECT_ROOT = "C:\\Users\\Administrator\\worktrees\\luxury-sunglasses-store\\mytheresa-redesign";
 const DATA_FILE = path.join(PROJECT_ROOT, "data", "catalog-products.ts");
+const PRICE_SCALE = 100;
 
 function cleanText(value) {
   return String(value ?? "").replace(/\s+/g, " ").trim();
@@ -236,7 +237,8 @@ function extractDetailFields(detail, currentProduct) {
   const name = cleanText(productLd.name || detail.h1 || currentProduct.name);
   const brand = cleanText(productLd.brand?.name || currentProduct.brand);
   const sku = cleanText(productLd.sku || "");
-  const price = Number(productLd?.offers?.PriceSpecification?.price);
+  const rawPrice = Number(productLd?.offers?.PriceSpecification?.price);
+  const price = Number.isFinite(rawPrice) && rawPrice > 0 ? Number((rawPrice / PRICE_SCALE).toFixed(2)) : currentProduct.price;
   const productImages = unique([
     ...toArray(productLd.image).flatMap((image) => (typeof image === "string" ? [image] : [])),
     ...currentProduct.images,
@@ -282,7 +284,7 @@ function extractDetailFields(detail, currentProduct) {
     brand,
     description: story || cleanText(productLd.description || currentProduct.description),
     shortDescription: story || cleanText(productLd.description || currentProduct.shortDescription || currentProduct.description).slice(0, 180),
-    price: Number.isFinite(price) && price > 0 ? price : currentProduct.price,
+    price,
     images: productImages.length > 0 ? productImages : currentProduct.images,
     sizes: sizeValues.length > 0 ? sizeValues : currentProduct.sizes,
     materials: materials.length > 0 ? materials : currentProduct.materials,

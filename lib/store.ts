@@ -150,9 +150,9 @@ export const useCartTotals = () => {
   const subtotal = items.reduce((total, item) => total + item.product.price * item.quantity, 0);
   const discount = coupon ? subtotal * 0.1 : 0; // 10% discount for coupon
   const tax = subtotal * 0.08; // 8% tax
-  const FREE_SHIPPING_THRESHOLD = 200;
+  const FREE_SHIPPING_THRESHOLD = 2;
   const hasFreeShipping = subtotal >= FREE_SHIPPING_THRESHOLD;
-  const shipping = hasFreeShipping ? 0 : 15;
+  const shipping = hasFreeShipping ? 0 : 0.15;
   const total = subtotal - discount + tax + shipping;
 
   return {

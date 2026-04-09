@@ -5,6 +5,7 @@ import { ArrowRight, ShieldCheck, Sparkles, Truck } from "lucide-react";
 import { CategoryCard } from "@/components/product/category-card";
 import { ProductCard } from "@/components/product/product-card";
 import { Badge } from "@/components/ui/badge";
+import { formatPrice } from "@/lib/utils";
 import {
   categories,
   getFeaturedProducts,
@@ -235,7 +236,7 @@ export default function HomePage() {
                 <h3 className="mt-3 text-2xl">{product.name}</h3>
                 <p className="mt-2 text-sm leading-6 text-text-muted">{product.shortDescription}</p>
                 <div className="mt-4 flex items-center justify-between text-sm">
-                  <span className="text-gold">${product.wholesalePrice?.toFixed(0)}</span>
+                  <span className="text-gold">{formatPrice(product.wholesalePrice ?? 0)}</span>
                   <span className="text-text-muted">MOQ {product.minimumOrderQty}</span>
                 </div>
               </div>

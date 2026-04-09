@@ -6,6 +6,7 @@ import { ArrowRight, Minus, Plus, Trash2 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Price } from "@/components/ui/badge";
 import { useCartStore, useCartTotals } from "@/lib/store";
+import { formatPrice } from "@/lib/utils";
 
 export default function CartPage() {
   const items = useCartStore((state) => state.items);
@@ -94,7 +95,7 @@ export default function CartPage() {
 
             {amountForFreeShipping > 0 && (
               <p className="text-sm leading-7 text-text-muted">
-                Add <span className="text-gold">${amountForFreeShipping.toFixed(0)}</span> more to qualify for complimentary shipping.
+                Add <span className="text-gold">{formatPrice(amountForFreeShipping)}</span> more to qualify for complimentary shipping.
               </p>
             )}
 

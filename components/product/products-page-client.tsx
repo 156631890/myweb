@@ -6,6 +6,7 @@ import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/product/product-grid";
 import { Select, Input } from "@/components/ui/input";
 import { categories, getProductsForView } from "@/lib/products";
+import { formatPrice } from "@/lib/utils";
 import type { CategorySlug, SortOption, ViewMode } from "@/types";
 
 const sortOptions: Array<{ value: SortOption; label: string }> = [
@@ -20,7 +21,7 @@ function formatPriceRange(range: [number, number]) {
     return "All prices";
   }
 
-  return `$${range[0].toFixed(0)} - $${range[1].toFixed(0)}`;
+  return `${formatPrice(range[0])} - ${formatPrice(range[1])}`;
 }
 
 export default function ProductsPageClient() {

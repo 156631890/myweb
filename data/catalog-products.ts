@@ -10,8 +10,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "With its founders having strong roots in sculpture and painting, it's no wonder that every David Yurman design is an intricate work of art. Inspired by the vibrant creativity of downtown New York City, the DY Mercer® ring is meticulously crafted from 925 sterling silver with the signature wave-like motif. A mesmerizing prasiolite set in 18kt yellow gold completes the eye-catching design.",
     "shortDescription": "With its founders having strong roots in sculpture and painting, it's no wonder that every David Yurman design is an intricate work of art. Inspired by the vibrant creativity of downtown New York City, the DY Mercer® ring is meticulously crafted from 925 sterling silver with the signature wave-like motif. A mesmerizing prasiolite set in 18kt yellow gold completes the eye-catching design.",
-    "price": 795,
-    "wholesalePrice": 445,
+    "price": 7.95,
+    "wholesalePrice": 4.45,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/f6/P01144090.jpg",
@@ -76,8 +76,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Paisley prints are so synonymous with Etro that they've become a house signature. One is featured on this silk chiffon gown, a tiered piece with semi-sheer sleeves, ruffled trims, and a floor-sweeping skirt.",
     "shortDescription": "Paisley prints are so synonymous with Etro that they've become a house signature. One is featured on this silk chiffon gown, a tiered piece with semi-sheer sleeves, ruffled trims, and a floor-sweeping skirt.",
-    "price": 5890,
-    "wholesalePrice": 3298,
+    "price": 58.9,
+    "wholesalePrice": 32.98,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/7e/P01122064.jpg",
@@ -146,8 +146,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. These thong sandals are crafted from soft suede and feature wedge soles.",
     "shortDescription": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. These thong sandals are crafted from soft suede and feature wedge soles.",
-    "price": 995,
-    "wholesalePrice": 557,
+    "price": 9.95,
+    "wholesalePrice": 5.57,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/46/P01169108.jpg",
@@ -221,8 +221,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Versatile and elegant, Saint Laurent's Icare shopper features a wood construction and front Cassandre hardware. Presented in Medium proportions, this bag has an open top and comes with a detachable zipped pouch made from leather.",
     "shortDescription": "Versatile and elegant, Saint Laurent's Icare shopper features a wood construction and front Cassandre hardware. Presented in Medium proportions, this bag has an open top and comes with a detachable zipped pouch made from leather.",
-    "price": 5000,
-    "wholesalePrice": 2800,
+    "price": 50,
+    "wholesalePrice": 28,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/98/P01188326.jpg",
@@ -284,8 +284,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Sicilian culture is on display in Dolce&Gabbana's aesthetic, with bold styles inspired by the brand's Italian heritage. This shirt is crafted from cotton and silk and is complete with a classy striped motif.",
     "shortDescription": "Sicilian culture is on display in Dolce&Gabbana's aesthetic, with bold styles inspired by the brand's Italian heritage. This shirt is crafted from cotton and silk and is complete with a classy striped motif.",
-    "price": 1145,
-    "wholesalePrice": 641,
+    "price": 11.45,
+    "wholesalePrice": 6.41,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/3d/P01148587.jpg",
@@ -354,8 +354,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci reimagines a house signature with this Gucci Bamboo 1947 bag. Crafted from leather, the Mini-sized design is detailed with the Bamboo twist clasp and a gold-toned shoulder strap for easy carry.",
     "shortDescription": "Gucci reimagines a house signature with this Gucci Bamboo 1947 bag. Crafted from leather, the Mini-sized design is detailed with the Bamboo twist clasp and a gold-toned shoulder strap for easy carry.",
-    "price": 2150,
-    "wholesalePrice": 1204,
+    "price": 21.5,
+    "wholesalePrice": 12.04,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/26/P01151177.jpg",
@@ -417,8 +417,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Since its conception in 1961, Saint Laurent has been coveted for its elegant Parisian aesthetic. Made in Italy from wool and mohair, these wide-leg pants are defined by elegant pleats that bring effortless sophistication.",
     "shortDescription": "Since its conception in 1961, Saint Laurent has been coveted for its elegant Parisian aesthetic. Made in Italy from wool and mohair, these wide-leg pants are defined by elegant pleats that bring effortless sophistication.",
-    "price": 1850,
-    "wholesalePrice": 1036,
+    "price": 18.5,
+    "wholesalePrice": 10.36,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/05/P01188955.jpg",
@@ -484,8 +484,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Amina Muaddi has quickly become a fashionable favorite thanks to its eye-catching and sculptural shoes. The Barbara pumps are crafted from patent leather and feature sharp, pointed toes, and stiletto heels.",
     "shortDescription": "Amina Muaddi has quickly become a fashionable favorite thanks to its eye-catching and sculptural shoes. The Barbara pumps are crafted from patent leather and feature sharp, pointed toes, and stiletto heels.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/7c/P01142357.jpg",
@@ -562,8 +562,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "With its founders having strong roots in sculpture and painting, it's no wonder that every David Yurman design is an intricate work of art. Inspired by the vibrant creativity of downtown New York City, the DY Mercer® ring is meticulously crafted from 925 sterling silver with the signature wave-like motif. A mesmerizing topaz set in 18kt yellow gold completes the eye-catching design.",
     "shortDescription": "With its founders having strong roots in sculpture and painting, it's no wonder that every David Yurman design is an intricate work of art. Inspired by the vibrant creativity of downtown New York City, the DY Mercer® ring is meticulously crafted from 925 sterling silver with the signature wave-like motif. A mesmerizing topaz set in 18kt yellow gold completes the eye-catching design.",
-    "price": 595,
-    "wholesalePrice": 333,
+    "price": 5.95,
+    "wholesalePrice": 3.33,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/31/P01144092.jpg",
@@ -628,8 +628,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "At once polished and pared-back, Emilia Wickstead proves that simple, well-executed silhouettes will stand out. The Capucine midi dress is crafted with a floral pattern and finished with a tonal belt.",
     "shortDescription": "At once polished and pared-back, Emilia Wickstead proves that simple, well-executed silhouettes will stand out. The Capucine midi dress is crafted with a floral pattern and finished with a tonal belt.",
-    "price": 2835,
-    "wholesalePrice": 1588,
+    "price": 28.35,
+    "wholesalePrice": 15.88,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/60/P01148720.jpg",
@@ -697,8 +697,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made from transparent TPU with black leather trims, the Gianvito pumps boast stiletto heels and pointed-toed silhouettes.",
     "shortDescription": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made from transparent TPU with black leather trims, the Gianvito pumps boast stiletto heels and pointed-toed silhouettes.",
-    "price": 875,
-    "wholesalePrice": 490,
+    "price": 8.75,
+    "wholesalePrice": 4.9,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/ed/P01180271.jpg",
@@ -774,8 +774,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "The idea of bags as rare, modern heirlooms lies at the heart of Savette. Italian-made from raffia, the Symmetry shoulder bag comes with a detachable leather strap and the signature turn-lock fastening.",
     "shortDescription": "The idea of bags as rare, modern heirlooms lies at the heart of Savette. Italian-made from raffia, the Symmetry shoulder bag comes with a detachable leather strap and the signature turn-lock fastening.",
-    "price": 1890,
-    "wholesalePrice": 1058,
+    "price": 18.9,
+    "wholesalePrice": 10.58,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/3d/P01162659.jpg",
@@ -837,8 +837,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Discover the power of elevated everyday essentials with this Oxford shirt from Bottega Veneta. Made in Italy from pure cotton, this blue-hued design features a detachable belt at the back and a sculptural, detachable white collar tab.",
     "shortDescription": "Discover the power of elevated everyday essentials with this Oxford shirt from Bottega Veneta. Made in Italy from pure cotton, this blue-hued design features a detachable belt at the back and a sculptural, detachable white collar tab.",
-    "price": 1650,
-    "wholesalePrice": 924,
+    "price": 16.5,
+    "wholesalePrice": 9.24,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/4f/P01151098.jpg",
@@ -906,8 +906,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Developed in the 1970s, Bottega Veneta's artful Intrecciato technique guarantees the longevity of leather goods. This signature craft forms the construction of the Agenda clutch, adding structure and shape to the design.",
     "shortDescription": "Developed in the 1970s, Bottega Veneta's artful Intrecciato technique guarantees the longevity of leather goods. This signature craft forms the construction of the Agenda clutch, adding structure and shape to the design.",
-    "price": 3600,
-    "wholesalePrice": 2016,
+    "price": 36,
+    "wholesalePrice": 20.16,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/83/P01151271.jpg",
@@ -969,8 +969,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. These wide-leg pants are crafted from cotton and linen with a buttoned, elasticated waist.",
     "shortDescription": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. These wide-leg pants are crafted from cotton and linen with a buttoned, elasticated waist.",
-    "price": 1850,
-    "wholesalePrice": 1036,
+    "price": 18.5,
+    "wholesalePrice": 10.36,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/9b/P01143613.jpg",
@@ -1041,8 +1041,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made from silver-toned metallic leather, the Sofia thong sandals boast wedge heels and rounded toes.",
     "shortDescription": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made from silver-toned metallic leather, the Sofia thong sandals boast wedge heels and rounded toes.",
-    "price": 995,
-    "wholesalePrice": 557,
+    "price": 9.95,
+    "wholesalePrice": 5.57,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/5c/P01169109.jpg",
@@ -1118,8 +1118,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "The DY Mercer® collection from David Yurman pays homage to the founder's first studio in New York City. Carefully crafted from 18kt yellow gold (750/1000), this ring features an eye-catching turquoise as its focal point and boasts the defining characteristics of the collection, including the brand's signature wave-like pattern.",
     "shortDescription": "The DY Mercer® collection from David Yurman pays homage to the founder's first studio in New York City. Carefully crafted from 18kt yellow gold (750/1000), this ring features an eye-catching turquoise as its focal point and boasts the defining characteristics of the collection, including the brand's signature wave-like pattern.",
-    "price": 3600,
-    "wholesalePrice": 2016,
+    "price": 36,
+    "wholesalePrice": 20.16,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/66/P01144088.jpg",
@@ -1182,8 +1182,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Also known as “creators of wonder,” Là Fuori crafts pieces that celebrate artistry, passion, and beauty. This stunning cocktail dress is crafted from sheer mesh and adorned with a shimmering array of beads and sequins arranged in a floral grid.",
     "shortDescription": "Also known as “creators of wonder,” Là Fuori crafts pieces that celebrate artistry, passion, and beauty. This stunning cocktail dress is crafted from sheer mesh and adorned with a shimmering array of beads and sequins arranged in a floral grid.",
-    "price": 1090,
-    "wholesalePrice": 610,
+    "price": 10.9,
+    "wholesalePrice": 6.1,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e0/P01141733.jpg",
@@ -1250,8 +1250,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made in Italy from semi-transparent TPU, the Sofia pumps are a slingback style with pointed-toed silhouettes and kitten heels.",
     "shortDescription": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made in Italy from semi-transparent TPU, the Sofia pumps are a slingback style with pointed-toed silhouettes and kitten heels.",
-    "price": 995,
-    "wholesalePrice": 557,
+    "price": 9.95,
+    "wholesalePrice": 5.57,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/f1/P01180294.jpg",
@@ -1326,8 +1326,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci continues to redefine luxury and pursue its commitment to excellence and creativity. The iconic GG Marmont Mini crossbody bag is crafted from smooth leather with a chevron quilted pattern and gold-toned hardware.",
     "shortDescription": "Gucci continues to redefine luxury and pursue its commitment to excellence and creativity. The iconic GG Marmont Mini crossbody bag is crafted from smooth leather with a chevron quilted pattern and gold-toned hardware.",
-    "price": 1550,
-    "wholesalePrice": 868,
+    "price": 15.5,
+    "wholesalePrice": 8.68,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/cd/P01151176.jpg",
@@ -1389,8 +1389,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Magda Butrym aims to empower with sharp modern style, expertly delivered through artisanal excellence. Made from a draped cotton-blend fabric, this jacket is a trench-inspired style with a balloon silhouette and an adjustable belt.",
     "shortDescription": "Magda Butrym aims to empower with sharp modern style, expertly delivered through artisanal excellence. Made from a draped cotton-blend fabric, this jacket is a trench-inspired style with a balloon silhouette and an adjustable belt.",
-    "price": 3425,
-    "wholesalePrice": 1918,
+    "price": 34.25,
+    "wholesalePrice": 19.18,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/56/P01148959.jpg",
@@ -1457,8 +1457,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "The Peak cat-eye sunglasses from Phoebe Philo feature black acetate frames with wide, angular temples. They're complete with dark brown lenses with a category 3 filter.",
     "shortDescription": "The Peak cat-eye sunglasses from Phoebe Philo feature black acetate frames with wide, angular temples. They're complete with dark brown lenses with a category 3 filter.",
-    "price": 460,
-    "wholesalePrice": 258,
+    "price": 4.6,
+    "wholesalePrice": 2.58,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/4b/P01162848.jpg",
@@ -1520,8 +1520,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Founded in 1846 as a leathermaking company, Loewe maintains a commitment to art and craft of the utmost quality. These jeans are cut to a barrel-leg silhouette, and the folded waist showcases a checked wool lining.",
     "shortDescription": "Founded in 1846 as a leathermaking company, Loewe maintains a commitment to art and craft of the utmost quality. These jeans are cut to a barrel-leg silhouette, and the folded waist showcases a checked wool lining.",
-    "price": 1450,
-    "wholesalePrice": 812,
+    "price": 14.5,
+    "wholesalePrice": 8.12,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/b6/P01118162.jpg",
@@ -1589,8 +1589,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made in Italy from leather, the Gianvito pumps boast stiletto heels and sophisticated pointed-toed silhouettes.",
     "shortDescription": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made in Italy from leather, the Gianvito pumps boast stiletto heels and sophisticated pointed-toed silhouettes.",
-    "price": 850,
-    "wholesalePrice": 476,
+    "price": 8.5,
+    "wholesalePrice": 4.76,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/49/P01180257.jpg",
@@ -1666,8 +1666,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "David Yurman's Cable Flex® collection is inspired by a bangle the founder carefully hand-twisted from 50 feet of wire. After over four decades of perfecting that piece, it arrives here in a Micro design, made from 925 sterling silver with 14kt yellow gold (585/1000) ends, which encase shimmering, round-cut diamonds. Timeless and refined, this piece deserves a spot in your everyday repertoire.",
     "shortDescription": "David Yurman's Cable Flex® collection is inspired by a bangle the founder carefully hand-twisted from 50 feet of wire. After over four decades of perfecting that piece, it arrives here in a Micro design, made from 925 sterling silver with 14kt yellow gold (585/1000) ends, which encase shimmering, round-cut diamonds. Timeless and refined, this piece deserves a spot in your everyday repertoire.",
-    "price": 795,
-    "wholesalePrice": 445,
+    "price": 7.95,
+    "wholesalePrice": 4.45,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/8e/P01144017.jpg",
@@ -1730,8 +1730,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Markarian channels celestial glamour through couture-level silhouettes and a distinctly romantic perspective. The Leia midi dress is crafted from cotton with delicate broderie anglaise details, and finished with a pleated bodice and a dainty floral print.",
     "shortDescription": "Markarian channels celestial glamour through couture-level silhouettes and a distinctly romantic perspective. The Leia midi dress is crafted from cotton with delicate broderie anglaise details, and finished with a pleated bodice and a dainty floral print.",
-    "price": 1815,
-    "wholesalePrice": 1016,
+    "price": 18.15,
+    "wholesalePrice": 10.16,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/d8/P01156898.jpg",
@@ -1801,8 +1801,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gianvito Rossi Malé leather sandals from Mytheresa. New Arrival.",
     "shortDescription": "Gianvito Rossi Malé leather sandals from Mytheresa. New Arrival.",
-    "price": 895,
-    "wholesalePrice": 501,
+    "price": 8.95,
+    "wholesalePrice": 5.01,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/88/P01180870.jpg"
@@ -1871,8 +1871,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Loewe Flamenco Mini metallic leather clutch from Mytheresa. New Arrival.",
     "shortDescription": "Loewe Flamenco Mini metallic leather clutch from Mytheresa. New Arrival.",
-    "price": 3200,
-    "wholesalePrice": 1792,
+    "price": 32,
+    "wholesalePrice": 17.92,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fb/P01117907.jpg"
@@ -1927,8 +1927,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Etro Floral crochet cotton crop top from Mytheresa. New Arrival.",
     "shortDescription": "Etro Floral crochet cotton crop top from Mytheresa. New Arrival.",
-    "price": 1450,
-    "wholesalePrice": 812,
+    "price": 14.5,
+    "wholesalePrice": 8.12,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/8b/P01152350.jpg"
@@ -1993,8 +1993,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Ferragamo Gancio Mini leather top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Ferragamo Gancio Mini leather top-handle bag from Mytheresa. New Arrival.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fa/P01149719.jpg"
@@ -2049,8 +2049,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Gerolamo and Roberta Etro's love for antique prints and patterns remain a cornerstone of the Italian brand today. These jeans feature retro-inspired flared hems and a striking floral print.",
     "shortDescription": "Gerolamo and Roberta Etro's love for antique prints and patterns remain a cornerstone of the Italian brand today. These jeans feature retro-inspired flared hems and a striking floral print.",
-    "price": 1290,
-    "wholesalePrice": 722,
+    "price": 12.9,
+    "wholesalePrice": 7.22,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/66/P01152361.jpg",
@@ -2119,8 +2119,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made in Italy from leather, the Manhattan sandals boast stiletto heels and a distinct strap design.",
     "shortDescription": "Crafted from materials of the highest quality, Gianvito Rossi’s designs are handmade using both traditional craftsmanship and innovative techniques. Made in Italy from leather, the Manhattan sandals boast stiletto heels and a distinct strap design.",
-    "price": 945,
-    "wholesalePrice": 529,
+    "price": 9.45,
+    "wholesalePrice": 5.29,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e0/P01180352.jpg",
@@ -2194,8 +2194,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Bucherer Fine Jewellery Inner Fire 18kt white gold necklace with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Bucherer Fine Jewellery Inner Fire 18kt white gold necklace with diamonds from Mytheresa. New Arrival.",
-    "price": 10600,
-    "wholesalePrice": 5936,
+    "price": 106,
+    "wholesalePrice": 59.36,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/19/P01026046.jpg"
@@ -2250,8 +2250,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Là Fuori Floral sequined silk gown from Mytheresa. Exclusive.",
     "shortDescription": "Là Fuori Floral sequined silk gown from Mytheresa. Exclusive.",
-    "price": 1600,
-    "wholesalePrice": 896,
+    "price": 16,
+    "wholesalePrice": 8.96,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/93/P01141731.jpg"
@@ -2314,8 +2314,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gianvito Rossi Manhattan mirrored leather sandals from Mytheresa. New Arrival.",
     "shortDescription": "Gianvito Rossi Manhattan mirrored leather sandals from Mytheresa. New Arrival.",
-    "price": 945,
-    "wholesalePrice": 529,
+    "price": 9.45,
+    "wholesalePrice": 5.29,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/f0/P01180340.jpg"
@@ -2384,8 +2384,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci GG Emblem Small top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Gucci GG Emblem Small top-handle bag from Mytheresa. New Arrival.",
-    "price": 1800,
-    "wholesalePrice": 1008,
+    "price": 18,
+    "wholesalePrice": 10.08,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/54/P01117989.jpg"
@@ -2440,8 +2440,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Etro Paisley oversized shirt from Mytheresa. New Arrival.",
     "shortDescription": "Etro Paisley oversized shirt from Mytheresa. New Arrival.",
-    "price": 1120,
-    "wholesalePrice": 627,
+    "price": 11.2,
+    "wholesalePrice": 6.27,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d2/P01122229.jpg"
@@ -2503,8 +2503,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Givenchy Antigona East-West Mini top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Givenchy Antigona East-West Mini top-handle bag from Mytheresa. New Arrival.",
-    "price": 1750,
-    "wholesalePrice": 980,
+    "price": 17.5,
+    "wholesalePrice": 9.8,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/f3/P01155585.jpg"
@@ -2559,8 +2559,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Etro Paisley high-rise shorts from Mytheresa. New Arrival.",
     "shortDescription": "Etro Paisley high-rise shorts from Mytheresa. New Arrival.",
-    "price": 650,
-    "wholesalePrice": 364,
+    "price": 6.5,
+    "wholesalePrice": 3.64,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/bf/P01122191.jpg"
@@ -2622,8 +2622,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Jimmy Choo Theia metallic leather wedge sandals from Mytheresa. Exclusive.",
     "shortDescription": "Jimmy Choo Theia metallic leather wedge sandals from Mytheresa. Exclusive.",
-    "price": 895,
-    "wholesalePrice": 501,
+    "price": 8.95,
+    "wholesalePrice": 5.01,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/77/P01171839.jpg"
@@ -2692,8 +2692,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Ananya Chakra 18kt gold bracelet with gemstones from Mytheresa. New Arrival.",
     "shortDescription": "Ananya Chakra 18kt gold bracelet with gemstones from Mytheresa. New Arrival.",
-    "price": 7100,
-    "wholesalePrice": 3976,
+    "price": 71,
+    "wholesalePrice": 39.76,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/5f/P00992660.jpg"
@@ -2752,8 +2752,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Erdem Floral silk creponne midi dress from Mytheresa. New Arrival.",
     "shortDescription": "Erdem Floral silk creponne midi dress from Mytheresa. New Arrival.",
-    "price": 3825,
-    "wholesalePrice": 2142,
+    "price": 38.25,
+    "wholesalePrice": 21.42,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7a/P01149195.jpg"
@@ -2818,8 +2818,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Bottega Veneta Cherry leather mules from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Cherry leather mules from Mytheresa. New Arrival.",
-    "price": 1500,
-    "wholesalePrice": 840,
+    "price": 15,
+    "wholesalePrice": 8.4,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/0e/P01160634.jpg"
@@ -2887,8 +2887,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Chloé Bracelet Small leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Bracelet Small leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3800,
-    "wholesalePrice": 2128,
+    "price": 38,
+    "wholesalePrice": 21.28,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/eb/P01152613.jpg"
@@ -2943,8 +2943,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Boasting a rich manufacturing history, Max Mara represents the quintessence of Italian sophistication and expertise. Rendered in green, the Valzer top is a sleeveless style defined by allover pleating and a halterneck silhouette.",
     "shortDescription": "Boasting a rich manufacturing history, Max Mara represents the quintessence of Italian sophistication and expertise. Rendered in green, the Valzer top is a sleeveless style defined by allover pleating and a halterneck silhouette.",
-    "price": 1020,
-    "wholesalePrice": 571,
+    "price": 10.2,
+    "wholesalePrice": 5.71,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/05/P01152320.jpg",
@@ -3014,8 +3014,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Valentino Garavani DeVain Small beaded shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Valentino Garavani DeVain Small beaded shoulder bag from Mytheresa. New Arrival.",
-    "price": 3700,
-    "wholesalePrice": 2072,
+    "price": 37,
+    "wholesalePrice": 20.72,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/a0/P01056407.jpg"
@@ -3070,8 +3070,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Max Mara Grembo pleated wide-leg pants from Mytheresa. New Arrival.",
     "shortDescription": "Max Mara Grembo pleated wide-leg pants from Mytheresa. New Arrival.",
-    "price": 1390,
-    "wholesalePrice": 778,
+    "price": 13.9,
+    "wholesalePrice": 7.78,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/32/P01152313.jpg"
@@ -3137,8 +3137,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gianvito Rossi Leather platform thong sandals from Mytheresa. Exclusive.",
     "shortDescription": "Gianvito Rossi Leather platform thong sandals from Mytheresa. Exclusive.",
-    "price": 995,
-    "wholesalePrice": 557,
+    "price": 9.95,
+    "wholesalePrice": 5.57,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b9/P01169106.jpg"
@@ -3207,8 +3207,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Spinelli Kilcollin Asha sterling silver and 18kt gold earrings from Mytheresa. New Arrival.",
     "shortDescription": "Spinelli Kilcollin Asha sterling silver and 18kt gold earrings from Mytheresa. New Arrival.",
-    "price": 2600,
-    "wholesalePrice": 1456,
+    "price": 26,
+    "wholesalePrice": 14.56,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d3/P01118719.jpg"
@@ -3263,8 +3263,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Là Fuori Floral sequined minidress from Mytheresa. New Arrival.",
     "shortDescription": "Là Fuori Floral sequined minidress from Mytheresa. New Arrival.",
-    "price": 1170,
-    "wholesalePrice": 655,
+    "price": 11.7,
+    "wholesalePrice": 6.55,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/41/P01141712.jpg"
@@ -3327,8 +3327,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Aptly named for the heart-shaped appliqués at the razor-sharp profiles, the Cœur slingback pumps from Alaïa are an elegant pair. Set on 90mm stiletto heels, they’re made from suede and feature transparent PVC paneling.",
     "shortDescription": "Aptly named for the heart-shaped appliqués at the razor-sharp profiles, the Cœur slingback pumps from Alaïa are an elegant pair. Set on 90mm stiletto heels, they’re made from suede and feature transparent PVC paneling.",
-    "price": 1500,
-    "wholesalePrice": 840,
+    "price": 15,
+    "wholesalePrice": 8.4,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e8/P01045872.jpg",
@@ -3402,8 +3402,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Loewe Shell Small leather bucket bag from Mytheresa. Exclusive.",
     "shortDescription": "Loewe Shell Small leather bucket bag from Mytheresa. Exclusive.",
-    "price": 9400,
-    "wholesalePrice": 5264,
+    "price": 94,
+    "wholesalePrice": 52.64,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/f5/P01166679.jpg"
@@ -3458,8 +3458,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Valentino Draped silk satin top from Mytheresa. New Arrival.",
     "shortDescription": "Valentino Draped silk satin top from Mytheresa. New Arrival.",
-    "price": 2700,
-    "wholesalePrice": 1512,
+    "price": 27,
+    "wholesalePrice": 15.12,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/db/P01165937.jpg"
@@ -3524,8 +3524,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Icare raffia shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Icare raffia shoulder bag from Mytheresa. New Arrival.",
-    "price": 4300,
-    "wholesalePrice": 2408,
+    "price": 43,
+    "wholesalePrice": 24.08,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/4b/P01172533.jpg"
@@ -3580,8 +3580,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Saint Laurent Satin pencil skirt from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Satin pencil skirt from Mytheresa. New Arrival.",
-    "price": 2800,
-    "wholesalePrice": 1568,
+    "price": 28,
+    "wholesalePrice": 15.68,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/00/P01162481.jpg"
@@ -3643,8 +3643,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Saint Laurent Madeleine ruffled taffeta mules from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Madeleine ruffled taffeta mules from Mytheresa. New Arrival.",
-    "price": 1550,
-    "wholesalePrice": 868,
+    "price": 15.5,
+    "wholesalePrice": 8.68,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/59/P01163664.jpg"
@@ -3713,8 +3713,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Yvonne Léon Berlingot 9kt white and yellow gold earrings with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Yvonne Léon Berlingot 9kt white and yellow gold earrings with diamonds from Mytheresa. New Arrival.",
-    "price": 5140,
-    "wholesalePrice": 2878,
+    "price": 51.4,
+    "wholesalePrice": 28.78,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/0d/P01091809.jpg"
@@ -3769,8 +3769,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Thom Browne Pleated cotton minidress from Mytheresa. New Arrival.",
     "shortDescription": "Thom Browne Pleated cotton minidress from Mytheresa. New Arrival.",
-    "price": 1550,
-    "wholesalePrice": 868,
+    "price": 15.5,
+    "wholesalePrice": 8.68,
     "minimumOrderQty": 5,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/bc/P01152200.jpg"
@@ -3832,8 +3832,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Amina Muaddi Elodie 90 satin mules from Mytheresa. New Arrival.",
     "shortDescription": "Amina Muaddi Elodie 90 satin mules from Mytheresa. New Arrival.",
-    "price": 890,
-    "wholesalePrice": 498,
+    "price": 8.9,
+    "wholesalePrice": 4.98,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/be/P01142457.jpg"
@@ -3902,8 +3902,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "DeMellier Stockholm Small suede top-handle bag from Mytheresa. Exclusive.",
     "shortDescription": "DeMellier Stockholm Small suede top-handle bag from Mytheresa. Exclusive.",
-    "price": 495,
-    "wholesalePrice": 277,
+    "price": 4.95,
+    "wholesalePrice": 2.77,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/cc/P01132953.jpg"
@@ -3958,8 +3958,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Magda Butrym Medium crochet tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Magda Butrym Medium crochet tote bag from Mytheresa. New Arrival.",
-    "price": 2325,
-    "wholesalePrice": 1302,
+    "price": 23.25,
+    "wholesalePrice": 13.02,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/86/P01161537.jpg"
@@ -4014,8 +4014,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Audrey suede clutch from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Audrey suede clutch from Mytheresa. New Arrival.",
-    "price": 2200,
-    "wholesalePrice": 1232,
+    "price": 22,
+    "wholesalePrice": 12.32,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/10/P01145707.jpg"
@@ -4070,8 +4070,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Audrey suede clutch from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Audrey suede clutch from Mytheresa. New Arrival.",
-    "price": 2200,
-    "wholesalePrice": 1232,
+    "price": 22,
+    "wholesalePrice": 12.32,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/bf/P01145709.jpg"
@@ -4126,8 +4126,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Etro Kalispera Small beaded suede shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Etro Kalispera Small beaded suede shoulder bag from Mytheresa. New Arrival.",
-    "price": 1795,
-    "wholesalePrice": 1005,
+    "price": 17.95,
+    "wholesalePrice": 10.05,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b7/P01151080.jpg"
@@ -4182,8 +4182,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Chloé Chloé Plissé Small leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Chloé Plissé Small leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3700,
-    "wholesalePrice": 2072,
+    "price": 37,
+    "wholesalePrice": 20.72,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c0/P01152606.jpg"
@@ -4238,8 +4238,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Livia Small studded leather bucket bag from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Livia Small studded leather bucket bag from Mytheresa. New Arrival.",
-    "price": 2400,
-    "wholesalePrice": 1344,
+    "price": 24,
+    "wholesalePrice": 13.44,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/09/P01145710.jpg"
@@ -4294,8 +4294,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci Ophidia GG Small shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Ophidia GG Small shoulder bag from Mytheresa. New Arrival.",
-    "price": 1850,
-    "wholesalePrice": 1036,
+    "price": 18.5,
+    "wholesalePrice": 10.36,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/62/P01118014.jpg"
@@ -4350,8 +4350,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Roger Vivier Jeu De Fille embellished crochet clutch from Mytheresa. New Arrival.",
     "shortDescription": "Roger Vivier Jeu De Fille embellished crochet clutch from Mytheresa. New Arrival.",
-    "price": 2395,
-    "wholesalePrice": 1341,
+    "price": 23.95,
+    "wholesalePrice": 13.41,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/37/P01168290.jpg"
@@ -4406,8 +4406,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Loulou Mini quilted leather camera bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Loulou Mini quilted leather camera bag from Mytheresa. New Arrival.",
-    "price": 1850,
-    "wholesalePrice": 1036,
+    "price": 18.5,
+    "wholesalePrice": 10.36,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/4e/P01183428.jpg"
@@ -4462,8 +4462,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Blake leather-trimmed canvas crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Blake leather-trimmed canvas crossbody bag from Mytheresa. New Arrival.",
-    "price": 3500,
-    "wholesalePrice": 1960,
+    "price": 35,
+    "wholesalePrice": 19.6,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/0d/P01145705.jpg"
@@ -4518,8 +4518,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Blake leather crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Blake leather crossbody bag from Mytheresa. New Arrival.",
-    "price": 3800,
-    "wholesalePrice": 2128,
+    "price": 38,
+    "wholesalePrice": 21.28,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/74/P01145722.jpg"
@@ -4574,8 +4574,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci GG Small raffia-effect tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Gucci GG Small raffia-effect tote bag from Mytheresa. New Arrival.",
-    "price": 2950,
-    "wholesalePrice": 1652,
+    "price": 29.5,
+    "wholesalePrice": 16.52,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/1a/P01118011.jpg"
@@ -4630,8 +4630,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Donna leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Donna leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 2680,
-    "wholesalePrice": 1501,
+    "price": 26.8,
+    "wholesalePrice": 15.01,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b9/P01145702.jpg"
@@ -4686,8 +4686,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Valentino Garavani Rockstud Mini calf hair crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Valentino Garavani Rockstud Mini calf hair crossbody bag from Mytheresa. New Arrival.",
-    "price": 1570,
-    "wholesalePrice": 879,
+    "price": 15.7,
+    "wholesalePrice": 8.79,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/8c/P01155670.jpg"
@@ -4742,8 +4742,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Jacquemus Salon leather clutch from Mytheresa. New Arrival.",
     "shortDescription": "Jacquemus Salon leather clutch from Mytheresa. New Arrival.",
-    "price": 1850,
-    "wholesalePrice": 1036,
+    "price": 18.5,
+    "wholesalePrice": 10.36,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/3d/P01139816.jpg"
@@ -4798,8 +4798,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Khaite Hand leather clutch from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Hand leather clutch from Mytheresa. New Arrival.",
-    "price": 2980,
-    "wholesalePrice": 1669,
+    "price": 29.8,
+    "wholesalePrice": 16.69,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ca/P01145691.jpg"
@@ -4854,8 +4854,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Cassandre Large leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Cassandre Large leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 2100,
-    "wholesalePrice": 1176,
+    "price": 21,
+    "wholesalePrice": 11.76,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e8/P01174270.jpg"
@@ -4910,8 +4910,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Prada Prada Passage Medium leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Prada Prada Passage Medium leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 4100,
-    "wholesalePrice": 2296,
+    "price": 41,
+    "wholesalePrice": 22.96,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/4e/P01178390.jpg"
@@ -4966,8 +4966,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Valentino Garavani Djuna Medium leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Valentino Garavani Djuna Medium leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3270,
-    "wholesalePrice": 1831,
+    "price": 32.7,
+    "wholesalePrice": 18.31,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7a/P01155667.jpg"
@@ -5022,8 +5022,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Miu Miu Aventure leather bucket bag from Mytheresa. New Arrival.",
     "shortDescription": "Miu Miu Aventure leather bucket bag from Mytheresa. New Arrival.",
-    "price": 3500,
-    "wholesalePrice": 1960,
+    "price": 35,
+    "wholesalePrice": 19.6,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/66/P01178896.jpg"
@@ -5078,8 +5078,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Loulou Medium suede shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Loulou Medium suede shoulder bag from Mytheresa. New Arrival.",
-    "price": 3500,
-    "wholesalePrice": 1960,
+    "price": 35,
+    "wholesalePrice": 19.6,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7b/P01178507.jpg"
@@ -5134,8 +5134,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Delvaux Tempête City Small leather crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Delvaux Tempête City Small leather crossbody bag from Mytheresa. New Arrival.",
-    "price": 4500,
-    "wholesalePrice": 2520,
+    "price": 45,
+    "wholesalePrice": 25.2,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/dd/P01166662.jpg"
@@ -5190,8 +5190,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Bottega Veneta Andiamo leather pouch with strap from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Andiamo leather pouch with strap from Mytheresa. New Arrival.",
-    "price": 2200,
-    "wholesalePrice": 1232,
+    "price": 22,
+    "wholesalePrice": 12.32,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/06/P01151282.jpg"
@@ -5246,8 +5246,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Bottega Veneta Andiamo Intrecciato leather phone pouch from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Andiamo Intrecciato leather phone pouch from Mytheresa. New Arrival.",
-    "price": 1850,
-    "wholesalePrice": 1036,
+    "price": 18.5,
+    "wholesalePrice": 10.36,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/61/P01151281.jpg"
@@ -5302,8 +5302,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Bottega Veneta Notturno Intrecciato leather crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Notturno Intrecciato leather crossbody bag from Mytheresa. New Arrival.",
-    "price": 2300,
-    "wholesalePrice": 1288,
+    "price": 23,
+    "wholesalePrice": 12.88,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/8c/P01151280.jpg"
@@ -5358,8 +5358,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Bottega Veneta Campana Intrecciato Large suede tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Campana Intrecciato Large suede tote bag from Mytheresa. New Arrival.",
-    "price": 6300,
-    "wholesalePrice": 3528,
+    "price": 63,
+    "wholesalePrice": 35.28,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/35/P01151245.jpg"
@@ -5414,8 +5414,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Bottega Veneta Jodie Intrecciato Medium suede tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Jodie Intrecciato Medium suede tote bag from Mytheresa. New Arrival.",
-    "price": 5100,
-    "wholesalePrice": 2856,
+    "price": 51,
+    "wholesalePrice": 28.56,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/30/P01151241.jpg"
@@ -5470,8 +5470,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Bottega Veneta Veneta Intrecciato Medium shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Veneta Intrecciato Medium shoulder bag from Mytheresa. New Arrival.",
-    "price": 5500,
-    "wholesalePrice": 3080,
+    "price": 55,
+    "wholesalePrice": 30.8,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7a/P01172785.jpg"
@@ -5526,8 +5526,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Amalia Mini leather top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Amalia Mini leather top-handle bag from Mytheresa. New Arrival.",
-    "price": 2700,
-    "wholesalePrice": 1512,
+    "price": 27,
+    "wholesalePrice": 15.12,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ea/P01176928.jpg"
@@ -5582,8 +5582,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Panier Small wooden basket bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Panier Small wooden basket bag from Mytheresa. New Arrival.",
-    "price": 4200,
-    "wholesalePrice": 2352,
+    "price": 42,
+    "wholesalePrice": 23.52,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/58/P01133837.jpg"
@@ -5638,8 +5638,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Balenciaga Le City Medium suede top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Balenciaga Le City Medium suede top-handle bag from Mytheresa. New Arrival.",
-    "price": 2990,
-    "wholesalePrice": 1674,
+    "price": 29.9,
+    "wholesalePrice": 16.74,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d7/P01177140.jpg"
@@ -5694,8 +5694,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Miu Miu Beau Large leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Miu Miu Beau Large leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3850,
-    "wholesalePrice": 2156,
+    "price": 38.5,
+    "wholesalePrice": 21.56,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/bb/P01177761.jpg"
@@ -5750,8 +5750,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Le 5 à 7 Small suede shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Le 5 à 7 Small suede shoulder bag from Mytheresa. New Arrival.",
-    "price": 2900,
-    "wholesalePrice": 1624,
+    "price": 29,
+    "wholesalePrice": 16.24,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/18/P01177915.jpg"
@@ -5806,8 +5806,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Chloé Marcie Medium suede shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Marcie Medium suede shoulder bag from Mytheresa. New Arrival.",
-    "price": 2590,
-    "wholesalePrice": 1450,
+    "price": 25.9,
+    "wholesalePrice": 14.5,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/1a/P01152614.jpg"
@@ -5862,8 +5862,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Tom Ford Large suede shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Tom Ford Large suede shoulder bag from Mytheresa. New Arrival.",
-    "price": 3990,
-    "wholesalePrice": 2234,
+    "price": 39.9,
+    "wholesalePrice": 22.34,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/0a/P01114088.jpg"
@@ -5918,8 +5918,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Jacquemus Bambola Large raffia-effect bucket bag from Mytheresa. New Arrival.",
     "shortDescription": "Jacquemus Bambola Large raffia-effect bucket bag from Mytheresa. New Arrival.",
-    "price": 1990,
-    "wholesalePrice": 1114,
+    "price": 19.9,
+    "wholesalePrice": 11.14,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/f1/P01139898.jpg"
@@ -5974,8 +5974,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "The Attico La Passeggiata Mini satin tote bag from Mytheresa. New Arrival.",
     "shortDescription": "The Attico La Passeggiata Mini satin tote bag from Mytheresa. New Arrival.",
-    "price": 1185,
-    "wholesalePrice": 664,
+    "price": 11.85,
+    "wholesalePrice": 6.64,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7d/P01142534.jpg"
@@ -6030,8 +6030,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Paris Cassandre leather pouch from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Paris Cassandre leather pouch from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ed/P01172561.jpg"
@@ -6086,8 +6086,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Cassandre Large leather pouch from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Cassandre Large leather pouch from Mytheresa. New Arrival.",
-    "price": 1350,
-    "wholesalePrice": 756,
+    "price": 13.5,
+    "wholesalePrice": 7.56,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/cd/P01172551.jpg"
@@ -6142,8 +6142,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Loewe Bilbao Medium leather bucket bag from Mytheresa. New Arrival.",
     "shortDescription": "Loewe Bilbao Medium leather bucket bag from Mytheresa. New Arrival.",
-    "price": 3550,
-    "wholesalePrice": 1988,
+    "price": 35.5,
+    "wholesalePrice": 19.88,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d5/P01166677.jpg"
@@ -6198,8 +6198,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gabriela Hearst Marija Small leather tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Gabriela Hearst Marija Small leather tote bag from Mytheresa. New Arrival.",
-    "price": 2850,
-    "wholesalePrice": 1596,
+    "price": 28.5,
+    "wholesalePrice": 15.96,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fc/P01147736.jpg"
@@ -6254,8 +6254,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Loulou Medium leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Loulou Medium leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3100,
-    "wholesalePrice": 1736,
+    "price": 31,
+    "wholesalePrice": 17.36,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/96/P01178918.jpg"
@@ -6310,8 +6310,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Loulou Small leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Loulou Small leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 2750,
-    "wholesalePrice": 1540,
+    "price": 27.5,
+    "wholesalePrice": 15.4,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/10/P01178919.jpg"
@@ -6366,8 +6366,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Valentino Garavani Rockstud Mini raffia shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Valentino Garavani Rockstud Mini raffia shoulder bag from Mytheresa. New Arrival.",
-    "price": 1590,
-    "wholesalePrice": 890,
+    "price": 15.9,
+    "wholesalePrice": 8.9,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/3b/P01127152.jpg"
@@ -6422,8 +6422,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Givenchy Antigona mirrored leather vanity bag from Mytheresa. New Arrival.",
     "shortDescription": "Givenchy Antigona mirrored leather vanity bag from Mytheresa. New Arrival.",
-    "price": 1800,
-    "wholesalePrice": 1008,
+    "price": 18,
+    "wholesalePrice": 10.08,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/79/P01126188.jpg"
@@ -6478,8 +6478,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Savette Symmetry Slim suede top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Savette Symmetry Slim suede top-handle bag from Mytheresa. New Arrival.",
-    "price": 1490,
-    "wholesalePrice": 834,
+    "price": 14.9,
+    "wholesalePrice": 8.34,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/5b/P01162657.jpg"
@@ -6534,8 +6534,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Savette Symmetry Chain Mini leather crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Savette Symmetry Chain Mini leather crossbody bag from Mytheresa. New Arrival.",
-    "price": 1690,
-    "wholesalePrice": 946,
+    "price": 16.9,
+    "wholesalePrice": 9.46,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/40/P01162662.jpg"
@@ -6590,8 +6590,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Aesther Ekme Nina Medium leather clutch from Mytheresa. New Arrival.",
     "shortDescription": "Aesther Ekme Nina Medium leather clutch from Mytheresa. New Arrival.",
-    "price": 495,
-    "wholesalePrice": 277,
+    "price": 4.95,
+    "wholesalePrice": 2.77,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/37/P01104609.jpg"
@@ -6646,8 +6646,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Aesther Ekme Nina Medium leather clutch from Mytheresa. New Arrival.",
     "shortDescription": "Aesther Ekme Nina Medium leather clutch from Mytheresa. New Arrival.",
-    "price": 495,
-    "wholesalePrice": 277,
+    "price": 4.95,
+    "wholesalePrice": 2.77,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/39/P01104608.jpg"
@@ -6702,8 +6702,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Alaïa Purse Small leather top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Alaïa Purse Small leather top-handle bag from Mytheresa. New Arrival.",
-    "price": 3210,
-    "wholesalePrice": 1798,
+    "price": 32.1,
+    "wholesalePrice": 17.98,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/58/P01155703.jpg"
@@ -6758,8 +6758,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Miu Miu Beau Small leather bowling bag from Mytheresa. New Arrival.",
     "shortDescription": "Miu Miu Beau Small leather bowling bag from Mytheresa. New Arrival.",
-    "price": 2500,
-    "wholesalePrice": 1400,
+    "price": 25,
+    "wholesalePrice": 14,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/6e/P01180637.jpg"
@@ -6814,8 +6814,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Alaïa Purse Small leather top-handle bag from Mytheresa. New Arrival.",
     "shortDescription": "Alaïa Purse Small leather top-handle bag from Mytheresa. New Arrival.",
-    "price": 3210,
-    "wholesalePrice": 1798,
+    "price": 32.1,
+    "wholesalePrice": 17.98,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/73/P01155704.jpg"
@@ -6870,8 +6870,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Miu Miu Ivy embroidered crochet tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Miu Miu Ivy embroidered crochet tote bag from Mytheresa. New Arrival.",
-    "price": 1950,
-    "wholesalePrice": 1092,
+    "price": 19.5,
+    "wholesalePrice": 10.92,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c4/P01187673.jpg"
@@ -6926,8 +6926,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci Ophidia GG Medium tote bag from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Ophidia GG Medium tote bag from Mytheresa. New Arrival.",
-    "price": 1980,
-    "wholesalePrice": 1109,
+    "price": 19.8,
+    "wholesalePrice": 11.09,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e6/P01118018.jpg"
@@ -6982,8 +6982,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Loulou Medium leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Loulou Medium leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3100,
-    "wholesalePrice": 1736,
+    "price": 31,
+    "wholesalePrice": 17.36,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e5/P01182279.jpg"
@@ -7038,8 +7038,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Loulou Large leather shoulder bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Loulou Large leather shoulder bag from Mytheresa. New Arrival.",
-    "price": 3400,
-    "wholesalePrice": 1904,
+    "price": 34,
+    "wholesalePrice": 19.04,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b9/P01180048.jpg"
@@ -7094,8 +7094,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Saint Laurent Niki Mini embellished leather crossbody bag from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Niki Mini embellished leather crossbody bag from Mytheresa. New Arrival.",
-    "price": 2950,
-    "wholesalePrice": 1652,
+    "price": 29.5,
+    "wholesalePrice": 16.52,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/47/P01172542.jpg"
@@ -7150,8 +7150,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Miu Miu Gymnasium canvas sneakers from Mytheresa. New Arrival.",
     "shortDescription": "Miu Miu Gymnasium canvas sneakers from Mytheresa. New Arrival.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c4/P01187498.jpg"
@@ -7216,8 +7216,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Miu Miu Leather and suede slingback fisherman sandals from Mytheresa. New Arrival.",
     "shortDescription": "Miu Miu Leather and suede slingback fisherman sandals from Mytheresa. New Arrival.",
-    "price": 1290,
-    "wholesalePrice": 722,
+    "price": 12.9,
+    "wholesalePrice": 7.22,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/be/P01187826.jpg"
@@ -7286,8 +7286,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Aquazzura Passionflower beaded raffia slingback sandals from Mytheresa. New Arrival.",
     "shortDescription": "Aquazzura Passionflower beaded raffia slingback sandals from Mytheresa. New Arrival.",
-    "price": 1360,
-    "wholesalePrice": 762,
+    "price": 13.6,
+    "wholesalePrice": 7.62,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/16/P01166933.jpg"
@@ -7356,8 +7356,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Aquazzura Cherry Kiss leather-trimmed sandals from Mytheresa. New Arrival.",
     "shortDescription": "Aquazzura Cherry Kiss leather-trimmed sandals from Mytheresa. New Arrival.",
-    "price": 1360,
-    "wholesalePrice": 762,
+    "price": 13.6,
+    "wholesalePrice": 7.62,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e3/P01166920.jpg"
@@ -7426,8 +7426,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "The Row Combo leather slides from Mytheresa. New Arrival.",
     "shortDescription": "The Row Combo leather slides from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d8/P01166015.jpg"
@@ -7496,8 +7496,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "The Row Chocolate leather mules from Mytheresa. New Arrival.",
     "shortDescription": "The Row Chocolate leather mules from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e8/P01166014.jpg"
@@ -7566,8 +7566,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Khaite Boden Tie leather sandals from Mytheresa. New Arrival.",
     "shortDescription": "Khaite Boden Tie leather sandals from Mytheresa. New Arrival.",
-    "price": 1480,
-    "wholesalePrice": 829,
+    "price": 14.8,
+    "wholesalePrice": 8.29,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/cc/P01146470.jpg"
@@ -7635,8 +7635,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Prada Leather platform sandals from Mytheresa. New Arrival.",
     "shortDescription": "Prada Leather platform sandals from Mytheresa. New Arrival.",
-    "price": 1170,
-    "wholesalePrice": 655,
+    "price": 11.7,
+    "wholesalePrice": 6.55,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c4/P01155846.jpg"
@@ -7705,8 +7705,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Leather loafers from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Leather loafers from Mytheresa. New Arrival.",
-    "price": 1200,
-    "wholesalePrice": 672,
+    "price": 12,
+    "wholesalePrice": 6.72,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/32/P01165001.jpg"
@@ -7774,8 +7774,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Leather loafers from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Leather loafers from Mytheresa. New Arrival.",
-    "price": 1200,
-    "wholesalePrice": 672,
+    "price": 12,
+    "wholesalePrice": 6.72,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/1c/P01083127.jpg"
@@ -7844,8 +7844,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Leather pumps from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Leather pumps from Mytheresa. New Arrival.",
-    "price": 1150,
-    "wholesalePrice": 644,
+    "price": 11.5,
+    "wholesalePrice": 6.44,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/1b/P01165016.jpg"
@@ -7913,8 +7913,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Leather pumps from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Leather pumps from Mytheresa. New Arrival.",
-    "price": 1150,
-    "wholesalePrice": 644,
+    "price": 11.5,
+    "wholesalePrice": 6.44,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e4/P01165015.jpg"
@@ -7982,8 +7982,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Erin Horsebit GG Canvas mules from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Erin Horsebit GG Canvas mules from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/f0/P01131155.jpg"
@@ -8052,8 +8052,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Horsebit GG denim mules from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Horsebit GG denim mules from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/42/P01131154.jpg"
@@ -8122,8 +8122,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Bottega Veneta Gondola mules from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Gondola mules from Mytheresa. New Arrival.",
-    "price": 890,
-    "wholesalePrice": 498,
+    "price": 8.9,
+    "wholesalePrice": 4.98,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/82/P01160640.jpg"
@@ -8188,8 +8188,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Bottega Veneta Gondola Intrecciato studded leather clogs from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Gondola Intrecciato studded leather clogs from Mytheresa. New Arrival.",
-    "price": 1700,
-    "wholesalePrice": 952,
+    "price": 17,
+    "wholesalePrice": 9.52,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b8/P01148090.jpg"
@@ -8255,8 +8255,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Prada Suede mules from Mytheresa. New Arrival.",
     "shortDescription": "Prada Suede mules from Mytheresa. New Arrival.",
-    "price": 1170,
-    "wholesalePrice": 655,
+    "price": 11.7,
+    "wholesalePrice": 6.55,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/95/P01159129.jpg"
@@ -8325,8 +8325,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Leather loafer pumps from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Leather loafer pumps from Mytheresa. New Arrival.",
-    "price": 1350,
-    "wholesalePrice": 756,
+    "price": 13.5,
+    "wholesalePrice": 7.56,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/01/P01083125.jpg"
@@ -8395,8 +8395,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Suede mules from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Suede mules from Mytheresa. New Arrival.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/26/P01165018.jpg"
@@ -8464,8 +8464,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Suede mules from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Suede mules from Mytheresa. New Arrival.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ba/P01166272.jpg"
@@ -8531,8 +8531,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gianvito Rossi Embellished metallic leather slingback sandals from Mytheresa. New Arrival.",
     "shortDescription": "Gianvito Rossi Embellished metallic leather slingback sandals from Mytheresa. New Arrival.",
-    "price": 1240,
-    "wholesalePrice": 694,
+    "price": 12.4,
+    "wholesalePrice": 6.94,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/8b/P01181750.jpg"
@@ -8601,8 +8601,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gianvito Rossi Metallic leather slingback sandals from Mytheresa. New Arrival.",
     "shortDescription": "Gianvito Rossi Metallic leather slingback sandals from Mytheresa. New Arrival.",
-    "price": 900,
-    "wholesalePrice": 504,
+    "price": 9,
+    "wholesalePrice": 5.04,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/3f/P01182250.jpg"
@@ -8671,8 +8671,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Aquazzura Fragolina raffia-effect thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Aquazzura Fragolina raffia-effect thong sandals from Mytheresa. New Arrival.",
-    "price": 950,
-    "wholesalePrice": 532,
+    "price": 9.5,
+    "wholesalePrice": 5.32,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/77/P01190385.jpg"
@@ -8741,8 +8741,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Aquazzura Citrus Sugar raffia slingback sandals from Mytheresa. New Arrival.",
     "shortDescription": "Aquazzura Citrus Sugar raffia slingback sandals from Mytheresa. New Arrival.",
-    "price": 950,
-    "wholesalePrice": 532,
+    "price": 9.5,
+    "wholesalePrice": 5.32,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d1/P01190389.jpg"
@@ -8811,8 +8811,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Chloé Chloé Jelly mules from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Chloé Jelly mules from Mytheresa. New Arrival.",
-    "price": 670,
-    "wholesalePrice": 375,
+    "price": 6.7,
+    "wholesalePrice": 3.75,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/bf/P01155799.jpg"
@@ -8876,8 +8876,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Chloé Junie leather and TPU thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Junie leather and TPU thong sandals from Mytheresa. New Arrival.",
-    "price": 1050,
-    "wholesalePrice": 588,
+    "price": 10.5,
+    "wholesalePrice": 5.88,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/25/P01155808.jpg"
@@ -8940,8 +8940,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Toteme Croc-effect leather thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Toteme Croc-effect leather thong sandals from Mytheresa. New Arrival.",
-    "price": 510,
-    "wholesalePrice": 286,
+    "price": 5.1,
+    "wholesalePrice": 2.86,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/12/P01165930.jpg"
@@ -9006,8 +9006,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Toteme Croc-effect leather thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Toteme Croc-effect leather thong sandals from Mytheresa. New Arrival.",
-    "price": 510,
-    "wholesalePrice": 286,
+    "price": 5.1,
+    "wholesalePrice": 2.86,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b8/P01165931.jpg"
@@ -9072,8 +9072,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Loewe Origami leather mules from Mytheresa. New Arrival.",
     "shortDescription": "Loewe Origami leather mules from Mytheresa. New Arrival.",
-    "price": 1650,
-    "wholesalePrice": 924,
+    "price": 16.5,
+    "wholesalePrice": 9.24,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ec/P01176364.jpg"
@@ -9136,8 +9136,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Loewe Origami leather mules from Mytheresa. New Arrival.",
     "shortDescription": "Loewe Origami leather mules from Mytheresa. New Arrival.",
-    "price": 1650,
-    "wholesalePrice": 924,
+    "price": 16.5,
+    "wholesalePrice": 9.24,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/af/P01176362.jpg"
@@ -9200,8 +9200,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Gucci Tennis 1977 canvas sneakers from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Gucci Tennis 1977 canvas sneakers from Mytheresa. New Arrival.",
-    "price": 870,
-    "wholesalePrice": 487,
+    "price": 8.7,
+    "wholesalePrice": 4.87,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d1/P01131214.jpg"
@@ -9270,8 +9270,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "The Gucci Tennis 1977 sneakers revisit some of the house's iconic codes, including the Web Stripe and Interlocking G emblem. They're made from GG denim and finished with suede toe caps.",
     "shortDescription": "The Gucci Tennis 1977 sneakers revisit some of the house's iconic codes, including the Web Stripe and Interlocking G emblem. They're made from GG denim and finished with suede toe caps.",
-    "price": 870,
-    "wholesalePrice": 487,
+    "price": 8.7,
+    "wholesalePrice": 4.87,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/df/P01131211.jpg",
@@ -9343,8 +9343,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Prada takes Italian heritage into a distinctly modern direction with a streamlined and fashion-forward approach. These slingback pumps are crafted from patent leather and finished with bow details on the vamps.",
     "shortDescription": "Prada takes Italian heritage into a distinctly modern direction with a streamlined and fashion-forward approach. These slingback pumps are crafted from patent leather and finished with bow details on the vamps.",
-    "price": 1290,
-    "wholesalePrice": 722,
+    "price": 12.9,
+    "wholesalePrice": 7.22,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/60/P01185482.jpg",
@@ -9418,8 +9418,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Prada Bow-detail patent leather pumps from Mytheresa. New Arrival.",
     "shortDescription": "Prada Bow-detail patent leather pumps from Mytheresa. New Arrival.",
-    "price": 1290,
-    "wholesalePrice": 722,
+    "price": 12.9,
+    "wholesalePrice": 7.22,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/71/P01174517.jpg"
@@ -9488,8 +9488,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Givenchy Patent leather pumps from Mytheresa. New Arrival.",
     "shortDescription": "Givenchy Patent leather pumps from Mytheresa. New Arrival.",
-    "price": 1090,
-    "wholesalePrice": 610,
+    "price": 10.9,
+    "wholesalePrice": 6.1,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/46/P01156270.jpg"
@@ -9552,8 +9552,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Saint Laurent Renée mesh and leather slingback pumps from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Renée mesh and leather slingback pumps from Mytheresa. New Arrival.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/05/P01163665.jpg"
@@ -9622,8 +9622,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Patent leather pumps from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Patent leather pumps from Mytheresa. New Arrival.",
-    "price": 1300,
-    "wholesalePrice": 728,
+    "price": 13,
+    "wholesalePrice": 7.28,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/df/P01166271.jpg"
@@ -9692,8 +9692,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Phoebe Philo Suede pumps from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Suede pumps from Mytheresa. New Arrival.",
-    "price": 1200,
-    "wholesalePrice": 672,
+    "price": 12,
+    "wholesalePrice": 6.72,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/39/P01165011.jpg"
@@ -9761,8 +9761,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Saint Laurent Le Loafer calf hair penny loafers from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Le Loafer calf hair penny loafers from Mytheresa. New Arrival.",
-    "price": 1450,
-    "wholesalePrice": 812,
+    "price": 14.5,
+    "wholesalePrice": 8.12,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/a4/P01159133.jpg"
@@ -9831,8 +9831,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Saint Laurent Le Loafer eel leather penny loafers from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Le Loafer eel leather penny loafers from Mytheresa. New Arrival.",
-    "price": 1350,
-    "wholesalePrice": 756,
+    "price": 13.5,
+    "wholesalePrice": 7.56,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/92/P01159189.jpg"
@@ -9901,8 +9901,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Magda Butrym 115 studded leather wedge mules from Mytheresa. New Arrival.",
     "shortDescription": "Magda Butrym 115 studded leather wedge mules from Mytheresa. New Arrival.",
-    "price": 1305,
-    "wholesalePrice": 731,
+    "price": 13.05,
+    "wholesalePrice": 7.31,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ed/P01141025.jpg"
@@ -9965,8 +9965,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Givenchy Embellished platform leathers sandals from Mytheresa. New Arrival.",
     "shortDescription": "Givenchy Embellished platform leathers sandals from Mytheresa. New Arrival.",
-    "price": 1190,
-    "wholesalePrice": 666,
+    "price": 11.9,
+    "wholesalePrice": 6.66,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/0e/P01128257.jpg"
@@ -10030,8 +10030,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Prada Crochet Mary Jane flats from Mytheresa. New Arrival.",
     "shortDescription": "Prada Crochet Mary Jane flats from Mytheresa. New Arrival.",
-    "price": 1290,
-    "wholesalePrice": 722,
+    "price": 12.9,
+    "wholesalePrice": 7.22,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/3d/P01174520.jpg"
@@ -10100,8 +10100,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Alaïa Suede-trimmed fishnet ballet flats from Mytheresa. New Arrival.",
     "shortDescription": "Alaïa Suede-trimmed fishnet ballet flats from Mytheresa. New Arrival.",
-    "price": 950,
-    "wholesalePrice": 532,
+    "price": 9.5,
+    "wholesalePrice": 5.32,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/92/P01159808.jpg"
@@ -10170,8 +10170,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Christian Louboutin Mulazee bow-detail silk taffeta mules from Mytheresa. New Arrival.",
     "shortDescription": "Christian Louboutin Mulazee bow-detail silk taffeta mules from Mytheresa. New Arrival.",
-    "price": 1095,
-    "wholesalePrice": 613,
+    "price": 10.95,
+    "wholesalePrice": 6.13,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/52/P01145173.jpg"
@@ -10240,8 +10240,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Christian Louboutin Mulazee bow-detail floral chiné mules from Mytheresa. New Arrival.",
     "shortDescription": "Christian Louboutin Mulazee bow-detail floral chiné mules from Mytheresa. New Arrival.",
-    "price": 1145,
-    "wholesalePrice": 641,
+    "price": 11.45,
+    "wholesalePrice": 6.41,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fb/P01145174.jpg"
@@ -10310,8 +10310,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Alaïa Cube satin wedge thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Alaïa Cube satin wedge thong sandals from Mytheresa. New Arrival.",
-    "price": 1150,
-    "wholesalePrice": 644,
+    "price": 11.5,
+    "wholesalePrice": 6.44,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/32/P01159794.jpg"
@@ -10375,8 +10375,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Alaïa Cube satin wedge mules from Mytheresa. New Arrival.",
     "shortDescription": "Alaïa Cube satin wedge mules from Mytheresa. New Arrival.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/97/P01159781.jpg"
@@ -10441,8 +10441,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Chloé Chloé Jelly animal-print thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Chloé Jelly animal-print thong sandals from Mytheresa. New Arrival.",
-    "price": 750,
-    "wholesalePrice": 420,
+    "price": 7.5,
+    "wholesalePrice": 4.2,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/91/P01155820.jpg"
@@ -10506,8 +10506,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Chloé Chloé Jelly thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Chloé Chloé Jelly thong sandals from Mytheresa. New Arrival.",
-    "price": 595,
-    "wholesalePrice": 333,
+    "price": 5.95,
+    "wholesalePrice": 3.33,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/bb/P01155817.jpg"
@@ -10571,8 +10571,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Double G fisherman sandals from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Double G fisherman sandals from Mytheresa. New Arrival.",
-    "price": 710,
-    "wholesalePrice": 398,
+    "price": 7.1,
+    "wholesalePrice": 3.98,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/a8/P01131161.jpg"
@@ -10637,8 +10637,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Glossy Double G fisherman sandals from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Glossy Double G fisherman sandals from Mytheresa. New Arrival.",
-    "price": 710,
-    "wholesalePrice": 398,
+    "price": 7.1,
+    "wholesalePrice": 3.98,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/13/P01131160.jpg"
@@ -10703,8 +10703,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gianvito Rossi Leather wedge thong sandals from Mytheresa. Exclusive.",
     "shortDescription": "Gianvito Rossi Leather wedge thong sandals from Mytheresa. Exclusive.",
-    "price": 965,
-    "wholesalePrice": 540,
+    "price": 9.65,
+    "wholesalePrice": 5.4,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/41/P01169107.jpg"
@@ -10773,8 +10773,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Toteme Croc-effect leather thong sandals from Mytheresa. New Arrival.",
     "shortDescription": "Toteme Croc-effect leather thong sandals from Mytheresa. New Arrival.",
-    "price": 560,
-    "wholesalePrice": 314,
+    "price": 5.6,
+    "wholesalePrice": 3.14,
     "minimumOrderQty": 4,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/4b/P01165949.jpg"
@@ -10839,8 +10839,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Bottega Veneta Orbit Flash suede-trimmed sneakers from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Orbit Flash suede-trimmed sneakers from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/a2/P01160644.jpg"
@@ -10905,8 +10905,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Bottega Veneta Orbit Flash leather sneakers from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Orbit Flash leather sneakers from Mytheresa. New Arrival.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/41/P01160643.jpg"
@@ -10971,8 +10971,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Crafted from black leather, these ankle boots from Phoebe Philo feature cylindrical, stacked heels in a tonal hue. The design has rounded toes, seam detailing on the vamps, and an oxblood lining.",
     "shortDescription": "Crafted from black leather, these ankle boots from Phoebe Philo feature cylindrical, stacked heels in a tonal hue. The design has rounded toes, seam detailing on the vamps, and an oxblood lining.",
-    "price": 1500,
-    "wholesalePrice": 840,
+    "price": 15,
+    "wholesalePrice": 8.4,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/44/P01083129.jpg",
@@ -11045,8 +11045,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Prada Leather mid-calf boots from Mytheresa. New Arrival.",
     "shortDescription": "Prada Leather mid-calf boots from Mytheresa. New Arrival.",
-    "price": 1990,
-    "wholesalePrice": 1114,
+    "price": 19.9,
+    "wholesalePrice": 11.14,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/9a/P01172718.jpg"
@@ -11115,8 +11115,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Erin GG embellished leather-trimmed mules from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Erin GG embellished leather-trimmed mules from Mytheresa. New Arrival.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/62/P01131158.jpg"
@@ -11185,8 +11185,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Gucci Erin GG embellished leather-trimmed mules from Mytheresa. New Arrival.",
     "shortDescription": "Gucci Erin GG embellished leather-trimmed mules from Mytheresa. New Arrival.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fb/P01131159.jpg"
@@ -11255,8 +11255,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Phoebe Philo Double Ball gold-plated earrings from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Double Ball gold-plated earrings from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/5b/P01118505.jpg"
@@ -11311,8 +11311,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Phoebe Philo Medallion Dish sterling silver earrings from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Medallion Dish sterling silver earrings from Mytheresa. New Arrival.",
-    "price": 850,
-    "wholesalePrice": 476,
+    "price": 8.5,
+    "wholesalePrice": 4.76,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e8/P01085916.jpg"
@@ -11367,8 +11367,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Phoebe Philo Sterling silver earrings from Mytheresa. New Arrival.",
     "shortDescription": "Phoebe Philo Sterling silver earrings from Mytheresa. New Arrival.",
-    "price": 950,
-    "wholesalePrice": 532,
+    "price": 9.5,
+    "wholesalePrice": 5.32,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/cf/P01137564.jpg"
@@ -11423,8 +11423,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Saint Laurent Embellished drop earrings from Mytheresa. New Arrival.",
     "shortDescription": "Saint Laurent Embellished drop earrings from Mytheresa. New Arrival.",
-    "price": 850,
-    "wholesalePrice": 476,
+    "price": 8.5,
+    "wholesalePrice": 4.76,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/a4/P01167654.jpg"
@@ -11479,8 +11479,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Sydney Evan Sea Life 14kt gold (585/1000) necklace with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Sydney Evan Sea Life 14kt gold (585/1000) necklace with diamonds from Mytheresa. New Arrival.",
-    "price": 29730,
-    "wholesalePrice": 16649,
+    "price": 297.3,
+    "wholesalePrice": 166.49,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/12/P01175568.jpg"
@@ -11535,8 +11535,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "FoundRae Infinite Gratitude Large 18kt gold pendant with diamond from Mytheresa. New Arrival.",
     "shortDescription": "FoundRae Infinite Gratitude Large 18kt gold pendant with diamond from Mytheresa. New Arrival.",
-    "price": 9685,
-    "wholesalePrice": 5424,
+    "price": 96.85,
+    "wholesalePrice": 54.24,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/18/P01167114.jpg"
@@ -11591,8 +11591,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Stone and Strand Portofino 10kt gold (417/1000) bracelet from Mytheresa. New Arrival.",
     "shortDescription": "Stone and Strand Portofino 10kt gold (417/1000) bracelet from Mytheresa. New Arrival.",
-    "price": 1975,
-    "wholesalePrice": 1106,
+    "price": 19.75,
+    "wholesalePrice": 11.06,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/f9/P01172321.jpg"
@@ -11651,8 +11651,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Roxanne First Shooting Star 14kt gold (585/1000) earrings with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Roxanne First Shooting Star 14kt gold (585/1000) earrings with diamonds from Mytheresa. New Arrival.",
-    "price": 4080,
-    "wholesalePrice": 2285,
+    "price": 40.8,
+    "wholesalePrice": 22.85,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/26/P01165236.jpg"
@@ -11707,8 +11707,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Roxanne First Shooting Star 14kt gold (585/1000) ring from Mytheresa. New Arrival.",
     "shortDescription": "Roxanne First Shooting Star 14kt gold (585/1000) ring from Mytheresa. New Arrival.",
-    "price": 1300,
-    "wholesalePrice": 728,
+    "price": 13,
+    "wholesalePrice": 7.28,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/06/P01165235.jpg"
@@ -11768,8 +11768,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Fisher Madison Avenue gold-plated hoop earrings from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Fisher Madison Avenue gold-plated hoop earrings from Mytheresa. New Arrival.",
-    "price": 270,
-    "wholesalePrice": 151,
+    "price": 2.7,
+    "wholesalePrice": 1.51,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/35/P01175132.jpg"
@@ -11824,8 +11824,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Fisher Madison Avenue gold-plated ring from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Fisher Madison Avenue gold-plated ring from Mytheresa. New Arrival.",
-    "price": 165,
-    "wholesalePrice": 92,
+    "price": 1.65,
+    "wholesalePrice": 0.92,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/de/P01175130.jpg"
@@ -11887,8 +11887,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Louisa 18kt gold-plated embellished necklace from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Louisa 18kt gold-plated embellished necklace from Mytheresa. New Arrival.",
-    "price": 400,
-    "wholesalePrice": 224,
+    "price": 4,
+    "wholesalePrice": 2.24,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/72/P01162648.jpg"
@@ -11943,8 +11943,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Gladious earrings from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Gladious earrings from Mytheresa. New Arrival.",
-    "price": 350,
-    "wholesalePrice": 196,
+    "price": 3.5,
+    "wholesalePrice": 1.96,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/45/P01162641.jpg"
@@ -11999,8 +11999,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Johanna cuff bracelet from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Johanna cuff bracelet from Mytheresa. New Arrival.",
-    "price": 350,
-    "wholesalePrice": 196,
+    "price": 3.5,
+    "wholesalePrice": 1.96,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7b/P01162640.jpg"
@@ -12059,8 +12059,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Kendall embellished earrings from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Kendall embellished earrings from Mytheresa. New Arrival.",
-    "price": 400,
-    "wholesalePrice": 224,
+    "price": 4,
+    "wholesalePrice": 2.24,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/41/P01162644.jpg"
@@ -12115,8 +12115,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Corisande beaded necklace from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Corisande beaded necklace from Mytheresa. New Arrival.",
-    "price": 350,
-    "wholesalePrice": 196,
+    "price": 3.5,
+    "wholesalePrice": 1.96,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d6/P01162649.jpg"
@@ -12171,8 +12171,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Elaine earrings from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Elaine earrings from Mytheresa. New Arrival.",
-    "price": 250,
-    "wholesalePrice": 140,
+    "price": 2.5,
+    "wholesalePrice": 1.4,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/5f/P01162642.jpg"
@@ -12227,8 +12227,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Reya cuff bracelet from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Reya cuff bracelet from Mytheresa. New Arrival.",
-    "price": 325,
-    "wholesalePrice": 182,
+    "price": 3.25,
+    "wholesalePrice": 1.82,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7f/P01162639.jpg"
@@ -12287,8 +12287,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Jennifer Behr Kendall embellished earrings from Mytheresa. New Arrival.",
     "shortDescription": "Jennifer Behr Kendall embellished earrings from Mytheresa. New Arrival.",
-    "price": 400,
-    "wholesalePrice": 224,
+    "price": 4,
+    "wholesalePrice": 2.24,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fe/P01162645.jpg"
@@ -12343,8 +12343,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "FoundRae Wholeness 18kt gold necklace with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "FoundRae Wholeness 18kt gold necklace with diamonds from Mytheresa. New Arrival.",
-    "price": 21600,
-    "wholesalePrice": 12096,
+    "price": 216,
+    "wholesalePrice": 120.96,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/49/P01121863.jpg"
@@ -12399,8 +12399,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "David Yurman Puffy Heart Amulet 18kt gold (750/1000) pendant with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "David Yurman Puffy Heart Amulet 18kt gold (750/1000) pendant with diamonds from Mytheresa. New Arrival.",
-    "price": 2300,
-    "wholesalePrice": 1288,
+    "price": 23,
+    "wholesalePrice": 12.88,
     "minimumOrderQty": 6,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/71/P01144110.jpg"
@@ -12455,8 +12455,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Shay Jewelry 18kt gold (750/1000) earrings with diamonds and emeralds from Mytheresa. New Arrival.",
     "shortDescription": "Shay Jewelry 18kt gold (750/1000) earrings with diamonds and emeralds from Mytheresa. New Arrival.",
-    "price": 10120,
-    "wholesalePrice": 5667,
+    "price": 101.2,
+    "wholesalePrice": 56.67,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/75/P01146010.jpg"
@@ -12511,8 +12511,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Shay Jewelry 18kt yellow gold (750/1000) ring with emeralds from Mytheresa. New Arrival.",
     "shortDescription": "Shay Jewelry 18kt yellow gold (750/1000) ring with emeralds from Mytheresa. New Arrival.",
-    "price": 2990,
-    "wholesalePrice": 1674,
+    "price": 29.9,
+    "wholesalePrice": 16.74,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d7/P01146022.jpg"
@@ -12572,8 +12572,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Engelbert Legacy Knot Big 18kt gold necklace from Mytheresa. New Arrival.",
     "shortDescription": "Engelbert Legacy Knot Big 18kt gold necklace from Mytheresa. New Arrival.",
-    "price": 11600,
-    "wholesalePrice": 6496,
+    "price": 116,
+    "wholesalePrice": 64.96,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/47/P01120567.jpg"
@@ -12628,8 +12628,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Engelbert Legacy Knot Big 18kt gold ring from Mytheresa. New Arrival.",
     "shortDescription": "Engelbert Legacy Knot Big 18kt gold ring from Mytheresa. New Arrival.",
-    "price": 10400,
-    "wholesalePrice": 5824,
+    "price": 104,
+    "wholesalePrice": 58.24,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c5/P01120544.jpg"
@@ -12688,8 +12688,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Marie Lichtenberg Connector 18kt gold charm necklace with jasper and diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Marie Lichtenberg Connector 18kt gold charm necklace with jasper and diamonds from Mytheresa. New Arrival.",
-    "price": 19680,
-    "wholesalePrice": 11021,
+    "price": 196.8,
+    "wholesalePrice": 110.21,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/d9/P01146935.jpg"
@@ -12744,8 +12744,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Yvonne Léon Koala 9kt gold (375/1000) bracelet with diamonds and enamel from Mytheresa. New Arrival.",
     "shortDescription": "Yvonne Léon Koala 9kt gold (375/1000) bracelet with diamonds and enamel from Mytheresa. New Arrival.",
-    "price": 12350,
-    "wholesalePrice": 6916,
+    "price": 123.5,
+    "wholesalePrice": 69.16,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/19/P01141482.jpg"
@@ -12804,8 +12804,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Valentino VLogo embellished drop earrings from Mytheresa. New Arrival.",
     "shortDescription": "Valentino VLogo embellished drop earrings from Mytheresa. New Arrival.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/24/P01155678.jpg"
@@ -12860,8 +12860,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Valentino VLogo crystal-embellished ring from Mytheresa. New Arrival.",
     "shortDescription": "Valentino VLogo crystal-embellished ring from Mytheresa. New Arrival.",
-    "price": 470,
-    "wholesalePrice": 263,
+    "price": 4.7,
+    "wholesalePrice": 2.63,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b5/P01155676.jpg"
@@ -12921,8 +12921,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Simone Rocha Blooming Poppy embellished earrings from Mytheresa. New Arrival.",
     "shortDescription": "Simone Rocha Blooming Poppy embellished earrings from Mytheresa. New Arrival.",
-    "price": 310,
-    "wholesalePrice": 174,
+    "price": 3.1,
+    "wholesalePrice": 1.74,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/fc/P01161385.jpg"
@@ -12977,8 +12977,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Simone Rocha Blooming Poppy ring from Mytheresa. New Arrival.",
     "shortDescription": "Simone Rocha Blooming Poppy ring from Mytheresa. New Arrival.",
-    "price": 400,
-    "wholesalePrice": 224,
+    "price": 4,
+    "wholesalePrice": 2.24,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/59/P01161386.jpg"
@@ -13033,8 +13033,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Isabel Marant Catalina embellished drop earrings from Mytheresa. New Arrival.",
     "shortDescription": "Isabel Marant Catalina embellished drop earrings from Mytheresa. New Arrival.",
-    "price": 390,
-    "wholesalePrice": 218,
+    "price": 3.9,
+    "wholesalePrice": 2.18,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/75/P01162625.jpg"
@@ -13089,8 +13089,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Isabel Marant Janis beaded metal and leather bracelet from Mytheresa. New Arrival.",
     "shortDescription": "Isabel Marant Janis beaded metal and leather bracelet from Mytheresa. New Arrival.",
-    "price": 255,
-    "wholesalePrice": 143,
+    "price": 2.55,
+    "wholesalePrice": 1.43,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/ad/P01162630.jpg"
@@ -13145,8 +13145,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Isabel Marant Miller drop earrings from Mytheresa. New Arrival.",
     "shortDescription": "Isabel Marant Miller drop earrings from Mytheresa. New Arrival.",
-    "price": 650,
-    "wholesalePrice": 364,
+    "price": 6.5,
+    "wholesalePrice": 3.64,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/95/P01162632.jpg"
@@ -13201,8 +13201,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Isabel Marant Alma braided bracelet from Mytheresa. New Arrival.",
     "shortDescription": "Isabel Marant Alma braided bracelet from Mytheresa. New Arrival.",
-    "price": 195,
-    "wholesalePrice": 109,
+    "price": 1.95,
+    "wholesalePrice": 1.09,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/b6/P01162633.jpg"
@@ -13261,8 +13261,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "FoundRae Infinite Gratitude 18kt gold necklace with diamonds and sapphires from Mytheresa. New Arrival.",
     "shortDescription": "FoundRae Infinite Gratitude 18kt gold necklace with diamonds and sapphires from Mytheresa. New Arrival.",
-    "price": 3865,
-    "wholesalePrice": 2164,
+    "price": 38.65,
+    "wholesalePrice": 21.64,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c5/P01167107.jpg"
@@ -13317,8 +13317,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Ileana Makri 14kt gold (585/1000) drop earrings with turquoises and diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Ileana Makri 14kt gold (585/1000) drop earrings with turquoises and diamonds from Mytheresa. New Arrival.",
-    "price": 3450,
-    "wholesalePrice": 1932,
+    "price": 34.5,
+    "wholesalePrice": 19.32,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/e7/P01160681.jpg"
@@ -13373,8 +13373,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Shay Jewelry Wave 18kt gold (750/1000) ring with diamond from Mytheresa. New Arrival.",
     "shortDescription": "Shay Jewelry Wave 18kt gold (750/1000) ring with diamond from Mytheresa. New Arrival.",
-    "price": 5520,
-    "wholesalePrice": 3091,
+    "price": 55.2,
+    "wholesalePrice": 30.91,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/6b/P01146021.jpg"
@@ -13434,8 +13434,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Sydney Evan 14kt gold (585/1000) stud earrings with diamonds and turquoises from Mytheresa. New Arrival.",
     "shortDescription": "Sydney Evan 14kt gold (585/1000) stud earrings with diamonds and turquoises from Mytheresa. New Arrival.",
-    "price": 1465,
-    "wholesalePrice": 820,
+    "price": 14.65,
+    "wholesalePrice": 8.2,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/c5/P01145953.jpg"
@@ -13490,8 +13490,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "David Yurman Cable Flex® 925 sterling silver bracelet with diamonds and blue topaz from Mytheresa. New Arrival.",
     "shortDescription": "David Yurman Cable Flex® 925 sterling silver bracelet with diamonds and blue topaz from Mytheresa. New Arrival.",
-    "price": 995,
-    "wholesalePrice": 557,
+    "price": 9.95,
+    "wholesalePrice": 5.57,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/a6/P01126570.jpg"
@@ -13551,8 +13551,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Maria Tash 18kt white gold (750/1000) earring with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Maria Tash 18kt white gold (750/1000) earring with diamonds from Mytheresa. New Arrival.",
-    "price": 3035,
-    "wholesalePrice": 1700,
+    "price": 30.35,
+    "wholesalePrice": 17,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/16/P01134967.jpg"
@@ -13607,8 +13607,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "David Yurman Cable Collectibles® Petite Cable sterling silver ring with turquoises from Mytheresa. New Season.",
     "shortDescription": "David Yurman Cable Collectibles® Petite Cable sterling silver ring with turquoises from Mytheresa. New Season.",
-    "price": 430,
-    "wholesalePrice": 241,
+    "price": 4.3,
+    "wholesalePrice": 2.41,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/9e/P01126563.jpg"
@@ -13668,8 +13668,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Maria Tash 18kt white gold (750/1000) single earring with diamonds from Mytheresa. New Arrival.",
     "shortDescription": "Maria Tash 18kt white gold (750/1000) single earring with diamonds from Mytheresa. New Arrival.",
-    "price": 620,
-    "wholesalePrice": 347,
+    "price": 6.2,
+    "wholesalePrice": 3.47,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/7f/P01134959.jpg"
@@ -13724,8 +13724,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Bottega Veneta Prisma Small 18kt gold-plated earrings from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Prisma Small 18kt gold-plated earrings from Mytheresa. New Arrival.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/83/P01151274.jpg"
@@ -13780,8 +13780,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Bottega Veneta Prisma gold-plated sterling silver ring from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Prisma gold-plated sterling silver ring from Mytheresa. New Arrival.",
-    "price": 1000,
-    "wholesalePrice": 560,
+    "price": 10,
+    "wholesalePrice": 5.6,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/8c/P01151278.jpg"
@@ -13841,8 +13841,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Bottega Veneta Prisma Small 18kt gold-plated earrings from Mytheresa. New Arrival.",
     "shortDescription": "Bottega Veneta Prisma Small 18kt gold-plated earrings from Mytheresa. New Arrival.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 8,
     "images": [
       "https://www.mytheresa.com/image/652/738/100/6e/P01151275.jpg"
@@ -13897,8 +13897,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Since its conception in 1961, Saint Laurent has been coveted for its elegant Parisian aesthetic. The High Armour cuff bracelet is carefully crafted in Italy from gold-toned brass.",
     "shortDescription": "Since its conception in 1961, Saint Laurent has been coveted for its elegant Parisian aesthetic. The High Armour cuff bracelet is carefully crafted in Italy from gold-toned brass.",
-    "price": 930,
-    "wholesalePrice": 521,
+    "price": 9.3,
+    "wholesalePrice": 5.21,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/80/P01162535.jpg",
@@ -13962,8 +13962,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Sophisticated and captivating, this Valentino necklace is primed to become a treasured favorite. Expertly crafted from gold-toned metal, this creation features an enamel Cœur Royal pendant enriched with the signature VLogo.",
     "shortDescription": "Sophisticated and captivating, this Valentino necklace is primed to become a treasured favorite. Expertly crafted from gold-toned metal, this creation features an enamel Cœur Royal pendant enriched with the signature VLogo.",
-    "price": 850,
-    "wholesalePrice": 476,
+    "price": 8.5,
+    "wholesalePrice": 4.76,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/17/P01127228.jpg",
@@ -14025,8 +14025,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Sophisticated and captivating, the Cœur Royal ring from Valentino is primed to become a treasured favorite. Expertly crafted from gold-toned metal, this creation features an enamel heart enriched with the signature VLogo.",
     "shortDescription": "Sophisticated and captivating, the Cœur Royal ring from Valentino is primed to become a treasured favorite. Expertly crafted from gold-toned metal, this creation features an enamel heart enriched with the signature VLogo.",
-    "price": 490,
-    "wholesalePrice": 274,
+    "price": 4.9,
+    "wholesalePrice": 2.74,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/59/P01127236.jpg",
@@ -14090,8 +14090,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Sophisticated and captivating, the Cœur Royal earrings from Valentino are primed to become a treasured favorite. Expertly crafted from gold-toned metal, this creation features enamel heart pendants enriched with the signature VLogo.",
     "shortDescription": "Sophisticated and captivating, the Cœur Royal earrings from Valentino are primed to become a treasured favorite. Expertly crafted from gold-toned metal, this creation features enamel heart pendants enriched with the signature VLogo.",
-    "price": 750,
-    "wholesalePrice": 420,
+    "price": 7.5,
+    "wholesalePrice": 4.2,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e6/P01127239.jpg",
@@ -14153,8 +14153,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Chloé's accessories infuse your looks with a touch of romance. The Flower Cloud drop earrings are made from brass and enameled in a soft hue, featuring charming dangling blooms.",
     "shortDescription": "Chloé's accessories infuse your looks with a touch of romance. The Flower Cloud drop earrings are made from brass and enameled in a soft hue, featuring charming dangling blooms.",
-    "price": 790,
-    "wholesalePrice": 442,
+    "price": 7.9,
+    "wholesalePrice": 4.42,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/22/P01152629.jpg",
@@ -14216,8 +14216,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Anita Ko's award-winning and stackable pieces redefine delicate elegance with edgy undertones. This necklace is made from 18kt yellow gold (750/1000) and boasts several shimmering diamonds.",
     "shortDescription": "Anita Ko's award-winning and stackable pieces redefine delicate elegance with edgy undertones. This necklace is made from 18kt yellow gold (750/1000) and boasts several shimmering diamonds.",
-    "price": 2710,
-    "wholesalePrice": 1518,
+    "price": 27.1,
+    "wholesalePrice": 15.18,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/6d/P01165184.jpg",
@@ -14279,8 +14279,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Anita Ko's award-winning and stackable pieces redefine delicate elegance with edgy undertones. Understated yet full of personality, the Heart earrings are made from 18kt yellow gold (750/1000) and shaped into heart-shaped silhouettes with glimmering bezel-set diamonds.",
     "shortDescription": "Anita Ko's award-winning and stackable pieces redefine delicate elegance with edgy undertones. Understated yet full of personality, the Heart earrings are made from 18kt yellow gold (750/1000) and shaped into heart-shaped silhouettes with glimmering bezel-set diamonds.",
-    "price": 3450,
-    "wholesalePrice": 1932,
+    "price": 34.5,
+    "wholesalePrice": 19.32,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/fd/P01165183.jpg",
@@ -14342,8 +14342,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Savoir-faire is at the heart of Repossi's designs; the Italian house handcrafts each design using the highest quality materials. Part of the brand's Antifer collection, this necklace is expertly made from 18kt rose gold (750/1000), and the heart-shaped pendant is adorned with gleaming pavé-set diamonds. Its sophisticated cable chain is complete with a lobster claw fastening.",
     "shortDescription": "Savoir-faire is at the heart of Repossi's designs; the Italian house handcrafts each design using the highest quality materials. Part of the brand's Antifer collection, this necklace is expertly made from 18kt rose gold (750/1000), and the heart-shaped pendant is adorned with gleaming pavé-set diamonds. Its sophisticated cable chain is complete with a lobster claw fastening.",
-    "price": 2750,
-    "wholesalePrice": 1540,
+    "price": 27.5,
+    "wholesalePrice": 15.4,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/61/P01146038.jpg",
@@ -14405,8 +14405,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Savoir-faire is at the heart of Repossi's designs; the Italian house handcrafts each design using the highest quality materials. Made from 18kt rose gold (750/1000) and encrusted with pavé-set diamonds, this ring is part of the Antifer collection and catches the light with a refined, effortless brilliance. Its sleek heart shape radiates understated elegance with a romantic touch.",
     "shortDescription": "Savoir-faire is at the heart of Repossi's designs; the Italian house handcrafts each design using the highest quality materials. Made from 18kt rose gold (750/1000) and encrusted with pavé-set diamonds, this ring is part of the Antifer collection and catches the light with a refined, effortless brilliance. Its sleek heart shape radiates understated elegance with a romantic touch.",
-    "price": 2650,
-    "wholesalePrice": 1484,
+    "price": 26.5,
+    "wholesalePrice": 14.84,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/ad/P01146036.jpg",
@@ -14470,8 +14470,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Ileana Makri champions old world craftsmanship, a refined aesthetic, and irresistible feminine appeal. This 9kt white gold (375/1000) and sterling silver (925) necklace is defined by a dazzling array of gemstones, from 0.14ctw gray diamonds to 90ctw olive-green garnets. The striking design is finished with an Evil Eye bead that's destined to observe and protect.",
     "shortDescription": "Ileana Makri champions old world craftsmanship, a refined aesthetic, and irresistible feminine appeal. This 9kt white gold (375/1000) and sterling silver (925) necklace is defined by a dazzling array of gemstones, from 0.14ctw gray diamonds to 90ctw olive-green garnets. The striking design is finished with an Evil Eye bead that's destined to observe and protect.",
-    "price": 1820,
-    "wholesalePrice": 1019,
+    "price": 18.2,
+    "wholesalePrice": 10.19,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/eb/P01160683.jpg",
@@ -14533,8 +14533,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Ileana Makri champions old world craftsmanship, a refined aesthetic, and irresistible feminine appeal. Crafted from 9kt yellow gold (750/1000) and sterling silver (925), these dazzling drop earrings are defined by 4 agate stones, 2 coral beads, 20ctw green amethyst, and 0.84ctw gray diamonds. This pair is finished with hook closures.",
     "shortDescription": "Ileana Makri champions old world craftsmanship, a refined aesthetic, and irresistible feminine appeal. Crafted from 9kt yellow gold (750/1000) and sterling silver (925), these dazzling drop earrings are defined by 4 agate stones, 2 coral beads, 20ctw green amethyst, and 0.84ctw gray diamonds. This pair is finished with hook closures.",
-    "price": 1320,
-    "wholesalePrice": 739,
+    "price": 13.2,
+    "wholesalePrice": 7.39,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/c8/P01160686.jpg",
@@ -14596,8 +14596,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "The Infinite Gratitude line from FoundRae uses wheat as its key symbol, thoughtfully designed to portray how gratitude nourishes the soul as wheat nourishes the body. This necklace is carefully crafted from 18kt yellow gold (750/1000) and boasts several shimmering diamonds.",
     "shortDescription": "The Infinite Gratitude line from FoundRae uses wheat as its key symbol, thoughtfully designed to portray how gratitude nourishes the soul as wheat nourishes the body. This necklace is carefully crafted from 18kt yellow gold (750/1000) and boasts several shimmering diamonds.",
-    "price": 5290,
-    "wholesalePrice": 2962,
+    "price": 52.9,
+    "wholesalePrice": 29.62,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/cb/P01167111.jpg",
@@ -14659,8 +14659,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "Fine jewelry brand FoundRae brings a contemporary approach to the age-old concept of keepsake treasures. Meticulously crafted from 18kt yellow gold (750/1000), the Infinite Gratitude Braided Wheat Medium medallion reminds the wearer to treat gratitude as the sustenance of the soul, necessary for spiritual nourishment. Featuring a single round-cut diamond, the creation is complete with the brand's Annex Link that allows for effortless customization.",
     "shortDescription": "Fine jewelry brand FoundRae brings a contemporary approach to the age-old concept of keepsake treasures. Meticulously crafted from 18kt yellow gold (750/1000), the Infinite Gratitude Braided Wheat Medium medallion reminds the wearer to treat gratitude as the sustenance of the soul, necessary for spiritual nourishment. Featuring a single round-cut diamond, the creation is complete with the brand's Annex Link that allows for effortless customization.",
-    "price": 3985,
-    "wholesalePrice": 2232,
+    "price": 39.85,
+    "wholesalePrice": 22.32,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/6b/P01167112.jpg",
@@ -14722,8 +14722,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "With an antique finish, the Tivoli two-toned chain necklace has a bold pendant featuring the iconic Medusa motif. Inspired by Greek mythology, the Medusa head has become the ultimate signifier of the house of Versace.",
     "shortDescription": "With an antique finish, the Tivoli two-toned chain necklace has a bold pendant featuring the iconic Medusa motif. Inspired by Greek mythology, the Medusa head has become the ultimate signifier of the house of Versace.",
-    "price": 850,
-    "wholesalePrice": 476,
+    "price": 8.5,
+    "wholesalePrice": 4.76,
     "minimumOrderQty": 8,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/3d/P01152530.jpg",
@@ -14785,8 +14785,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Designed to be worn again and again, the Ulrich jacket is made from panels of smooth suede, has a buttoned front, and features slit pockets.",
     "shortDescription": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Designed to be worn again and again, the Ulrich jacket is made from panels of smooth suede, has a buttoned front, and features slit pockets.",
-    "price": 6500,
-    "wholesalePrice": 3640,
+    "price": 65,
+    "wholesalePrice": 36.4,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/80/P01137762.jpg",
@@ -14853,8 +14853,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Since its conception in 1961, Saint Laurent has been coveted for its elegant Parisian aesthetic. The Corner Angle sunglasses are finely crafted in Italy and feature a rectangular silhouette with sleek temples engraved with the brand logo.",
     "shortDescription": "Since its conception in 1961, Saint Laurent has been coveted for its elegant Parisian aesthetic. The Corner Angle sunglasses are finely crafted in Italy and feature a rectangular silhouette with sleek temples engraved with the brand logo.",
-    "price": 420,
-    "wholesalePrice": 235,
+    "price": 4.2,
+    "wholesalePrice": 2.35,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/41/P01180820.jpg",
@@ -14916,8 +14916,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Constructed from soft cotton and cashmere gabardine, the Tibor pants feature a wide-leg silhouette with front pleats for a fluid drape.",
     "shortDescription": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Constructed from soft cotton and cashmere gabardine, the Tibor pants feature a wide-leg silhouette with front pleats for a fluid drape.",
-    "price": 1300,
-    "wholesalePrice": 728,
+    "price": 13,
+    "wholesalePrice": 7.28,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/6c/P01137786.jpg",
@@ -14985,8 +14985,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "",
     "shortDescription": "",
-    "price": 1350,
-    "wholesalePrice": 756,
+    "price": 13.5,
+    "wholesalePrice": 7.56,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e3/P00946018.jpg",
@@ -15053,8 +15053,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Uninhibited and deliberately subversive: these are the hallmarks of Miuccia Prada’s Miu Miu. Italian-crafted from suede, the Utilitaire tote bag showcases a spacious design with practical pockets, straps for myriad styling, and signature yet subtle center-front logo detailing.",
     "shortDescription": "Uninhibited and deliberately subversive: these are the hallmarks of Miuccia Prada’s Miu Miu. Italian-crafted from suede, the Utilitaire tote bag showcases a spacious design with practical pockets, straps for myriad styling, and signature yet subtle center-front logo detailing.",
-    "price": 3700,
-    "wholesalePrice": 2072,
+    "price": 37,
+    "wholesalePrice": 20.72,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/68/P01188613.jpg",
@@ -15116,8 +15116,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Carefully crafted in Italy from cotton jersey, the Leon T-shirt is a vintage-inspired piece with long sleeves and a crew neckline.",
     "shortDescription": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Carefully crafted in Italy from cotton jersey, the Leon T-shirt is a vintage-inspired piece with long sleeves and a crew neckline.",
-    "price": 650,
-    "wholesalePrice": 364,
+    "price": 6.5,
+    "wholesalePrice": 3.64,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e4/P01137782.jpg",
@@ -15183,8 +15183,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Uninhibited and deliberately subversive: these are the hallmarks of Miuccia Prada’s Miu Miu. Inspired by the classic boat shoe silhouette, these soft suede mules feature lace-up uppers and tonal topstitching along the vamps.",
     "shortDescription": "Uninhibited and deliberately subversive: these are the hallmarks of Miuccia Prada’s Miu Miu. Inspired by the classic boat shoe silhouette, these soft suede mules feature lace-up uppers and tonal topstitching along the vamps.",
-    "price": 1020,
-    "wholesalePrice": 571,
+    "price": 10.2,
+    "wholesalePrice": 5.71,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/1f/P01187567.jpg",
@@ -15251,8 +15251,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Established with the aim to create the world’s finest fabrics, Zegna is now the go-to brand for luxurious and innovative menswear. Cut from a crisp cotton and linen blend, these blue shorts fall into a straight-leg silhouette.",
     "shortDescription": "Established with the aim to create the world’s finest fabrics, Zegna is now the go-to brand for luxurious and innovative menswear. Cut from a crisp cotton and linen blend, these blue shorts fall into a straight-leg silhouette.",
-    "price": 875,
-    "wholesalePrice": 490,
+    "price": 8.75,
+    "wholesalePrice": 4.9,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/62/P01145758.jpg",
@@ -15319,8 +15319,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "This blouson jacket from Auralee is crafted from grained suede. The piece is complete with a buttoned front closure, a relaxed fit, and functional pockets.",
     "shortDescription": "This blouson jacket from Auralee is crafted from grained suede. The piece is complete with a buttoned front closure, a relaxed fit, and functional pockets.",
-    "price": 3060,
-    "wholesalePrice": 1714,
+    "price": 30.6,
+    "wholesalePrice": 17.14,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/dc/P01143732.jpg",
@@ -15384,8 +15384,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Tom Ford masters combining high-octane glamour with modern masculinity. The Rupert-02 sunglasses are expertly Italian-crafted into a classic, timeless aviator silhouette.",
     "shortDescription": "Tom Ford masters combining high-octane glamour with modern masculinity. The Rupert-02 sunglasses are expertly Italian-crafted into a classic, timeless aviator silhouette.",
-    "price": 600,
-    "wholesalePrice": 336,
+    "price": 6,
+    "wholesalePrice": 3.36,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/cc/P01170856.jpg",
@@ -15447,8 +15447,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "",
     "shortDescription": "",
-    "price": 345,
-    "wholesalePrice": 193,
+    "price": 3.45,
+    "wholesalePrice": 1.93,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/bc/P00941824.jpg",
@@ -15515,8 +15515,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "",
     "shortDescription": "",
-    "price": 795,
-    "wholesalePrice": 445,
+    "price": 7.95,
+    "wholesalePrice": 4.45,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/84/P01007559.jpg",
@@ -15590,8 +15590,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "The William sunglasses showcase Tom Ford’s dedication to timeless design. The aviator-inspired silhouette features a polished acetate frame and the signature metallic “T” detailing at the hinged temples.",
     "shortDescription": "The William sunglasses showcase Tom Ford’s dedication to timeless design. The aviator-inspired silhouette features a polished acetate frame and the signature metallic “T” detailing at the hinged temples.",
-    "price": 490,
-    "wholesalePrice": 274,
+    "price": 4.9,
+    "wholesalePrice": 2.74,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e9/P01170852.jpg",
@@ -15653,8 +15653,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. This khaki polo shirt is ribbed-knit from pure cotton and complete with striped detailing at the collar.",
     "shortDescription": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. This khaki polo shirt is ribbed-knit from pure cotton and complete with striped detailing at the collar.",
-    "price": 1750,
-    "wholesalePrice": 980,
+    "price": 17.5,
+    "wholesalePrice": 9.8,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/e0/P01187225.jpg",
@@ -15722,8 +15722,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. Crafted from supple leather, these sneakers will become a mainstay of your rotation.",
     "shortDescription": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. Crafted from supple leather, these sneakers will become a mainstay of your rotation.",
-    "price": 1450,
-    "wholesalePrice": 812,
+    "price": 14.5,
+    "wholesalePrice": 8.12,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/97/P01187282.jpg",
@@ -15796,8 +15796,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. These comfortable straight pants are crafted from a premium blend of cotton and linen.",
     "shortDescription": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. These comfortable straight pants are crafted from a premium blend of cotton and linen.",
-    "price": 1300,
-    "wholesalePrice": 728,
+    "price": 13,
+    "wholesalePrice": 7.28,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/72/P01187255.jpg",
@@ -15865,8 +15865,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Innovation is at the heart of Balenciaga, which proudly presents its modern interpretation of fashion in every piece. Case in point, this workwear-inspired shirt is made from cotton twill and features a classic shirt collar enhanced by a striking spray-style artwork at the back.",
     "shortDescription": "Innovation is at the heart of Balenciaga, which proudly presents its modern interpretation of fashion in every piece. Case in point, this workwear-inspired shirt is made from cotton twill and features a classic shirt collar enhanced by a striking spray-style artwork at the back.",
-    "price": 1090,
-    "wholesalePrice": 610,
+    "price": 10.9,
+    "wholesalePrice": 6.1,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/c4/P01167157.jpg",
@@ -15931,8 +15931,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Gucci's collections are both a reflection of the past and a glimpse into the future. Carefully crafted in Italy from leather, the Gucci Jackie 1961 Large shoulder bag features silver-toned hardware and can be worn as a crossbody.",
     "shortDescription": "Gucci's collections are both a reflection of the past and a glimpse into the future. Carefully crafted in Italy from leather, the Gucci Jackie 1961 Large shoulder bag features silver-toned hardware and can be worn as a crossbody.",
-    "price": 3750,
-    "wholesalePrice": 2100,
+    "price": 37.5,
+    "wholesalePrice": 21,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/bd/P01151202.jpg",
@@ -15994,8 +15994,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Gucci's collections are both a reflection of the past and a glimpse into the future. Carefully crafted in Italy from linen-blend GG canvas, these shorts boast an elasticated drawstring waistband and practical pockets.",
     "shortDescription": "Gucci's collections are both a reflection of the past and a glimpse into the future. Carefully crafted in Italy from linen-blend GG canvas, these shorts boast an elasticated drawstring waistband and practical pockets.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/55/P01189561.jpg",
@@ -16062,8 +16062,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Valentino Garavani's signature style meets Vans' iconic construction in these vibrant slip-on shoes. Made from canvas, this pair comes with a bright VLogo Checkerboard print all over.",
     "shortDescription": "Valentino Garavani's signature style meets Vans' iconic construction in these vibrant slip-on shoes. Made from canvas, this pair comes with a bright VLogo Checkerboard print all over.",
-    "price": 490,
-    "wholesalePrice": 274,
+    "price": 4.9,
+    "wholesalePrice": 2.74,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/bf/P01134997.jpg",
@@ -16135,8 +16135,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Accessorize with sophisticated pieces from Tom Ford. The Cyrus sunglasses are crafted in Italy and feature sculptural, square-shaped frames.",
     "shortDescription": "Accessorize with sophisticated pieces from Tom Ford. The Cyrus sunglasses are crafted in Italy and feature sculptural, square-shaped frames.",
-    "price": 490,
-    "wholesalePrice": 274,
+    "price": 4.9,
+    "wholesalePrice": 2.74,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/9a/P01170854.jpg",
@@ -16198,8 +16198,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. Case in point, this overshirt is cut from a crisp blend of hemp and linen and features a spread collar.",
     "shortDescription": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. Case in point, this overshirt is cut from a crisp blend of hemp and linen and features a spread collar.",
-    "price": 4500,
-    "wholesalePrice": 2520,
+    "price": 45,
+    "wholesalePrice": 25.2,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/0b/P01186989.jpg",
@@ -16266,8 +16266,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Tom Ford’s designs showcase meticulous attention to detail and impeccable craftsmanship. These slides are made in Italy from soft suede and feature crisscrossed upper straps.",
     "shortDescription": "Tom Ford’s designs showcase meticulous attention to detail and impeccable craftsmanship. These slides are made in Italy from soft suede and feature crisscrossed upper straps.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/83/P01105273.jpg",
@@ -16336,8 +16336,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. These comfortable tapered pants are crafted from a premium blend of hemp and linen.",
     "shortDescription": "Brunello Cucinelli's designs are created in Solomeo, a medieval hamlet whose art and traditions are woven into the house's every fiber. These comfortable tapered pants are crafted from a premium blend of hemp and linen.",
-    "price": 1700,
-    "wholesalePrice": 952,
+    "price": 17,
+    "wholesalePrice": 9.52,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/74/P01187254.jpg",
@@ -16405,8 +16405,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "This Balenciaga polo shirt is retro-infused essential for elevated everyday dressing. Made from soft cotton jersey, the oversized style features a wide striped pattern and is complete with the BB laurel embroidered on chest.",
     "shortDescription": "This Balenciaga polo shirt is retro-infused essential for elevated everyday dressing. Made from soft cotton jersey, the oversized style features a wide striped pattern and is complete with the BB laurel embroidered on chest.",
-    "price": 1650,
-    "wholesalePrice": 924,
+    "price": 16.5,
+    "wholesalePrice": 9.24,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/ea/P01173356.jpg",
@@ -16472,8 +16472,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Lemaire infuses a utilitarian and modern flair into the Berlingot 72H duffel bag. Crafted from supple leather, this style features a nylon shoulder strap and silver-toned hardware.",
     "shortDescription": "Lemaire infuses a utilitarian and modern flair into the Berlingot 72H duffel bag. Crafted from supple leather, this style features a nylon shoulder strap and silver-toned hardware.",
-    "price": 2290,
-    "wholesalePrice": 1282,
+    "price": 22.9,
+    "wholesalePrice": 12.82,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/85/P01082464.jpg",
@@ -16535,8 +16535,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Aptly nicknamed The Lord of Darkness, Rick Owens brings gothic and industrial inspiration to avant-garde design. The Bela pants are crafted from lightweight fabric with a subtle sheen and feature an elasticated drawstring waist and a wide-leg silhouette.",
     "shortDescription": "Aptly nicknamed The Lord of Darkness, Rick Owens brings gothic and industrial inspiration to avant-garde design. The Bela pants are crafted from lightweight fabric with a subtle sheen and feature an elasticated drawstring waist and a wide-leg silhouette.",
-    "price": 1115,
-    "wholesalePrice": 624,
+    "price": 11.15,
+    "wholesalePrice": 6.24,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/06/P01146428.jpg",
@@ -16603,8 +16603,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Valentino Garavani's signature style meets Vans' iconic construction in these vibrant slip-on shoes. Made from canvas, this pair comes with an oversized polka-dot print layered over a VLogo Checkerboard pattern.",
     "shortDescription": "Valentino Garavani's signature style meets Vans' iconic construction in these vibrant slip-on shoes. Made from canvas, this pair comes with an oversized polka-dot print layered over a VLogo Checkerboard pattern.",
-    "price": 490,
-    "wholesalePrice": 274,
+    "price": 4.9,
+    "wholesalePrice": 2.74,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/67/P01134998.jpg",
@@ -16676,8 +16676,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "This Stone Island jacket features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation. Made from cotton, the garment showcases a subtle stitched pattern all over.",
     "shortDescription": "This Stone Island jacket features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation. Made from cotton, the garment showcases a subtle stitched pattern all over.",
-    "price": 640,
-    "wholesalePrice": 358,
+    "price": 6.4,
+    "wholesalePrice": 3.58,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/61/P01142669.jpg",
@@ -16743,8 +16743,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Made from soft cotton jersey, this Stone Island sweatshirt comes with ribbed trims. This piece features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation.",
     "shortDescription": "Made from soft cotton jersey, this Stone Island sweatshirt comes with ribbed trims. This piece features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation.",
-    "price": 500,
-    "wholesalePrice": 280,
+    "price": 5,
+    "wholesalePrice": 2.8,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/25/P01142656.jpg",
@@ -16811,8 +16811,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Designed for runners, Satisfy creates uncomplicated, functional, and essential activewear informed by technology. Complete with pebbled soles for optimal traction, the TheROCKER sneakers have asymmetrical lace-up fastenings to follow the natural curvature of the foot for comfort.",
     "shortDescription": "Designed for runners, Satisfy creates uncomplicated, functional, and essential activewear informed by technology. Complete with pebbled soles for optimal traction, the TheROCKER sneakers have asymmetrical lace-up fastenings to follow the natural curvature of the foot for comfort.",
-    "price": 335,
-    "wholesalePrice": 188,
+    "price": 3.35,
+    "wholesalePrice": 1.88,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/a0/P01139447.jpg",
@@ -16890,8 +16890,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Stone Island is a global icon in leading-edge garment design. Complete with the brand's signature Compass badge, these pants are a straight-leg pair carefully crafted from pure cotton.",
     "shortDescription": "Stone Island is a global icon in leading-edge garment design. Complete with the brand's signature Compass badge, these pants are a straight-leg pair carefully crafted from pure cotton.",
-    "price": 550,
-    "wholesalePrice": 308,
+    "price": 5.5,
+    "wholesalePrice": 3.08,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/1e/P01143064.jpg",
@@ -16959,8 +16959,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Invest in sumptuous knitwear from Le Kasha, like the Lamdu zip-up cardigan. This blue design is made from plush cashmere for a regular fit and features a classic crewneck.",
     "shortDescription": "Invest in sumptuous knitwear from Le Kasha, like the Lamdu zip-up cardigan. This blue design is made from plush cashmere for a regular fit and features a classic crewneck.",
-    "price": 2005,
-    "wholesalePrice": 1123,
+    "price": 20.05,
+    "wholesalePrice": 11.23,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/fc/P01188183.jpg",
@@ -17024,8 +17024,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Staying true to the French fashion house's refined aesthetic, Dior Eyewear combines exceptional savoir-faire with modern sophistication. The DiorBotanicaO aviator glasses are Italian-made from metal with slender frames.",
     "shortDescription": "Staying true to the French fashion house's refined aesthetic, Dior Eyewear combines exceptional savoir-faire with modern sophistication. The DiorBotanicaO aviator glasses are Italian-made from metal with slender frames.",
-    "price": 410,
-    "wholesalePrice": 230,
+    "price": 4.1,
+    "wholesalePrice": 2.3,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/d8/P01138125.jpg",
@@ -17087,8 +17087,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Kiton finds the perfect balance between elegance, uncompromising quality, and casual comfort. These classic chinos are crafted from breathable cotton with a touch of stretch for all-day comfort.",
     "shortDescription": "Kiton finds the perfect balance between elegance, uncompromising quality, and casual comfort. These classic chinos are crafted from breathable cotton with a touch of stretch for all-day comfort.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/c7/P01187170.jpg",
@@ -17155,8 +17155,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. Inspired by classic indoor styles, the Outdoor shoes are crafted from soft suede in a comfortable slip-on silhouette, adapted for outdoor wear with durable leather soles.",
     "shortDescription": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. Inspired by classic indoor styles, the Outdoor shoes are crafted from soft suede in a comfortable slip-on silhouette, adapted for outdoor wear with durable leather soles.",
-    "price": 795,
-    "wholesalePrice": 445,
+    "price": 7.95,
+    "wholesalePrice": 4.45,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/3d/P01140149.jpg",
@@ -17224,8 +17224,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "",
     "shortDescription": "",
-    "price": 2290,
-    "wholesalePrice": 1282,
+    "price": 22.9,
+    "wholesalePrice": 12.82,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/44/P01013349.jpg",
@@ -17286,8 +17286,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Stockholm-based Acne Studios has a firmly established cult following thanks to its Scandinavian-cool aesthetic. This long-sleeved T-shirt is made from a striped fabric to a football-inspired, loose silhouette with logo prints.",
     "shortDescription": "Stockholm-based Acne Studios has a firmly established cult following thanks to its Scandinavian-cool aesthetic. This long-sleeved T-shirt is made from a striped fabric to a football-inspired, loose silhouette with logo prints.",
-    "price": 700,
-    "wholesalePrice": 392,
+    "price": 7,
+    "wholesalePrice": 3.92,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/81/P01139575.jpg",
@@ -17354,8 +17354,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Stockholm-based Acne Studios has earned a firmly established cult following through its cool Scandinavian aesthetic. These sandals are made from leather into a square-toe silhouette and boast buckle straps on the uppers.",
     "shortDescription": "Stockholm-based Acne Studios has earned a firmly established cult following through its cool Scandinavian aesthetic. These sandals are made from leather into a square-toe silhouette and boast buckle straps on the uppers.",
-    "price": 1100,
-    "wholesalePrice": 616,
+    "price": 11,
+    "wholesalePrice": 6.16,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/60/P01139538.jpg",
@@ -17423,8 +17423,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Stockholm-based Acne Studios has a firmly established cult following thanks to its Scandinavian-cool aesthetic. The Ronso shorts are made from a striped fabric to a football-inspired, mid-thigh silhouette.",
     "shortDescription": "Stockholm-based Acne Studios has a firmly established cult following thanks to its Scandinavian-cool aesthetic. The Ronso shorts are made from a striped fabric to a football-inspired, mid-thigh silhouette.",
-    "price": 510,
-    "wholesalePrice": 286,
+    "price": 5.1,
+    "wholesalePrice": 2.86,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/d8/P01139535.jpg",
@@ -17491,8 +17491,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "This Stone Island jacket is complete with a hood and a zipped front. The piece features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation.",
     "shortDescription": "This Stone Island jacket is complete with a hood and a zipped front. The piece features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation.",
-    "price": 1150,
-    "wholesalePrice": 644,
+    "price": 11.5,
+    "wholesalePrice": 6.44,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/73/P01142664.jpg",
@@ -17558,8 +17558,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Made from soft cotton jersey, this Stone Island sweatshirt comes with ribbed trims. This piece features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation.",
     "shortDescription": "Made from soft cotton jersey, this Stone Island sweatshirt comes with ribbed trims. This piece features the Compass badge on the sleeve, a symbol of the brand's love for the sea and dedication to innovation.",
-    "price": 500,
-    "wholesalePrice": 280,
+    "price": 5,
+    "wholesalePrice": 2.8,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/9f/P01142657.jpg",
@@ -17626,8 +17626,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "These Stone Island sweatpants are made from cotton to a tapered silhouette and feature the signature Compass logo. The emblem is a symbol of the brand's love for the sea and dedication to innovation.",
     "shortDescription": "These Stone Island sweatpants are made from cotton to a tapered silhouette and feature the signature Compass logo. The emblem is a symbol of the brand's love for the sea and dedication to innovation.",
-    "price": 550,
-    "wholesalePrice": 308,
+    "price": 5.5,
+    "wholesalePrice": 3.08,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/83/P01142659.jpg",
@@ -17693,8 +17693,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Part of the collaboration between C.P. Company and Asics, the Gel Quantum 360 I sneakers pay tribute to an archival design. The pair features color-changing mesh uppers and GEL technology, enhanced with FF Blast Plus cushioning for maximum comfort and impact absorption.",
     "shortDescription": "Part of the collaboration between C.P. Company and Asics, the Gel Quantum 360 I sneakers pay tribute to an archival design. The pair features color-changing mesh uppers and GEL technology, enhanced with FF Blast Plus cushioning for maximum comfort and impact absorption.",
-    "price": 270,
-    "wholesalePrice": 151,
+    "price": 2.7,
+    "wholesalePrice": 1.51,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/54/P01136849.jpg",
@@ -17767,8 +17767,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Keep your eyes on the prize with Celine Eyewear, where meticulous workmanship meets the finest quality materials. These Celine 3 Dots HD sunglasses feature rectangular frames and signature detailing on the temples.",
     "shortDescription": "Keep your eyes on the prize with Celine Eyewear, where meticulous workmanship meets the finest quality materials. These Celine 3 Dots HD sunglasses feature rectangular frames and signature detailing on the temples.",
-    "price": 480,
-    "wholesalePrice": 269,
+    "price": 4.8,
+    "wholesalePrice": 2.69,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/7b/P01138117.jpg",
@@ -17830,8 +17830,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. The Laing top is a classic crewneck style carefully crafted in Italy from silk.",
     "shortDescription": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. The Laing top is a classic crewneck style carefully crafted in Italy from silk.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/6b/P01137781.jpg",
@@ -17897,8 +17897,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Carefully crafted in Italy from suede, the Canal slip-on shoes are a minimalistic pair with a slip-on design.",
     "shortDescription": "A deep affection for refined and timeless fashion influences The Row's dedication to craftsmanship and quality. Carefully crafted in Italy from suede, the Canal slip-on shoes are a minimalistic pair with a slip-on design.",
-    "price": 990,
-    "wholesalePrice": 554,
+    "price": 9.9,
+    "wholesalePrice": 5.54,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/6f/P01137809.jpg",
@@ -17966,8 +17966,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Refined tailoring is at the heart of The Row’s identity – the brand was named after Savile Row, London’s bespoke tailoring district. The Sayed shorts are crafted from soft wool and feature a clean, fluid silhouette with a single front pleat.",
     "shortDescription": "Refined tailoring is at the heart of The Row’s identity – the brand was named after Savile Row, London’s bespoke tailoring district. The Sayed shorts are crafted from soft wool and feature a clean, fluid silhouette with a single front pleat.",
-    "price": 1250,
-    "wholesalePrice": 700,
+    "price": 12.5,
+    "wholesalePrice": 7,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/27/P01137793.jpg",
@@ -18035,8 +18035,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. Featuring a biker-inspired design, this leather blouson jacket has a straight fit with a turn-down collar and subtle side slit pockets.",
     "shortDescription": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. Featuring a biker-inspired design, this leather blouson jacket has a straight fit with a turn-down collar and subtle side slit pockets.",
-    "price": 3395,
-    "wholesalePrice": 1901,
+    "price": 33.95,
+    "wholesalePrice": 19.01,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/4a/P01140012.jpg",
@@ -18101,8 +18101,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "The William sunglasses showcase Tom Ford’s dedication to timeless design. The flat-top pair features a polished acetate frame and the signature metallic “T” detailing at the hinged temples.",
     "shortDescription": "The William sunglasses showcase Tom Ford’s dedication to timeless design. The flat-top pair features a polished acetate frame and the signature metallic “T” detailing at the hinged temples.",
-    "price": 490,
-    "wholesalePrice": 274,
+    "price": 4.9,
+    "wholesalePrice": 2.74,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/da/P01170851.jpg",
@@ -18164,8 +18164,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. These essential jeans are made from medium-weight bleached denim in a relaxed, wide-leg silhouette.",
     "shortDescription": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. These essential jeans are made from medium-weight bleached denim in a relaxed, wide-leg silhouette.",
-    "price": 795,
-    "wholesalePrice": 445,
+    "price": 7.95,
+    "wholesalePrice": 4.45,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/c6/P01140013.jpg",
@@ -18232,8 +18232,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Jil Sander's sophisticated minimalism is characterized by clean lines and precisely-placed details. The Hood lace-up boots are crafted from lightweight, supple leather, detailed with hand-stitched piping along the upper, and contrasting blue rubber soles.",
     "shortDescription": "Jil Sander's sophisticated minimalism is characterized by clean lines and precisely-placed details. The Hood lace-up boots are crafted from lightweight, supple leather, detailed with hand-stitched piping along the upper, and contrasting blue rubber soles.",
-    "price": 1190,
-    "wholesalePrice": 666,
+    "price": 11.9,
+    "wholesalePrice": 6.66,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/cc/P01146448.jpg",
@@ -18301,8 +18301,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "Lean on Jacquemus' Turismo shopper for a characterful companion to your everyday. This Large design is woven from raffia and features braided tubular handles, a knotted detail on the handle, and a magnetic closure.",
     "shortDescription": "Lean on Jacquemus' Turismo shopper for a characterful companion to your everyday. This Large design is woven from raffia and features braided tubular handles, a knotted detail on the handle, and a magnetic closure.",
-    "price": 1990,
-    "wholesalePrice": 1114,
+    "price": 19.9,
+    "wholesalePrice": 11.14,
     "minimumOrderQty": 4,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/1a/P01105044.jpg",
@@ -18364,8 +18364,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "With the sole mission of telling stories through fashion, Bode creates nostalgic styles using historical techniques and vintage patterns. The Zoologist sweater is knitted from wool and alpaca yarns and features a grid-like pattern and animal-themed embroidery.",
     "shortDescription": "With the sole mission of telling stories through fashion, Bode creates nostalgic styles using historical techniques and vintage patterns. The Zoologist sweater is knitted from wool and alpaca yarns and features a grid-like pattern and animal-themed embroidery.",
-    "price": 890,
-    "wholesalePrice": 498,
+    "price": 8.9,
+    "wholesalePrice": 4.98,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/8d/P01135615.jpg",
@@ -18431,8 +18431,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. Inspired by retro running shoes, the Soft sneakers feature a streamlined low-top silhouette with quilted and top-stitched panels crafted from technical fabric and soft suede.",
     "shortDescription": "Designed to transcend seasons and trends, Lemaire's styles strike the perfect balance between quality and functionality. Inspired by retro running shoes, the Soft sneakers feature a streamlined low-top silhouette with quilted and top-stitched panels crafted from technical fabric and soft suede.",
-    "price": 660,
-    "wholesalePrice": 370,
+    "price": 6.6,
+    "wholesalePrice": 3.7,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/5b/P01140157.jpg",
@@ -18501,8 +18501,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Minimalist in its aesthetic, Auralee crafts luxury pieces made entirely of premium materials from around the world. These jeans are crafted from silk in a wide-leg silhouette with a classic five-pocket construction.",
     "shortDescription": "Minimalist in its aesthetic, Auralee crafts luxury pieces made entirely of premium materials from around the world. These jeans are crafted from silk in a wide-leg silhouette with a classic five-pocket construction.",
-    "price": 715,
-    "wholesalePrice": 400,
+    "price": 7.15,
+    "wholesalePrice": 4,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/71/P01143770.jpg",
@@ -18567,8 +18567,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "This blouson jacket by Brunello Cucinelli offers a balanced blend of functionality and casual elegance. Crafted from breathable linen, the zip-up style features a delicate striped motif and an elasticated waistband.",
     "shortDescription": "This blouson jacket by Brunello Cucinelli offers a balanced blend of functionality and casual elegance. Crafted from breathable linen, the zip-up style features a delicate striped motif and an elasticated waistband.",
-    "price": 4400,
-    "wholesalePrice": 2464,
+    "price": 44,
+    "wholesalePrice": 24.64,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/b1/P01186990.jpg",
@@ -18635,8 +18635,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "",
     "shortDescription": "",
-    "price": 465,
-    "wholesalePrice": 260,
+    "price": 4.65,
+    "wholesalePrice": 2.6,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/65/P00962445.jpg",
@@ -18697,8 +18697,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "Revel in the elegance of Studio Nicholson, inspired by the balance and restraint of Japanese architecture and interiors. The Sorte pants are cut from cotton twill to a wide, barrel-leg silhouette.",
     "shortDescription": "Revel in the elegance of Studio Nicholson, inspired by the balance and restraint of Japanese architecture and interiors. The Sorte pants are cut from cotton twill to a wide, barrel-leg silhouette.",
-    "price": 520,
-    "wholesalePrice": 291,
+    "price": 5.2,
+    "wholesalePrice": 2.91,
     "minimumOrderQty": 5,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/ce/P01122816.jpg",
@@ -18765,8 +18765,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "Magnanni works with skilled craftsmen who hand-finish each pair to achieve exceptional quality. Shaped into a minimalistic slip-on silhouette, the Casaro Slip sneakers are thoughtfully made from white leather.",
     "shortDescription": "Magnanni works with skilled craftsmen who hand-finish each pair to achieve exceptional quality. Shaped into a minimalistic slip-on silhouette, the Casaro Slip sneakers are thoughtfully made from white leather.",
-    "price": 450,
-    "wholesalePrice": 252,
+    "price": 4.5,
+    "wholesalePrice": 2.52,
     "minimumOrderQty": 6,
     "images": [
       "https://img.mytheresa.com/512/512/66/jpeg/catalog/product/15/P01160570.jpg",
@@ -18840,8 +18840,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "JACQUES sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 240,
-    "wholesalePrice": 134,
+    "price": 2.4,
+    "wholesalePrice": 1.34,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/ffc2e99a/big.jpg",
@@ -19251,8 +19251,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "FAKEMEMODEL sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 258,
-    "wholesalePrice": 144,
+    "price": 2.58,
+    "wholesalePrice": 1.44,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/0162d706/big.jpg",
@@ -19350,8 +19350,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Case photo 盒子图片 sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 276,
-    "wholesalePrice": 155,
+    "price": 2.76,
+    "wholesalePrice": 1.55,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/bb2ce103/big.jpg",
@@ -19488,8 +19488,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "滑雪镜 sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 294,
-    "wholesalePrice": 165,
+    "price": 2.94,
+    "wholesalePrice": 1.65,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/8366b52f/big.jpg",
@@ -19877,8 +19877,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "L*uis V*ittion sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 312,
-    "wholesalePrice": 175,
+    "price": 3.12,
+    "wholesalePrice": 1.75,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/37cf7cf6/big.jpg",
@@ -20288,8 +20288,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "of* whi**e sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 330,
-    "wholesalePrice": 185,
+    "price": 3.3,
+    "wholesalePrice": 1.85,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/f57dbb97/big.jpg",
@@ -20699,8 +20699,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "C*rtier sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 348,
-    "wholesalePrice": 195,
+    "price": 3.48,
+    "wholesalePrice": 1.95,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/ec2c0ffa/big.jpg",
@@ -21110,8 +21110,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Bvlgar* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 366,
-    "wholesalePrice": 205,
+    "price": 3.66,
+    "wholesalePrice": 2.05,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/f1f5771a/big.jpg",
@@ -21521,8 +21521,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Chopar* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 384,
-    "wholesalePrice": 215,
+    "price": 3.84,
+    "wholesalePrice": 2.15,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/47057fd9/big.jpg",
@@ -21932,8 +21932,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "kub raum sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 402,
-    "wholesalePrice": 225,
+    "price": 4.02,
+    "wholesalePrice": 2.25,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/dc63e381/big.jpg",
@@ -22343,8 +22343,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Vehla sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 420,
-    "wholesalePrice": 235,
+    "price": 4.2,
+    "wholesalePrice": 2.35,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/4ea95362/big.jpg",
@@ -22610,8 +22610,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Palm Angel（棕榈天使） sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 438,
-    "wholesalePrice": 245,
+    "price": 4.38,
+    "wholesalePrice": 2.45,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/1942dd48/big.jpeg",
@@ -22748,8 +22748,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Rick Owens sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 456,
-    "wholesalePrice": 255,
+    "price": 4.56,
+    "wholesalePrice": 2.55,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/a4fded84/big.png",
@@ -22874,8 +22874,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "G*cci sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 474,
-    "wholesalePrice": 265,
+    "price": 4.74,
+    "wholesalePrice": 2.65,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/5670d620/big.jpg",
@@ -23285,8 +23285,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "CH***L sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 492,
-    "wholesalePrice": 276,
+    "price": 4.92,
+    "wholesalePrice": 2.76,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/f84cda30/big.jpg",
@@ -23696,8 +23696,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "D*or sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 510,
-    "wholesalePrice": 286,
+    "price": 5.1,
+    "wholesalePrice": 2.86,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/5632758d/big.jpg",
@@ -24107,8 +24107,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "D*ta sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 528,
-    "wholesalePrice": 296,
+    "price": 5.28,
+    "wholesalePrice": 2.96,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/d95e9363/big.jpg",
@@ -24518,8 +24518,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "c**zal sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 546,
-    "wholesalePrice": 306,
+    "price": 5.46,
+    "wholesalePrice": 3.06,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/f301b20f/big.jpg",
@@ -24929,8 +24929,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "S*int l*ure*t sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 564,
-    "wholesalePrice": 316,
+    "price": 5.64,
+    "wholesalePrice": 3.16,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/c0999b6b/big.jpg",
@@ -25340,8 +25340,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "c*line sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 582,
-    "wholesalePrice": 326,
+    "price": 5.82,
+    "wholesalePrice": 3.26,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/bb195c26/big.jpg",
@@ -25751,8 +25751,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "pr*da sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 600,
-    "wholesalePrice": 336,
+    "price": 6,
+    "wholesalePrice": 3.36,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/1fb25e81/big.jpg",
@@ -26162,8 +26162,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "T*m F*rd sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 618,
-    "wholesalePrice": 346,
+    "price": 6.18,
+    "wholesalePrice": 3.46,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/d21d7f36/big.jpg",
@@ -26573,8 +26573,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Chr*me h*ats sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 636,
-    "wholesalePrice": 356,
+    "price": 6.36,
+    "wholesalePrice": 3.56,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/0c099490/big.jpg",
@@ -26984,8 +26984,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "B*rberry sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 654,
-    "wholesalePrice": 366,
+    "price": 6.54,
+    "wholesalePrice": 3.66,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/d548143e/big.jpg",
@@ -27395,8 +27395,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "M*umiu sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 672,
-    "wholesalePrice": 376,
+    "price": 6.72,
+    "wholesalePrice": 3.76,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/e8c4872d/big.jpg",
@@ -27806,8 +27806,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "L*ewe sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 690,
-    "wholesalePrice": 386,
+    "price": 6.9,
+    "wholesalePrice": 3.86,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/34d323be/big.jpg",
@@ -28217,8 +28217,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "玛士 MOSCOT sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 708,
-    "wholesalePrice": 396,
+    "price": 7.08,
+    "wholesalePrice": 3.96,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/003fb8f4/big.jpg",
@@ -28628,8 +28628,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "B*lenciaga sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 726,
-    "wholesalePrice": 407,
+    "price": 7.26,
+    "wholesalePrice": 4.07,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/5f6c7c22/big.jpg",
@@ -29039,8 +29039,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "M*ontblane sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 744,
-    "wholesalePrice": 417,
+    "price": 7.44,
+    "wholesalePrice": 4.17,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/46738fa1/big.jpg",
@@ -29450,8 +29450,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "b*ttega veneta sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 762,
-    "wholesalePrice": 427,
+    "price": 7.62,
+    "wholesalePrice": 4.27,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/bf351c4a/big.jpg",
@@ -29861,8 +29861,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "M*ybach sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 780,
-    "wholesalePrice": 437,
+    "price": 7.8,
+    "wholesalePrice": 4.37,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/d18c13f3/big.jpg",
@@ -30272,8 +30272,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "V*lentine sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 798,
-    "wholesalePrice": 447,
+    "price": 7.98,
+    "wholesalePrice": 4.47,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/4c7f554d/big.jpg",
@@ -30683,8 +30683,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "LINDBER* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 816,
-    "wholesalePrice": 457,
+    "price": 8.16,
+    "wholesalePrice": 4.57,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/416d460a/big.jpg",
@@ -31094,8 +31094,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "V*rsace sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 834,
-    "wholesalePrice": 467,
+    "price": 8.34,
+    "wholesalePrice": 4.67,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/c7af8687/big.jpg",
@@ -31505,8 +31505,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "G*venchy sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 852,
-    "wholesalePrice": 477,
+    "price": 8.52,
+    "wholesalePrice": 4.77,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/4dcfa98e/big.jpg",
@@ -31916,8 +31916,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "MYKIT sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 870,
-    "wholesalePrice": 487,
+    "price": 8.7,
+    "wholesalePrice": 4.87,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/897c7873/big.jpg",
@@ -32327,8 +32327,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "D*lce&amp;G*bbana sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 888,
-    "wholesalePrice": 497,
+    "price": 8.88,
+    "wholesalePrice": 4.97,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/c0d0d55a/big.jpg",
@@ -32738,8 +32738,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "F*ndi sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 906,
-    "wholesalePrice": 507,
+    "price": 9.06,
+    "wholesalePrice": 5.07,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/16c193e4/big.jpg",
@@ -33149,8 +33149,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "*alvatore F*rragamo sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 924,
-    "wholesalePrice": 517,
+    "price": 9.24,
+    "wholesalePrice": 5.17,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/33a5fd94/big.jpg",
@@ -33407,8 +33407,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "L*nda farrow sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 942,
-    "wholesalePrice": 528,
+    "price": 9.42,
+    "wholesalePrice": 5.28,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/7f766fd6/big.jpeg",
@@ -33677,8 +33677,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "V*ctoriabe C*am维多利亚 sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 960,
-    "wholesalePrice": 538,
+    "price": 9.6,
+    "wholesalePrice": 5.38,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/9c117ee2/big.jpg",
@@ -33764,8 +33764,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Fred* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 978,
-    "wholesalePrice": 548,
+    "price": 9.78,
+    "wholesalePrice": 5.48,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/5ef48483/big.jpg",
@@ -34118,8 +34118,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "G*ntle M*nster sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 996,
-    "wholesalePrice": 558,
+    "price": 9.96,
+    "wholesalePrice": 5.58,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/3aa179e7/big.jpg",
@@ -34529,8 +34529,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Hermes sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1014,
-    "wholesalePrice": 568,
+    "price": 10.14,
+    "wholesalePrice": 5.68,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/65b953df/big.jpg",
@@ -34877,8 +34877,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "pp sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1032,
-    "wholesalePrice": 578,
+    "price": 10.32,
+    "wholesalePrice": 5.78,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/1edd0038/big.jpg",
@@ -35288,8 +35288,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "John Dalia sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1050,
-    "wholesalePrice": 588,
+    "price": 10.5,
+    "wholesalePrice": 5.88,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/cee2d587/big.jpg",
@@ -35552,8 +35552,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Silhouett* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1068,
-    "wholesalePrice": 598,
+    "price": 10.68,
+    "wholesalePrice": 5.98,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/39b86ce7/big.jpg",
@@ -35729,8 +35729,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Akon* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1086,
-    "wholesalePrice": 608,
+    "price": 10.86,
+    "wholesalePrice": 6.08,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/750755c3/big.jpg",
@@ -35945,8 +35945,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "𝘽*𝙇𝙈𝘼𝙄𝙉 sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1104,
-    "wholesalePrice": 618,
+    "price": 11.04,
+    "wholesalePrice": 6.18,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/a70cba1e/big.jpg",
@@ -36356,8 +36356,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Hublo* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1122,
-    "wholesalePrice": 628,
+    "price": 11.22,
+    "wholesalePrice": 6.28,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/01b34249/big.jpg",
@@ -36767,8 +36767,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "JIMMY CHO* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1140,
-    "wholesalePrice": 638,
+    "price": 11.4,
+    "wholesalePrice": 6.38,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/ff973d48/big.jpg",
@@ -36863,8 +36863,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Role* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1158,
-    "wholesalePrice": 648,
+    "price": 11.58,
+    "wholesalePrice": 6.48,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/4e5b4b08/big.jpg",
@@ -36935,8 +36935,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "PATEK PHILPP* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1176,
-    "wholesalePrice": 659,
+    "price": 11.76,
+    "wholesalePrice": 6.59,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/2bc00efb/big.jpg",
@@ -37019,8 +37019,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "YVMI* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1194,
-    "wholesalePrice": 669,
+    "price": 11.94,
+    "wholesalePrice": 6.69,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/7a2b822b/big.jpeg",
@@ -37091,8 +37091,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "loto* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1212,
-    "wholesalePrice": 679,
+    "price": 12.12,
+    "wholesalePrice": 6.79,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/66a21322/big.jpg",
@@ -37163,8 +37163,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "EMPORIO ARMAN* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1230,
-    "wholesalePrice": 689,
+    "price": 12.3,
+    "wholesalePrice": 6.89,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/fcdbb5e0/big.jpg",
@@ -37421,8 +37421,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "TOMMY HILFIGE* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1248,
-    "wholesalePrice": 699,
+    "price": 12.48,
+    "wholesalePrice": 6.99,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/518c65c6/big.jpg",
@@ -37817,8 +37817,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "ZILL* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1266,
-    "wholesalePrice": 709,
+    "price": 12.66,
+    "wholesalePrice": 7.09,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/67b196e3/big.jpg",
@@ -37922,8 +37922,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "VOGUE sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1284,
-    "wholesalePrice": 719,
+    "price": 12.84,
+    "wholesalePrice": 7.19,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/568aab6b/big.jpg",
@@ -38018,8 +38018,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Lactose sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1302,
-    "wholesalePrice": 729,
+    "price": 13.02,
+    "wholesalePrice": 7.29,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/5fe97adb/big.jpg",
@@ -38429,8 +38429,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "DAVID BECKHAM sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1320,
-    "wholesalePrice": 739,
+    "price": 13.2,
+    "wholesalePrice": 7.39,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/26690504/big.jpg",
@@ -38840,8 +38840,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "TIFFANY&amp;CO sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1338,
-    "wholesalePrice": 749,
+    "price": 13.38,
+    "wholesalePrice": 7.49,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/b1ba2c67/big.jpg",
@@ -39251,8 +39251,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "CARRERA sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1356,
-    "wholesalePrice": 759,
+    "price": 13.56,
+    "wholesalePrice": 7.59,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/297cd325/big.jpg",
@@ -39662,8 +39662,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Boss sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1374,
-    "wholesalePrice": 769,
+    "price": 13.74,
+    "wholesalePrice": 7.69,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/2519b567/big.jpg",
@@ -39893,8 +39893,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Michael Kor* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1392,
-    "wholesalePrice": 780,
+    "price": 13.92,
+    "wholesalePrice": 7.8,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/9aea0f1d/big.jpg",
@@ -40016,8 +40016,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Roberto Cavalie* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1410,
-    "wholesalePrice": 790,
+    "price": 14.1,
+    "wholesalePrice": 7.9,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/d2966e1b/big.jpg",
@@ -40304,8 +40304,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "Chlo* sourced from Luxury Eyewear. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.",
     "shortDescription": "Imported from Luxury Eyewear source catalog.",
-    "price": 1428,
-    "wholesalePrice": 800,
+    "price": 14.28,
+    "wholesalePrice": 8,
     "minimumOrderQty": 6,
     "images": [
       "https://photo.yupoo.com/luxuryeyewear/e443b468/big.jpg",
@@ -40382,9 +40382,9 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "A softly squared silhouette with hand-finished acetate, refined metal temples, and a clean lens proportion that reads modern without feeling aggressive.",
     "shortDescription": "Soft-square luxury eyewear with a polished editorial finish.",
-    "price": 285,
-    "comparePrice": 340,
-    "wholesalePrice": 148,
+    "price": 2.85,
+    "comparePrice": 3.4,
+    "wholesalePrice": 1.48,
     "minimumOrderQty": 6,
     "images": [
       "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=1200&q=90",
@@ -40444,8 +40444,8 @@ export const products: Product[] = [
     "categoryLabel": "Sunglasses",
     "description": "A sharper geometric frame with a strong bridge, polished edges, and a quietly editorial stance that pairs well with tailoring and minimal looks.",
     "shortDescription": "Sharp geometric eyewear with a boutique luxury feel.",
-    "price": 240,
-    "wholesalePrice": 122,
+    "price": 2.4,
+    "wholesalePrice": 1.22,
     "minimumOrderQty": 8,
     "images": [
       "https://images.unsplash.com/photo-1577803645773-f96470509666?w=1200&q=90",
@@ -40500,9 +40500,9 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "Fluid silk with a subtle sheen, a relaxed column shape, and the kind of restraint that makes the piece work with denim, tailoring, or evening separates.",
     "shortDescription": "Minimal silk blouse with a refined drape.",
-    "price": 465,
-    "comparePrice": 540,
-    "wholesalePrice": 238,
+    "price": 4.65,
+    "comparePrice": 5.4,
+    "wholesalePrice": 2.38,
     "minimumOrderQty": 5,
     "images": [
       "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=90",
@@ -40557,8 +40557,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Women",
     "description": "A sculpted blazer with a cinched waist, sharp lapel line, and enough ease to work as both a suiting layer and a standalone statement.",
     "shortDescription": "Structured blazer with a subtle hourglass cut.",
-    "price": 620,
-    "wholesalePrice": 318,
+    "price": 6.2,
+    "wholesalePrice": 3.18,
     "minimumOrderQty": 4,
     "images": [
       "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=1200&q=90",
@@ -40613,8 +40613,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "An easy outer layer in brushed wool with a relaxed shoulder and precise pockets, designed to sit over knitwear or a shirt without bulk.",
     "shortDescription": "Soft wool overshirt with modern proportions.",
-    "price": 395,
-    "wholesalePrice": 198,
+    "price": 3.95,
+    "wholesalePrice": 1.98,
     "minimumOrderQty": 5,
     "images": [
       "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200&q=90",
@@ -40668,8 +40668,8 @@ export const products: Product[] = [
     "categoryLabel": "Designer Men",
     "description": "A streamlined trouser with a soft break, pressed crease, and a polished finish that makes it suitable for both business and evening edits.",
     "shortDescription": "Clean tailored trouser with a sharp leg line.",
-    "price": 355,
-    "wholesalePrice": 172,
+    "price": 3.55,
+    "wholesalePrice": 1.72,
     "minimumOrderQty": 6,
     "images": [
       "https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=1200&q=90",
@@ -40723,9 +40723,9 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "A compact top handle bag with architectural lines, polished hardware, and enough space for daily essentials without compromising its sharp shape.",
     "shortDescription": "Architectural top handle bag for day-to-evening use.",
-    "price": 845,
-    "comparePrice": 980,
-    "wholesalePrice": 428,
+    "price": 8.45,
+    "comparePrice": 9.8,
+    "wholesalePrice": 4.28,
     "minimumOrderQty": 3,
     "images": [
       "https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1200&q=90",
@@ -40780,8 +40780,8 @@ export const products: Product[] = [
     "categoryLabel": "Bags",
     "description": "A softer, more relaxed shoulder profile with subtle grain texture, designed for clients who want a modern bag that still feels quietly elevated.",
     "shortDescription": "Relaxed shoulder bag with a soft grain finish.",
-    "price": 690,
-    "wholesalePrice": 342,
+    "price": 6.9,
+    "wholesalePrice": 3.42,
     "minimumOrderQty": 4,
     "images": [
       "https://images.unsplash.com/photo-1594223274512-ad4803739b7c?w=1200&q=90",
@@ -40833,8 +40833,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "A clean pump with a slightly sculpted heel and polished leather upper that works across occasion dressing and elevated tailoring.",
     "shortDescription": "Polished pump with a sculpted heel line.",
-    "price": 525,
-    "wholesalePrice": 264,
+    "price": 5.25,
+    "wholesalePrice": 2.64,
     "minimumOrderQty": 4,
     "images": [
       "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=1200&q=90",
@@ -40896,8 +40896,8 @@ export const products: Product[] = [
     "categoryLabel": "Shoes",
     "description": "A discreet sneaker with a narrow profile, smooth leather finish, and enough refinement to pair with tailoring or relaxed off-duty looks.",
     "shortDescription": "Minimal sneaker with a sharp, low-profile shape.",
-    "price": 390,
-    "wholesalePrice": 195,
+    "price": 3.9,
+    "wholesalePrice": 1.95,
     "minimumOrderQty": 6,
     "images": [
       "https://images.unsplash.com/photo-1525966222134-fcfa99b8ae77?w=1200&q=90",
@@ -40959,8 +40959,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "A fine chain with a centered pearl motif and polished orbit hardware, designed to layer cleanly or wear alone as an understated signature.",
     "shortDescription": "Minimal pearl necklace with a polished metal finish.",
-    "price": 310,
-    "wholesalePrice": 154,
+    "price": 3.1,
+    "wholesalePrice": 1.54,
     "minimumOrderQty": 10,
     "images": [
       "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1200&q=90",
@@ -41015,8 +41015,8 @@ export const products: Product[] = [
     "categoryLabel": "Jewelry",
     "description": "A weighty but clean link bracelet with a polished finish, balanced proportions, and the kind of styling versatility that works across the full wardrobe.",
     "shortDescription": "Classic link bracelet with an elevated polished finish.",
-    "price": 265,
-    "wholesalePrice": 132,
+    "price": 2.65,
+    "wholesalePrice": 1.32,
     "minimumOrderQty": 10,
     "images": [
       "https://images.unsplash.com/photo-1617038220319-276d3cfab638?w=1200&q=90",

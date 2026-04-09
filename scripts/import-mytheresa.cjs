@@ -5,6 +5,7 @@ const WebSocket = require('ws');
 
 const PROJECT_ROOT = 'C:\\Users\\Administrator\\worktrees\\luxury-sunglasses-store\\mytheresa-redesign';
 const DATA_FILE = path.join(PROJECT_ROOT, 'data', 'catalog-products.ts');
+const PRICE_SCALE = 100;
 const SOURCE_URLS = [
   {
     url: 'https://www.mytheresa.com/us/en/women/new-arrivals/current-week',
@@ -96,7 +97,7 @@ function estimatePrice(category, index) {
 }
 
 function estimateWholesalePrice(price) {
-  return Math.max(60, Math.round(price * 0.56));
+  return Number(Math.max(1, price * 0.56).toFixed(2));
 }
 
 function inferCategory(sourceCategory, href, name) {
@@ -248,7 +249,7 @@ function cardToProduct(card, sourceCategory, index) {
   const name = cleanText(card.name || normalizeNameFromSlug(slugPart));
   const category = inferCategory(sourceCategory, card.href, `${brand} ${name}`);
   const categoryLabel = categoryLabels[category];
-  const price = parsePrice(card.priceText, category, index);
+  const price = Number((parsePrice(card.priceText, category, index) / PRICE_SCALE).toFixed(2));
   const images = [card.image, card.secondaryImage].filter(Boolean);
   const sizes = card.sizes
     .map((size) => size.replace(/^Available sizes:?/i, '').trim())

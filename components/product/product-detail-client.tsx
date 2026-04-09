@@ -8,6 +8,7 @@ import type { Product } from "@/types";
 import { useCartStore } from "@/lib/store";
 import { Badge, Price } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { formatPrice } from "@/lib/utils";
 
 interface ProductDetailClientProps {
   product: Product;
@@ -32,7 +33,7 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
       value: product.minimumOrderQty ? `${product.minimumOrderQty} units` : "Retail ready",
     },
     product.itemNumber ? { label: "Item number", value: product.itemNumber } : null,
-    product.wholesalePrice ? { label: "Trade price", value: `$${product.wholesalePrice.toFixed(0)}` } : null,
+    product.wholesalePrice ? { label: "Trade price", value: formatPrice(product.wholesalePrice) } : null,
     product.manufacturerDetails ? { label: "Manufacturer", value: product.manufacturerDetails } : null,
     product.sizeAndFit ? { label: "Size & fit", value: product.sizeAndFit } : null,
   ].filter(Boolean) as Array<{ label: string; value: string }>;
@@ -137,7 +138,7 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
             <Price price={product.price} comparePrice={product.comparePrice} size="lg" />
             {product.wholesalePrice && (
               <p className="text-right text-sm text-text-muted">
-                Trade <span className="text-gold">${product.wholesalePrice.toFixed(0)}</span>
+                Trade <span className="text-gold">{formatPrice(product.wholesalePrice)}</span>
               </p>
             )}
           </div>

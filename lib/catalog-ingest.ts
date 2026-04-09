@@ -40,6 +40,7 @@ interface ImportedProductResult {
 }
 
 export const sourceFeeds: SourceFeed[] = sourceFeedsData as SourceFeed[];
+const PRICE_SCALE = 100;
 
 const categoryLabels: Record<CategorySlug, string> = {
   sunglasses: "Eyewear",
@@ -156,7 +157,7 @@ function estimatePrice(category: CategorySlug, index: number) {
 }
 
 function estimateWholesalePrice(price: number) {
-  return Math.max(60, Math.round(price * 0.56));
+  return Number(Math.max(1, price * 0.56).toFixed(2));
 }
 
 function estimateMinimumOrderQty(category: CategorySlug) {
@@ -296,7 +297,7 @@ function buildProductFromBlock(
   sourceUrl: string
 ): Product {
   const text = block.text.join(" ");
-  const price = extractPriceFromText(text) ?? estimatePrice(feed.category, index);
+  const price = Number(((extractPriceFromText(text) ?? estimatePrice(feed.category, index)) / PRICE_SCALE).toFixed(2));
   const name = (() => {
     const cleaned = cleanVisibleText(text);
     const firstStrongPhrase = cleaned
@@ -385,7 +386,7 @@ async function fetchImportedProducts(feed: SourceFeed): Promise<ImportedProductR
         const images = await fetchAlbumImages(album.url, album.coverImage);
         const name = normalizeText(album.title || `${feed.label} ${index + 1}`);
         const slug = `${slugify(name) || feed.id}-${feed.id}-${album.id}`;
-        const price = estimatePrice(feed.category, index);
+        const price = Number((estimatePrice(feed.category, index) / PRICE_SCALE).toFixed(2));
         const categoryLabel = categoryLabels[feed.category];
         const brand = inferBrandFromText(name, feed.label);
         const description = `${name} sourced from ${feed.label}. Built as a public catalog page for retail browsing, wholesale inquiry, and social sharing.`;
