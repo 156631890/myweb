@@ -10,7 +10,6 @@ import {
   getFeaturedProducts,
   getNewProducts,
   getTradeSelections,
-  products,
 } from "@/lib/products";
 
 export const metadata: Metadata = {
@@ -21,12 +20,9 @@ export const metadata: Metadata = {
 
 const brandStrip = [
   "Issue 01 / client-ready edit",
-  "Brand index / category index",
   "Retail + trade / one directory",
   "Inquiry unlocks deeper packs",
 ];
-
-const brandIndex = Array.from(new Map(products.map((product) => [product.brand, product])).values());
 
 export default function HomePage() {
   const featuredProducts = getFeaturedProducts();
@@ -106,9 +102,9 @@ export default function HomePage() {
 
             <div className="grid gap-4 sm:grid-cols-3">
               {[
-                { value: `${products.length}`, label: "Listings" },
+                { value: `${featuredProducts.length + newProducts.length + tradeSelections.length}`, label: "Shown" },
                 { value: `${categories.length}`, label: "Categories" },
-                { value: `${new Set(products.map((item) => item.brand)).size}`, label: "Brands" },
+                { value: `${tradeSelections.length}`, label: "Trade picks" },
               ].map((stat) => (
                 <div key={stat.label} className="rounded-2xl border border-border bg-card p-4">
                   <div className="text-2xl leading-none">{stat.value}</div>
@@ -172,32 +168,6 @@ export default function HomePage() {
         <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
           {categories.map((category) => (
             <CategoryCard key={category.id} category={category} />
-          ))}
-        </div>
-      </section>
-
-      <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6">
-        <div className="mb-8 grid gap-4 lg:grid-cols-[1fr_auto] lg:items-end">
-          <div>
-            <p className="text-[10px] tracking-[0.34em] uppercase text-text-muted">Brand index</p>
-            <h2 className="mt-3 text-3xl sm:text-4xl">Names buyers can scan quickly</h2>
-          </div>
-          <Link href="/products" className="text-sm text-gold transition-colors hover:text-foreground">
-            Search by brand
-          </Link>
-        </div>
-
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {brandIndex.map((product) => (
-            <Link
-              key={product.brand}
-              href={`/products?brand=${encodeURIComponent(product.brand)}`}
-              className="rounded-[24px] border border-border bg-card px-5 py-5 transition-colors hover:border-gold/30 hover:bg-gold/5"
-            >
-              <p className="text-[10px] tracking-[0.24em] uppercase text-text-muted">Brand</p>
-              <h3 className="mt-3 text-2xl">{product.brand}</h3>
-              <p className="mt-2 text-sm leading-7 text-text-muted">{product.shortDescription}</p>
-            </Link>
           ))}
         </div>
       </section>
