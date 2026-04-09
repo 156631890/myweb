@@ -13,17 +13,17 @@ export function Badge({
   variant = "default",
 }: BadgeProps) {
   const variants = {
-    default: "bg-surface text-text-muted",
-    primary: "bg-gold text-primary-foreground",
-    success: "bg-surface text-text-muted",
-    danger: "bg-surface text-text-muted",
-    outline: "border border-gold/25 text-gold",
+    default: "border border-border bg-card text-text-muted",
+    primary: "border border-gold/30 bg-gold/10 text-gold",
+    success: "border border-border bg-card text-text-muted",
+    danger: "border border-border bg-card text-text-muted",
+    outline: "border border-border bg-card text-foreground",
   };
 
   return (
     <span
       className={cn(
-        "inline-flex items-center px-2.5 py-1 text-[10px] tracking-[0.16em] uppercase font-medium rounded-full",
+        "inline-flex items-center rounded-full px-2.5 py-1 text-[10px] font-medium uppercase tracking-[0.18em]",
         variants[variant],
         className
       )}
@@ -49,29 +49,29 @@ export function Price({
   size = "md",
 }: PriceProps) {
   const actualPrice = amount ?? price ?? 0;
-  const formatPrice = (p: number) => {
-    return new Intl.NumberFormat("en-US", {
-      style: "currency",
-      currency: "USD",
-    }).format(p);
-  };
 
   const sizes = {
     sm: "text-sm",
     md: "text-base",
-    lg: "text-lg",
+    lg: "text-xl",
   };
 
   return (
     <div className={cn("flex items-center gap-2", className)}>
-      <span className={cn("font-serif text-foreground", sizes[size])}>
-        {formatPrice(actualPrice)}
+      <span className={cn("font-sans font-medium text-foreground", sizes[size])}>
+        {new Intl.NumberFormat("en-US", {
+          style: "currency",
+          currency: "USD",
+        }).format(actualPrice)}
       </span>
       {comparePrice && comparePrice > actualPrice && (
         <span
-          className={cn("font-serif text-text-muted line-through", sizes[size])}
+          className={cn("font-sans text-text-muted line-through", sizes[size])}
         >
-          {formatPrice(comparePrice)}
+          {new Intl.NumberFormat("en-US", {
+            style: "currency",
+            currency: "USD",
+          }).format(comparePrice)}
         </span>
       )}
     </div>

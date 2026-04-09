@@ -10,11 +10,15 @@ export const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, label, error, type = "text", ...props }, ref) => {
     return (
       <div className="w-full">
-        {label && <label className="block text-sm font-medium text-text mb-2">{label}</label>}
+        {label && (
+          <label className="mb-2 block text-[10px] font-medium uppercase tracking-[0.2em] text-text-muted">
+            {label}
+          </label>
+        )}
         <input
           type={type}
           className={cn(
-            "w-full bg-transparent border-b border-border py-3 px-1 text-text placeholder:text-text-muted/50 transition-colors duration-300 focus:border-gold focus:outline-none",
+            "w-full rounded-none border-x-0 border-b border-t-0 border-border bg-transparent px-0 py-2.5 text-sm text-text placeholder:text-text-muted/55 transition-colors duration-200 focus:border-foreground focus:outline-none",
             error && "border-red-500 focus:border-red-500",
             className
           )}
@@ -38,10 +42,14 @@ export const Textarea = React.forwardRef<HTMLTextAreaElement, TextareaProps>(
   ({ className, label, error, ...props }, ref) => {
     return (
       <div className="w-full">
-        {label && <label className="block text-sm font-medium text-text mb-2">{label}</label>}
+        {label && (
+          <label className="mb-2 block text-[10px] font-medium uppercase tracking-[0.2em] text-text-muted">
+            {label}
+          </label>
+        )}
         <textarea
           className={cn(
-            "w-full bg-surface border border-border rounded-2xl py-3 px-4 text-text placeholder:text-text-muted/50 transition-colors duration-300 focus:border-gold focus:outline-none resize-none",
+            "w-full resize-none rounded-2xl border border-border bg-card px-4 py-3 text-sm text-text placeholder:text-text-muted/55 transition-colors duration-200 focus:border-foreground focus:outline-none",
             error && "border-red-500 focus:border-red-500",
             className
           )}
@@ -66,11 +74,15 @@ export const Select = React.forwardRef<HTMLSelectElement, SelectProps>(
   ({ className, label, error, options, ...props }, ref) => {
     return (
       <div className="w-full">
-        {label && <label className="block text-sm font-medium text-text mb-2">{label}</label>}
+        {label && (
+          <label className="mb-2 block text-[10px] font-medium uppercase tracking-[0.2em] text-text-muted">
+            {label}
+          </label>
+        )}
         <div className="relative">
           <select
             className={cn(
-              "w-full bg-surface border border-border rounded-2xl py-3 px-4 text-text appearance-none cursor-pointer transition-colors duration-300 focus:border-gold focus:outline-none",
+              "w-full cursor-pointer appearance-none rounded-full border border-border bg-card px-4 py-2.5 text-[11px] uppercase tracking-[0.18em] text-foreground transition-colors duration-200 focus:border-foreground focus:outline-none",
               error && "border-red-500 focus:border-red-500",
               className
             )}
@@ -85,7 +97,7 @@ export const Select = React.forwardRef<HTMLSelectElement, SelectProps>(
           </select>
           <div className="absolute right-4 top-1/2 -translate-y-1/2 pointer-events-none">
             <svg
-              className="w-4 h-4 text-text-muted"
+              className="h-4 w-4 text-text-muted"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"

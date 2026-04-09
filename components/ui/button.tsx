@@ -25,19 +25,19 @@ export const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
     ref
   ) => {
     const baseStyles =
-      "inline-flex items-center justify-center rounded-full font-medium transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-gold/30 disabled:opacity-50 disabled:cursor-not-allowed";
+      "inline-flex items-center justify-center rounded-full border font-medium uppercase transition-colors duration-200 focus:outline-none focus:ring-2 focus:ring-gold/20 disabled:cursor-not-allowed disabled:opacity-50";
 
     const variants = {
-      primary: "bg-primary text-primary-foreground hover:bg-black/90",
-      secondary: "bg-card border border-border text-foreground hover:border-gold/40 hover:bg-surface",
-      outline: "border border-gold text-gold hover:bg-gold hover:text-primary-foreground",
-      ghost: "text-text-muted hover:text-foreground hover:bg-surface",
+      primary: "border-primary bg-primary text-primary-foreground hover:border-black hover:bg-black",
+      secondary: "border-border bg-card text-foreground hover:border-foreground/30 hover:bg-surface",
+      outline: "border-gold/35 bg-card text-gold hover:bg-gold/10",
+      ghost: "border-transparent bg-transparent text-text-muted hover:border-border hover:bg-card hover:text-foreground",
     };
 
     const sizes = {
-      sm: "px-4 py-2 text-xs tracking-[0.15em] uppercase",
-      md: "px-6 py-3 text-sm tracking-[0.14em] uppercase",
-      lg: "px-8 py-4 text-sm tracking-[0.16em] uppercase",
+      sm: "px-4 py-2 text-[10px] tracking-[0.18em]",
+      md: "px-5 py-2.5 text-[10px] tracking-[0.2em]",
+      lg: "px-6 py-3 text-[10px] tracking-[0.22em]",
     };
 
     return (
