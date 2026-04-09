@@ -26,13 +26,11 @@ function formatPriceRange(range: [number, number]) {
 export default function ProductsPageClient() {
   const searchParams = useSearchParams();
   const initialCategory = searchParams.get("category") as CategorySlug | null;
-  const initialBrand = searchParams.get("brand") ?? "";
   const categoryIds = useMemo(() => categories.map((category) => category.id), []);
 
   const [activeCategories, setActiveCategories] = useState<CategorySlug[]>(
     initialCategory && categoryIds.includes(initialCategory) ? [initialCategory] : []
   );
-  const [activeBrands, setActiveBrands] = useState<string[]>(initialBrand ? [initialBrand] : []);
   const [mode, setMode] = useState<ViewMode>("retail");
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortOption>("newest");
@@ -40,20 +38,6 @@ export default function ProductsPageClient() {
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
 
   const catalog = useMemo(() => getProductsForView(mode), [mode]);
-
-  const brandOptions = useMemo(
-    () => Array.from(new Set(catalog.map((product) => product.brand))).sort(),
-    [catalog]
-  );
-
-  const brandCounts = useMemo(
-    () =>
-      catalog.reduce<Record<string, number>>((counts, product) => {
-        counts[product.brand] = (counts[product.brand] ?? 0) + 1;
-        return counts;
-      }, {}),
-    [catalog]
-  );
 
   const selectedCategories = useMemo(
     () => categories.filter((category) => activeCategories.includes(category.id)),
@@ -65,10 +49,6 @@ export default function ProductsPageClient() {
 
     if (activeCategories.length > 0) {
       result = result.filter((product) => activeCategories.includes(product.category));
-    }
-
-    if (activeBrands.length > 0) {
-      result = result.filter((product) => activeBrands.includes(product.brand));
     }
 
     if (query.trim()) {
@@ -109,16 +89,9 @@ export default function ProductsPageClient() {
     }
 
     return result;
-  }, [activeBrands, activeCategories, catalog, priceRange, query, sortBy]);
+  }, [activeCategories, catalog, priceRange, query, sortBy]);
 
   const directorySummary = useMemo(() => {
-    const brandText =
-      activeBrands.length === 0
-        ? "All brands"
-        : activeBrands.length === 1
-          ? activeBrands[0]
-          : `${activeBrands.length} brands selected`;
-
     const categoryText =
       selectedCategories.length === 0
         ? "All categories"
@@ -128,15 +101,13 @@ export default function ProductsPageClient() {
 
     return [
       `${filteredProducts.length.toString().padStart(2, "0")} listings`,
-      brandText,
       categoryText,
       formatPriceRange(priceRange),
     ];
-  }, [activeBrands, filteredProducts.length, priceRange, selectedCategories]);
+  }, [filteredProducts.length, priceRange, selectedCategories]);
 
   const hasActiveFilters =
     activeCategories.length > 0 ||
-    activeBrands.length > 0 ||
     query.trim() !== "" ||
     priceRange[0] !== 0 ||
     priceRange[1] !== 1000;
@@ -147,15 +118,8 @@ export default function ProductsPageClient() {
     );
   };
 
-  const toggleBrand = (brand: string) => {
-    setActiveBrands((current) =>
-      current.includes(brand) ? current.filter((item) => item !== brand) : [...current, brand]
-    );
-  };
-
   const clearFilters = () => {
     setActiveCategories([]);
-    setActiveBrands([]);
     setQuery("");
     setPriceRange([0, 1000]);
     setSortBy("newest");
@@ -170,8 +134,8 @@ export default function ProductsPageClient() {
             {mode === "trade" ? "Trade inventory" : "Directory listings"}
           </h1>
           <p className="max-w-lg text-base leading-8 text-text-muted">
-            Browse the directory by brand, category, and price. Product pages stay public and
-            shareable for retail customers, social forwarding, and trade follow-up.
+            Browse the directory by category and price. Product pages stay public and shareable
+            for retail customers, social forwarding, and trade follow-up.
           </p>
         </div>
 
@@ -279,10 +243,10 @@ export default function ProductsPageClient() {
         <aside className={`space-y-6 ${showFilters ? "block" : "hidden lg:block"}`}>
           <div className="sticky top-40 rounded-[32px] border border-border bg-card/80 p-5 backdrop-blur-sm">
             <div className="mb-5 flex items-center justify-between">
-          <div>
-            <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Brand list</p>
-            <p className="mt-2 text-sm text-text-muted">{brandOptions.length} brands / flat list</p>
-          </div>
+              <div>
+                <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Category filter</p>
+                <p className="mt-2 text-sm text-text-muted">{categories.length} top-level categories</p>
+              </div>
               {hasActiveFilters && (
                 <button onClick={clearFilters} className="text-xs text-gold lg:hidden">
                   Reset
@@ -290,31 +254,9 @@ export default function ProductsPageClient() {
               )}
             </div>
 
-            <div className="max-h-[60vh] space-y-2 overflow-y-auto pr-1">
-              {brandOptions.map((brand) => {
-                const active = activeBrands.includes(brand);
-                return (
-                  <button
-                    key={brand}
-                    onClick={() => toggleBrand(brand)}
-                    className={`flex w-full items-center justify-between rounded-2xl border px-3.5 py-2.5 text-left transition-colors ${
-                      active
-                        ? "border-gold bg-gold/10 text-foreground"
-                        : "border-border bg-background text-text-muted hover:border-gold/30"
-                    }`}
-                  >
-                    <span className="text-sm">{brand}</span>
-                    <span className="text-[10px] tracking-[0.2em] uppercase">
-                      {String(brandCounts[brand] ?? 0).padStart(2, "0")}
-                    </span>
-                  </button>
-                );
-              })}
-            </div>
-
             <div className="mt-6 border-t border-border pt-5">
               <p className="mb-3 text-[10px] tracking-[0.24em] uppercase text-text-muted">
-                Category filter
+                Filter by category
               </p>
               <div className="space-y-2">
                 {categories.map((category) => {
@@ -364,16 +306,6 @@ export default function ProductsPageClient() {
         <section className="space-y-6">
           {hasActiveFilters && (
             <div className="flex flex-wrap gap-2">
-              {activeBrands.map((brand) => (
-                <button
-                  key={brand}
-                  onClick={() => toggleBrand(brand)}
-                  className="inline-flex items-center gap-2 rounded-full border border-gold/25 bg-gold/10 px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-gold"
-                >
-                  {brand}
-                  <X className="h-3 w-3" />
-                </button>
-              ))}
               {activeCategories.map((category) => (
                 <button
                   key={category}
