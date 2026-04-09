@@ -7,10 +7,7 @@ import { Search, ShoppingBag, Menu, X } from "lucide-react";
 import { useCartStore } from "@/lib/store";
 
 const navLinks = [
-  { name: "Eyewear", href: "/products?category=sunglasses" },
-  { name: "Women", href: "/products?category=women-clothes" },
-  { name: "Men", href: "/products?category=men-clothes" },
-  { name: "Bags", href: "/products?category=bags" },
+  { name: "Browse", href: "/products" },
   { name: "Trade", href: "/wholesale" },
 ];
 
@@ -28,13 +25,6 @@ export function Navbar() {
 
   return (
     <>
-      <div className="border-b border-border bg-background/80 backdrop-blur-sm">
-        <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-text-muted sm:px-6">
-          <span>Complimentary concierge support for retail and trade</span>
-          <span className="hidden sm:inline">International shipping available</span>
-        </div>
-      </div>
-
       <nav
         className={`sticky top-0 z-50 border-b border-border transition-all ${
           scrolled ? "bg-background/90 backdrop-blur-xl" : "bg-background/75 backdrop-blur-sm"
@@ -95,9 +85,9 @@ export function Navbar() {
             </Link>
             <Link
               href="/wholesale"
-              className="hidden rounded-full border border-gold/30 px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-gold transition-colors hover:bg-gold hover:text-primary-foreground sm:inline-flex"
+              className="hidden rounded-full border border-gold/25 px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-gold transition-colors hover:border-gold/50 hover:bg-gold/5 sm:inline-flex"
             >
-              Trade Inquiry
+              Inquiry
             </Link>
             <button
               className="flex h-11 w-11 items-center justify-center rounded-full border border-border text-text-muted lg:hidden"
@@ -122,13 +112,9 @@ export function Navbar() {
                   {link.name}
                 </Link>
               ))}
-              <Link
-                href="/wholesale"
-                onClick={() => setMobileOpen(false)}
-                className="text-sm tracking-[0.2em] uppercase text-gold"
-              >
-                Trade Inquiry
-              </Link>
+              <div className="pt-2 text-[10px] tracking-[0.24em] uppercase text-text-muted">
+                Browse, search, cart, inquiry
+              </div>
             </div>
           </div>
         )}

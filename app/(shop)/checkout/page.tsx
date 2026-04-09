@@ -47,20 +47,20 @@ export default function CheckoutPage() {
   };
 
   return (
-    <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:py-16">
-      <div className="mb-10 space-y-4">
+    <div className="mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:py-12">
+      <div className="mb-8 space-y-3 border-b border-border pb-6">
         <p className="text-[10px] tracking-[0.34em] uppercase text-text-muted">Checkout</p>
-        <h1 className="text-6xl sm:text-7xl">Secure retail checkout.</h1>
-        <p className="max-w-2xl text-base leading-8 text-text-muted">
-          This flow is for retail orders only. Wholesale buyers should use the inquiry form so trade pricing and quantities can be handled correctly.
+        <h1 className="text-4xl sm:text-5xl">Checkout</h1>
+        <p className="max-w-2xl text-sm leading-7 text-text-muted">
+          Retail orders only. Wholesale buyers should use inquiry for pricing and quantities.
         </p>
       </div>
 
       <form onSubmit={handleSubmit} className="grid gap-8 lg:grid-cols-[1.1fr_0.9fr]">
         <div className="space-y-6 rounded-[32px] border border-border bg-card p-6 sm:p-8">
           <div>
-            <h2 className="text-3xl">Contact and shipping</h2>
-            <p className="mt-2 text-sm text-text-muted">All fields are required for retail fulfillment.</p>
+            <h2 className="text-2xl sm:text-3xl">Contact and shipping</h2>
+            <p className="mt-2 text-sm text-text-muted">All fields are required.</p>
           </div>
 
           <div className="grid gap-4 sm:grid-cols-2">
@@ -82,12 +82,12 @@ export default function CheckoutPage() {
 
           <div className="flex items-center gap-2 text-sm text-text-muted">
             <Lock className="h-4 w-4" />
-            Secure checkout flow for retail orders.
+            Secure retail checkout.
           </div>
         </div>
 
         <aside className="space-y-6 rounded-[32px] border border-border bg-card p-6 sm:p-8">
-          <h2 className="text-3xl">Order summary</h2>
+          <h2 className="text-2xl sm:text-3xl">Summary</h2>
           <div className="space-y-4">
             {items.map((item) => (
               <div key={item.product.id} className="flex gap-4">

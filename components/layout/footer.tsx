@@ -1,13 +1,12 @@
 import React from "react";
 import Link from "next/link";
-import { Instagram, Facebook, Mail, ArrowRight } from "lucide-react";
+import { ArrowRight, Mail } from "lucide-react";
 
 const footerColumns = {
   shop: [
-    { name: "Eyewear", href: "/products?category=sunglasses" },
-    { name: "Women", href: "/products?category=women-clothes" },
-    { name: "Men", href: "/products?category=men-clothes" },
-    { name: "Bags", href: "/products?category=bags" },
+    { name: "Browse directory", href: "/products" },
+    { name: "Trade inquiry", href: "/wholesale" },
+    { name: "Search", href: "/search" },
   ],
   support: [
     { name: "Shipping", href: "#" },
@@ -23,11 +22,7 @@ const footerColumns = {
   ],
 };
 
-const socialLinks = [
-  { name: "Instagram", href: "#", icon: Instagram },
-  { name: "Facebook", href: "#", icon: Facebook },
-  { name: "Email", href: "mailto:trade@kuangtu.com", icon: Mail },
-];
+const socialLinks = [{ name: "Email", href: "mailto:trade@kuangtu.com", icon: Mail }];
 
 export function Footer() {
   return (
@@ -35,14 +30,12 @@ export function Footer() {
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6">
         <div className="mb-12 grid gap-10 lg:grid-cols-[1.4fr_1fr_1fr_1fr]">
           <div>
-            <p className="mb-4 text-[10px] tracking-[0.34em] uppercase text-text-muted">
-              KUANGTU
-            </p>
+            <p className="mb-4 text-[10px] tracking-[0.34em] uppercase text-text-muted">KUANGTU</p>
             <p className="max-w-md text-3xl leading-tight">
-              An English-first luxury directory for retail discovery and trade inquiry.
+              English-first luxury directory for retail discovery and trade inquiry.
             </p>
             <p className="mt-5 max-w-md text-sm leading-7 text-text-muted">
-              Product pages are designed for sharing, indexing, and inquiry-led conversion across search and social channels.
+              Product pages are designed for sharing, indexing, and inquiry-led conversion.
             </p>
 
             <div className="mt-8 flex items-center gap-3">
@@ -63,16 +56,11 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-6 text-[10px] tracking-[0.28em] uppercase text-text-muted">
-              Shop
-            </h4>
+            <h4 className="mb-6 text-[10px] tracking-[0.28em] uppercase text-text-muted">Shop</h4>
             <ul className="space-y-4">
               {footerColumns.shop.map((link) => (
                 <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-foreground/75 transition-colors hover:text-gold"
-                  >
+                  <Link href={link.href} className="text-sm text-foreground/75 transition-colors hover:text-gold">
                     {link.name}
                   </Link>
                 </li>
@@ -81,16 +69,11 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-6 text-[10px] tracking-[0.28em] uppercase text-text-muted">
-              Support
-            </h4>
+            <h4 className="mb-6 text-[10px] tracking-[0.28em] uppercase text-text-muted">Support</h4>
             <ul className="space-y-4">
               {footerColumns.support.map((link) => (
                 <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-foreground/75 transition-colors hover:text-gold"
-                  >
+                  <Link href={link.href} className="text-sm text-foreground/75 transition-colors hover:text-gold">
                     {link.name}
                   </Link>
                 </li>
@@ -99,16 +82,11 @@ export function Footer() {
           </div>
 
           <div>
-            <h4 className="mb-6 text-[10px] tracking-[0.28em] uppercase text-text-muted">
-              Trade
-            </h4>
+            <h4 className="mb-6 text-[10px] tracking-[0.28em] uppercase text-text-muted">Trade</h4>
             <ul className="space-y-4">
               {footerColumns.trade.map((link) => (
                 <li key={link.name}>
-                  <Link
-                    href={link.href}
-                    className="text-sm text-foreground/75 transition-colors hover:text-gold"
-                  >
+                  <Link href={link.href} className="text-sm text-foreground/75 transition-colors hover:text-gold">
                     {link.name}
                   </Link>
                 </li>
@@ -125,7 +103,7 @@ export function Footer() {
             href="/wholesale"
             className="inline-flex items-center gap-2 text-[10px] tracking-[0.28em] uppercase text-gold transition-colors hover:text-foreground"
           >
-            Start a trade inquiry
+            Start inquiry
             <ArrowRight className="h-3 w-3" />
           </Link>
         </div>
