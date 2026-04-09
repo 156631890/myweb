@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
-import { ChevronRight, Filter, X } from "lucide-react";
+import { Filter, X } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/product/product-grid";
 import { Select, Input } from "@/components/ui/input";
@@ -14,24 +14,6 @@ const sortOptions: Array<{ value: SortOption; label: string }> = [
   { value: "price-low", label: "Price: low to high" },
   { value: "price-high", label: "Price: high to low" },
 ];
-
-function getBrandBucket(brand: string) {
-  const normalized = brand
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .trim();
-
-  const letter = normalized[0]?.toUpperCase() ?? "#";
-  return /^[A-Z]$/.test(letter) ? letter : "#";
-}
-
-function groupBrands(brands: string[]) {
-  return brands.reduce<Record<string, string[]>>((groups, brand) => {
-    const letter = getBrandBucket(brand);
-    (groups[letter] ??= []).push(brand);
-    return groups;
-  }, {});
-}
 
 function formatPriceRange(range: [number, number]) {
   if (range[0] === 0 && range[1] === 1000) {
@@ -63,9 +45,6 @@ export default function ProductsPageClient() {
     () => Array.from(new Set(catalog.map((product) => product.brand))).sort(),
     [catalog]
   );
-
-  const brandGroups = useMemo(() => groupBrands(brandOptions), [brandOptions]);
-  const brandInitials = useMemo(() => Object.keys(brandGroups).sort((a, b) => a.localeCompare(b)), [brandGroups]);
 
   const brandCounts = useMemo(
     () =>
@@ -300,10 +279,10 @@ export default function ProductsPageClient() {
         <aside className={`space-y-6 ${showFilters ? "block" : "hidden lg:block"}`}>
           <div className="sticky top-40 rounded-[32px] border border-border bg-card/80 p-5 backdrop-blur-sm">
             <div className="mb-5 flex items-center justify-between">
-              <div>
-                <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Brand index</p>
-                <p className="mt-2 text-sm text-text-muted">{brandOptions.length} brands / A-Z index</p>
-              </div>
+          <div>
+            <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Brand list</p>
+            <p className="mt-2 text-sm text-text-muted">{brandOptions.length} brands / flat list</p>
+          </div>
               {hasActiveFilters && (
                 <button onClick={clearFilters} className="text-xs text-gold lg:hidden">
                   Reset
@@ -311,56 +290,26 @@ export default function ProductsPageClient() {
               )}
             </div>
 
-            <div className="mb-5 flex flex-wrap gap-2">
-              {brandInitials.map((letter) => (
-                <a
-                  key={letter}
-                  href={`#brand-${letter}`}
-                  className="rounded-full border border-border bg-background px-3 py-1.5 text-[10px] tracking-[0.22em] uppercase text-text-muted transition-colors hover:border-gold/30 hover:text-gold"
-                >
-                  {letter}
-                </a>
-              ))}
-            </div>
-
-            <div className="max-h-[60vh] space-y-4 overflow-y-auto pr-1">
-              {brandInitials.map((letter) => (
-                <div key={letter} id={`brand-${letter}`} className="space-y-2">
-                  <div className="flex items-center justify-between">
-                    <p className="text-[10px] tracking-[0.3em] uppercase text-text-muted">{letter}</p>
-                    <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
-                      {brandGroups[letter].length.toString().padStart(2, "0")} brands
-                    </p>
-                  </div>
-                  <div className="space-y-2">
-                    {brandGroups[letter].map((brand) => {
-                      const active = activeBrands.includes(brand);
-                      return (
-                        <button
-                          key={brand}
-                          onClick={() => toggleBrand(brand)}
-                          className={`flex w-full items-center justify-between rounded-2xl border px-3.5 py-2.5 text-left transition-colors ${
-                            active
-                              ? "border-gold bg-gold/10 text-foreground"
-                              : "border-border bg-background text-text-muted hover:border-gold/30"
-                          }`}
-                        >
-                          <span className="flex items-center gap-3 text-sm">
-                            <span>{brand}</span>
-                            <span className="hidden text-[10px] tracking-[0.18em] uppercase text-text-muted sm:inline">
-                              open
-                            </span>
-                          </span>
-                          <span className="flex items-center gap-2 text-[10px] tracking-[0.2em] uppercase">
-                            {String(brandCounts[brand] ?? 0).padStart(2, "0")}
-                            <ChevronRight className="h-3 w-3" />
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
-                </div>
-              ))}
+            <div className="max-h-[60vh] space-y-2 overflow-y-auto pr-1">
+              {brandOptions.map((brand) => {
+                const active = activeBrands.includes(brand);
+                return (
+                  <button
+                    key={brand}
+                    onClick={() => toggleBrand(brand)}
+                    className={`flex w-full items-center justify-between rounded-2xl border px-3.5 py-2.5 text-left transition-colors ${
+                      active
+                        ? "border-gold bg-gold/10 text-foreground"
+                        : "border-border bg-background text-text-muted hover:border-gold/30"
+                    }`}
+                  >
+                    <span className="text-sm">{brand}</span>
+                    <span className="text-[10px] tracking-[0.2em] uppercase">
+                      {String(brandCounts[brand] ?? 0).padStart(2, "0")}
+                    </span>
+                  </button>
+                );
+              })}
             </div>
 
             <div className="mt-6 border-t border-border pt-5">
