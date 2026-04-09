@@ -28,7 +28,7 @@ export function ProductCard({ product, className }: ProductCardProps) {
   return (
     <Link href={`/products/${product.slug}`} className={className}>
       <article className="group overflow-hidden border border-border bg-card transition-all duration-300 hover:-translate-y-1 hover:border-gold/25 hover:shadow-[0_16px_60px_rgba(0,0,0,0.08)]">
-        <div className="relative aspect-[4/5] overflow-hidden bg-surface">
+        <div className="relative aspect-square overflow-hidden bg-surface">
           <Image
             src={product.images[0]}
             alt={product.name}
@@ -59,12 +59,12 @@ export function ProductCard({ product, className }: ProductCardProps) {
           </button>
         </div>
 
-        <div className="space-y-4 p-4">
+        <div className="space-y-3.5 p-4">
           <div className="space-y-2">
             <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
               {product.brand} / {product.categoryLabel}
             </p>
-            <h3 className="max-w-[14ch] font-serif text-[1.45rem] leading-[1.08] group-hover:text-gold">
+            <h3 className="max-w-[14ch] font-serif text-[1.55rem] leading-[1.04] group-hover:text-gold">
               {product.name}
             </h3>
             <p className="line-clamp-2 text-sm leading-6 text-text-muted">
