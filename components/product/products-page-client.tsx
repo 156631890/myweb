@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
-import { Filter, X } from "lucide-react";
+import { X } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/product/product-grid";
 import { Select, Input } from "@/components/ui/input";
@@ -26,8 +26,6 @@ export default function ProductsPageClient() {
   const [mode, setMode] = useState<ViewMode>("retail");
   const [query, setQuery] = useState("");
   const [sortBy, setSortBy] = useState<SortOption>("newest");
-  const [showFilters, setShowFilters] = useState(false);
-  const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
 
   const catalog = useMemo(() => getProductsForView(mode), [mode]);
   const categoryCounts = useMemo(
@@ -75,8 +73,6 @@ export default function ProductsPageClient() {
       });
     }
 
-    result = result.filter((product) => product.price >= priceRange[0] && product.price <= priceRange[1]);
-
     switch (sortBy) {
       case "price-low":
         result.sort((a, b) => a.price - b.price);
@@ -94,13 +90,9 @@ export default function ProductsPageClient() {
     }
 
     return result;
-  }, [activeCategories, catalog, priceRange, query, sortBy]);
+  }, [activeCategories, catalog, query, sortBy]);
 
-  const hasActiveFilters =
-    activeCategories.length > 0 ||
-    query.trim() !== "" ||
-    priceRange[0] !== 0 ||
-    priceRange[1] !== 1000;
+  const hasActiveFilters = activeCategories.length > 0 || query.trim() !== "";
 
   const toggleCategory = (category: CategorySlug) => {
     setActiveCategories((current) =>
@@ -111,7 +103,6 @@ export default function ProductsPageClient() {
   const clearFilters = () => {
     setActiveCategories([]);
     setQuery("");
-    setPriceRange([0, 1000]);
     setSortBy("newest");
   };
 
@@ -198,15 +189,6 @@ export default function ProductsPageClient() {
               {filteredProducts.length} items
             </div>
 
-            <button
-              onClick={() => setShowFilters((value) => !value)}
-              className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-[10px] tracking-[0.22em] uppercase lg:hidden"
-            >
-              <Filter className="h-4 w-4" />
-              Filters
-              {hasActiveFilters && <span className="h-2 w-2 rounded-full bg-gold" />}
-            </button>
-
             {hasActiveFilters && (
               <button onClick={clearFilters} className="text-[10px] tracking-[0.24em] uppercase text-text-muted">
                 Clear all
@@ -216,83 +198,46 @@ export default function ProductsPageClient() {
         </div>
       </div>
 
-      <div className="grid gap-8 lg:grid-cols-[260px_1fr]">
-        <aside className={`space-y-6 ${showFilters ? "block" : "hidden lg:block"}`}>
-          <div className="sticky top-40 rounded-[20px] border border-border bg-card p-5">
-            <div className="mb-5 flex items-center justify-between">
-              <div>
-                <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Filters</p>
-              </div>
-              {hasActiveFilters && (
-                <button onClick={clearFilters} className="text-xs text-gold lg:hidden">
-                  Reset
-                </button>
-              )}
-            </div>
-
-            <div className="border-t border-border pt-5">
-              <p className="mb-3 text-[10px] tracking-[0.24em] uppercase text-text-muted">
-                Price range
-              </p>
-              <div className="grid gap-3 sm:grid-cols-2">
-                <Input
-                  type="number"
-                  value={priceRange[0]}
-                  onChange={(event) => setPriceRange([Number(event.target.value), priceRange[1]])}
-                  placeholder="0"
-                />
-                <Input
-                  type="number"
-                  value={priceRange[1]}
-                  onChange={(event) => setPriceRange([priceRange[0], Number(event.target.value)])}
-                  placeholder="1000"
-                />
-              </div>
-            </div>
-          </div>
-        </aside>
-
-        <section className="space-y-6">
-          {hasActiveFilters && (
-            <div className="flex flex-wrap gap-2">
-              {activeCategories.map((category) => (
-                <button
-                  key={category}
-                  onClick={() => toggleCategory(category)}
-                  aria-pressed={true}
-                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
-                >
-                  {categories.find((item) => item.id === category)?.name}
-                  <X className="h-3 w-3" />
-                </button>
-              ))}
-              {query.trim() && (
-                <button
-                  onClick={() => setQuery("")}
-                  className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
-                >
-                  {query}
-                  <X className="h-3 w-3" />
-                </button>
-              )}
-            </div>
-          )}
-
-          {filteredProducts.length > 0 ? (
-            <ProductGrid products={filteredProducts} />
-          ) : (
-            <div className="rounded-[28px] border border-border bg-card px-8 py-16 text-center">
-              <p className="text-lg text-text-muted">No products match the current filters.</p>
+      <section className="space-y-6">
+        {hasActiveFilters && (
+          <div className="flex flex-wrap gap-2">
+            {activeCategories.map((category) => (
               <button
-                onClick={clearFilters}
-                className="mt-4 text-[10px] tracking-[0.24em] uppercase text-gold"
+                key={category}
+                onClick={() => toggleCategory(category)}
+                aria-pressed={true}
+                className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
               >
-                Reset filters
+                {categories.find((item) => item.id === category)?.name}
+                <X className="h-3 w-3" />
               </button>
-            </div>
-          )}
-        </section>
-      </div>
+            ))}
+            {query.trim() && (
+              <button
+                onClick={() => setQuery("")}
+                className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
+              >
+                {query}
+                <X className="h-3 w-3" />
+              </button>
+            )}
+          </div>
+        )}
+
+        {filteredProducts.length > 0 ? (
+          <ProductGrid products={filteredProducts} />
+        ) : (
+          <div className="rounded-[28px] border border-border bg-card px-8 py-16 text-center">
+            <p className="text-lg text-text-muted">No products match the current filters.</p>
+            <button
+              onClick={clearFilters}
+              className="mt-4 text-[10px] tracking-[0.24em] uppercase text-gold"
+            >
+              Reset filters
+            </button>
+          </div>
+        )}
+      </section>
     </div>
   );
 }

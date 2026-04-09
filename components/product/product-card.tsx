@@ -3,10 +3,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import { Plus } from "lucide-react";
 import type { Product } from "@/types";
-import { useCartStore } from "@/lib/store";
-import { Badge, Price } from "@/components/ui/badge";
+import { Price } from "@/components/ui/badge";
 
 interface ProductCardProps {
   product: Product;
@@ -14,49 +12,19 @@ interface ProductCardProps {
 }
 
 export function ProductCard({ product, className }: ProductCardProps) {
-  const addItem = useCartStore((state) => state.addItem);
-  const [added, setAdded] = React.useState(false);
-
-  const handleQuickAdd = (event: React.MouseEvent) => {
-    event.preventDefault();
-    event.stopPropagation();
-    addItem(product, 1);
-    setAdded(true);
-    window.setTimeout(() => setAdded(false), 1200);
-  };
-
   return (
     <Link href={`/products/${product.slug}`} className={className}>
-      <article className="group overflow-hidden border border-border bg-card transition-all duration-300 hover:border-foreground/30">
-        <div className="relative aspect-[4/5] overflow-hidden bg-surface">
+      <article className="group overflow-hidden border border-border bg-card">
+        <div className="relative aspect-[5/6] overflow-hidden bg-surface">
           <Image
             src={product.images[0]}
             alt={product.name}
             fill
-            className="object-cover transition-transform duration-700 group-hover:scale-[1.02]"
-            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
+            className="object-cover transition-transform duration-700 group-hover:scale-[1.015]"
+            sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 25vw"
           />
 
-          <div className="absolute inset-0 bg-gradient-to-t from-black/12 via-transparent to-transparent opacity-0 transition-opacity group-hover:opacity-100" />
-
-          <div className="absolute left-4 top-4 flex flex-col gap-2">
-            {product.isNew && <Badge variant="primary">New</Badge>}
-            {product.isBestseller && <Badge variant="outline">Bestseller</Badge>}
-          </div>
-
-          <button
-            onClick={handleQuickAdd}
-            className="absolute bottom-4 left-4 right-4 inline-flex items-center justify-center gap-2 rounded-full bg-background/95 px-4 py-3 text-[10px] tracking-[0.22em] uppercase text-foreground opacity-0 transition-all group-hover:opacity-100"
-          >
-            {added ? (
-              "Added"
-            ) : (
-              <>
-                <Plus className="h-4 w-4" />
-                Quick add
-              </>
-            )}
-          </button>
+          <div className="absolute inset-x-0 bottom-0 h-16 bg-gradient-to-t from-black/10 to-transparent opacity-60" />
         </div>
 
         <div className="space-y-3 p-4">
@@ -64,16 +32,14 @@ export function ProductCard({ product, className }: ProductCardProps) {
             <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
               {product.brand} / {product.categoryLabel}
             </p>
-            <h3 className="max-w-[16ch] text-[1rem] leading-[1.35] text-foreground">
+            <h3 className="max-w-[18ch] text-[1rem] leading-[1.35] text-foreground">
               {product.name}
             </h3>
           </div>
 
           <div className="flex items-center justify-between gap-3 border-t border-border pt-3">
             <Price price={product.price} comparePrice={product.comparePrice} size="md" />
-            <span className="text-[10px] tracking-[0.2em] uppercase text-text-muted">
-              View
-            </span>
+            <span className="text-[10px] tracking-[0.2em] uppercase text-text-muted">View</span>
           </div>
         </div>
       </article>
