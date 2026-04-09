@@ -21,6 +21,21 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
   const [selectedColor, setSelectedColor] = useState(product.colors[0]?.name ?? "");
   const [selectedSize, setSelectedSize] = useState(product.sizes?.[0] ?? "");
   const [copied, setCopied] = useState(false);
+  const forwardSummary = product.productDetails ?? product.highlight ?? product.shortDescription;
+  const detailRows = [
+    { label: "Source", value: product.source.label },
+    { label: "Materials", value: product.materials?.join(", ") ?? "See product page" },
+    { label: "Audience", value: product.audience ? product.audience : "Unisex" },
+    { label: "Origin", value: product.origin ?? "Selected sourcing" },
+    {
+      label: "MOQ",
+      value: product.minimumOrderQty ? `${product.minimumOrderQty} units` : "Retail ready",
+    },
+    product.itemNumber ? { label: "Item number", value: product.itemNumber } : null,
+    product.wholesalePrice ? { label: "Trade price", value: `$${product.wholesalePrice.toFixed(0)}` } : null,
+    product.manufacturerDetails ? { label: "Manufacturer", value: product.manufacturerDetails } : null,
+    product.sizeAndFit ? { label: "Size & fit", value: product.sizeAndFit } : null,
+  ].filter(Boolean) as Array<{ label: string; value: string }>;
 
   const handleShare = async () => {
     const url = `${window.location.origin}/products/${product.slug}`;
@@ -80,6 +95,44 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
             <p className="max-w-lg text-base leading-8 text-text-muted">{product.description}</p>
           </div>
 
+          <div className="rounded-[28px] border border-border bg-card p-5 sm:p-6">
+            <div className="flex flex-wrap items-center justify-between gap-3">
+              <p className="text-[10px] tracking-[0.24em] uppercase text-text-muted">
+                Forwardable summary
+              </p>
+              <p className="text-[10px] tracking-[0.24em] uppercase text-text-muted">
+                {product.source.label}
+              </p>
+            </div>
+            <div className="mt-4 grid gap-5 lg:grid-cols-[1.1fr_0.9fr]">
+              <div className="space-y-3">
+                <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
+                  {product.brand}
+                </p>
+                <h2 className="text-3xl leading-tight sm:text-[2.6rem]">{product.name}</h2>
+                {product.itemNumber && (
+                  <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
+                    Item no. {product.itemNumber}
+                  </p>
+                )}
+              </div>
+              <div className="space-y-4 border-t border-border pt-4 lg:border-l lg:border-t-0 lg:pl-5 lg:pt-0">
+                <div>
+                  <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
+                    One-line story
+                  </p>
+                  <p className="mt-2 text-sm leading-7 text-text-muted">{forwardSummary}</p>
+                </div>
+                <div>
+                  <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
+                    Share copy
+                  </p>
+                  <p className="mt-2 text-sm leading-7 text-text-muted">{product.shareText}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <div className="flex items-end justify-between gap-4 border-y border-border py-5">
             <Price price={product.price} comparePrice={product.comparePrice} size="lg" />
             {product.wholesalePrice && (
@@ -87,21 +140,6 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
                 Trade <span className="text-gold">${product.wholesalePrice.toFixed(0)}</span>
               </p>
             )}
-          </div>
-
-          <div className="space-y-4 rounded-[28px] border border-border bg-card p-6">
-            <div className="grid gap-6 sm:grid-cols-2">
-              <div>
-                <p className="text-[10px] tracking-[0.24em] uppercase text-text-muted">Editor&apos;s note</p>
-                <p className="mt-2 text-sm leading-7 text-text-muted">
-                  {product.productDetails ?? product.highlight ?? product.shortDescription}
-                </p>
-              </div>
-              <div>
-                <p className="text-[10px] tracking-[0.24em] uppercase text-text-muted">Share copy</p>
-                <p className="mt-2 text-sm leading-7 text-text-muted">{product.shareText}</p>
-              </div>
-            </div>
           </div>
 
           <div className="space-y-4">
@@ -204,43 +242,18 @@ export function ProductDetailClient({ product, relatedProducts }: ProductDetailC
         </div>
 
         <div className="rounded-[28px] border border-border bg-card p-6">
-          <h3 className="text-2xl">Product details</h3>
-          <div className="mt-5 grid gap-4 text-sm leading-7 text-text-muted sm:grid-cols-2">
-            <div>
-              <p className="text-[10px] tracking-[0.22em] uppercase">Materials</p>
-              <p className="mt-2">{product.materials?.join(", ") ?? "See product page"}</p>
-            </div>
-            <div>
-              <p className="text-[10px] tracking-[0.22em] uppercase">Audience</p>
-              <p className="mt-2 capitalize">{product.audience ?? "Unisex"}</p>
-            </div>
-            <div>
-              <p className="text-[10px] tracking-[0.22em] uppercase">Origin</p>
-              <p className="mt-2">{product.origin ?? "Selected sourcing"}</p>
-            </div>
-            <div>
-              <p className="text-[10px] tracking-[0.22em] uppercase">MOQ</p>
-              <p className="mt-2">{product.minimumOrderQty ? `${product.minimumOrderQty} units` : "Retail ready"}</p>
-            </div>
-            {product.itemNumber && (
-              <div>
-                <p className="text-[10px] tracking-[0.22em] uppercase">Item number</p>
-                <p className="mt-2">{product.itemNumber}</p>
-              </div>
-            )}
-            {product.manufacturerDetails && (
-              <div className="sm:col-span-2">
-                <p className="text-[10px] tracking-[0.22em] uppercase">Manufacturer details</p>
-                <p className="mt-2">{product.manufacturerDetails}</p>
-              </div>
-            )}
-            {product.sizeAndFit && (
-              <div className="sm:col-span-2">
-                <p className="text-[10px] tracking-[0.22em] uppercase">Size &amp; fit</p>
-                <p className="mt-2">{product.sizeAndFit}</p>
-              </div>
-            )}
+          <div className="flex flex-wrap items-end justify-between gap-3">
+            <h3 className="text-2xl">Product details</h3>
+            <p className="text-[10px] tracking-[0.24em] uppercase text-text-muted">Spec sheet</p>
           </div>
+          <dl className="mt-5 divide-y divide-border">
+            {detailRows.map((row) => (
+              <div key={row.label} className="grid gap-2 py-4 sm:grid-cols-[180px_1fr] sm:gap-5">
+                <dt className="text-[10px] tracking-[0.24em] uppercase text-text-muted">{row.label}</dt>
+                <dd className="text-sm leading-7 text-text-muted">{row.value}</dd>
+              </div>
+            ))}
+          </dl>
         </div>
       </section>
 

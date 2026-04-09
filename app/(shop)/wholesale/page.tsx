@@ -127,14 +127,17 @@ export default function WholesalePage() {
     <div className="mx-auto max-w-6xl px-4 py-10 sm:px-6 lg:py-16">
       <section className="grid gap-12 lg:grid-cols-[0.92fr_1.08fr]">
         <div className="space-y-6">
-          <Badge variant="outline">Wholesale inquiry</Badge>
+          <Badge variant="outline">Access request</Badge>
           <p className="text-[10px] tracking-[0.34em] uppercase text-text-muted">
-            Retail-friendly, trade-ready, and shareable
+            Request access to deeper catalog packs
           </p>
-          <h1 className="max-w-xl text-5xl sm:text-6xl">Request trade pricing and unlock additional catalog packs.</h1>
+          <h1 className="max-w-xl text-5xl sm:text-6xl">
+            Request trade pricing and unlock deeper catalog packs.
+          </h1>
           <p className="max-w-xl text-base leading-8 text-text-muted">
-            Use this form to submit a trade inquiry for bags, shoes, jewelry, eyewear, menswear, or womenswear.
-            Minimum order quantities, source guidance, and extra catalog packs can be shared in follow-up.
+            Use this form to request buyer access for bags, shoes, jewelry, eyewear, menswear, or
+            womenswear. Minimum order quantities, source guidance, and extra catalog packs are
+            shared in follow-up.
           </p>
 
           <div className="rounded-[28px] border border-border bg-card p-6 text-sm leading-7 text-text-muted">
@@ -151,7 +154,7 @@ export default function WholesalePage() {
               href="/products"
               className="inline-flex items-center justify-center gap-2 rounded-full border border-gold/30 px-5 py-4 text-[10px] tracking-[0.24em] uppercase text-gold transition-colors hover:bg-gold hover:text-primary-foreground"
             >
-              Browse catalog
+              View public directory
               <ArrowRight className="h-4 w-4" />
             </Link>
             <button
@@ -160,7 +163,7 @@ export default function WholesalePage() {
               className="inline-flex items-center justify-center gap-2 rounded-full border border-border px-5 py-4 text-[10px] tracking-[0.24em] uppercase text-foreground transition-colors hover:border-gold/30 hover:text-gold"
             >
               <RefreshCw className={`h-4 w-4 ${refreshing ? "animate-spin" : ""}`} />
-              Import catalog
+              Refresh source feeds
             </button>
           </div>
 
@@ -172,6 +175,17 @@ export default function WholesalePage() {
           {refreshMessage && (
             <div className="rounded-2xl border border-border bg-background px-4 py-3 text-sm text-text-muted">
               {refreshMessage}
+            </div>
+          )}
+
+          {status === "success" && unlockedPackIds.length > 0 && (
+            <div className="rounded-[28px] border border-gold/25 bg-gold/10 p-6">
+              <p className="text-[10px] tracking-[0.34em] uppercase text-gold">Access granted</p>
+              <h2 className="mt-3 text-2xl sm:text-3xl">Saved unlocks are ready on this device.</h2>
+              <p className="mt-3 text-sm leading-7 text-text-muted">
+                {unlockedPackIds.length} catalog packs were unlocked and stored locally so the access
+                state survives refreshes.
+              </p>
             </div>
           )}
         </div>
@@ -239,7 +253,7 @@ export default function WholesalePage() {
 
             <Button size="lg" fullWidth type="submit" loading={status === "submitting"}>
               <Mail className="h-4 w-4" />
-              Send inquiry
+              Request access
             </Button>
           </form>
 

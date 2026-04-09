@@ -16,14 +16,14 @@ import {
 export const metadata: Metadata = {
   title: "KUANGTU | Luxury Directory",
   description:
-    "Browse KUANGTU’s luxury directory by brand, category, and buying mode. Public product pages stay shareable for retail and trade discovery.",
+    "Browse KUANGTU's luxury directory by brand, category, and buying mode. Public product pages stay shareable for retail and trade discovery.",
 };
 
 const brandStrip = [
-  "Brand index",
-  "Retail and trade",
-  "SEO-ready product pages",
-  "Inquiry unlock packs",
+  "Issue 01 / client-ready edit",
+  "Brand index / category index",
+  "Retail + trade / one directory",
+  "Inquiry unlocks deeper packs",
 ];
 
 const brandIndex = Array.from(new Map(products.map((product) => [product.brand, product])).values());
@@ -36,21 +36,22 @@ export default function HomePage() {
   return (
     <div className="pb-8">
       <section className="border-b border-border">
-        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start lg:py-10">
+        <div className="mx-auto grid max-w-7xl gap-8 px-4 py-8 sm:px-6 lg:grid-cols-[0.86fr_1.14fr] lg:items-start lg:py-10">
           <div className="space-y-6">
-            <div className="space-y-3">
+            <div className="space-y-4">
               <div className="flex flex-wrap items-center gap-3 text-[10px] tracking-[0.34em] uppercase text-text-muted">
                 <span>KUANGTU / directory</span>
                 <span className="h-px w-8 bg-border" />
-                <span>Retail + trade</span>
+                <span>Issue 01</span>
               </div>
-              <Badge variant="outline">Luxury resale index</Badge>
-              <h1 className="max-w-lg text-3xl leading-[1.03] sm:text-4xl lg:text-[4rem]">
-                Browse a concise luxury directory by brand, category, and inquiry.
+              <Badge variant="outline">Client-facing luxury directory</Badge>
+              <h1 className="max-w-[13ch] text-[2.9rem] leading-[0.96] sm:text-5xl lg:text-[4.6rem]">
+                A concise luxury directory built for forwarding.
               </h1>
-              <p className="max-w-lg text-sm leading-7 text-text-muted sm:text-base">
-                Public listings stay easy to forward, while inquiry unlocks deeper catalog packs
-                for buyers who need more than the visible directory.
+              <p className="max-w-xl text-sm leading-7 text-text-muted sm:text-base">
+                KUANGTU reads like a client pack: public listings are clean and sharable, while
+                inquiry unlocks deeper catalog groups for buyers who need more context, pricing,
+                and sourcing detail.
               </p>
             </div>
 
@@ -81,7 +82,7 @@ export default function HomePage() {
 
           <div className="space-y-4">
             <div className="relative overflow-hidden border border-border bg-card shadow-[0_20px_80px_rgba(0,0,0,0.08)]">
-              <div className="relative aspect-[5/4]">
+              <div className="relative aspect-[4/3]">
                 <Image
                   src="https://images.unsplash.com/photo-1483985988355-763728e1935b?w=1400&q=90"
                   alt="KUANGTU directory"

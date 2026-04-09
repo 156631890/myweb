@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useMemo, useState } from "react";
-import { Filter, X } from "lucide-react";
+import { ChevronRight, Filter, X } from "lucide-react";
 import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/product/product-grid";
 import { Select, Input } from "@/components/ui/input";
@@ -31,6 +31,14 @@ function groupBrands(brands: string[]) {
     (groups[letter] ??= []).push(brand);
     return groups;
   }, {});
+}
+
+function formatPriceRange(range: [number, number]) {
+  if (range[0] === 0 && range[1] === 1000) {
+    return "All prices";
+  }
+
+  return `$${range[0].toFixed(0)} - $${range[1].toFixed(0)}`;
 }
 
 export default function ProductsPageClient() {
@@ -66,6 +74,11 @@ export default function ProductsPageClient() {
         return counts;
       }, {}),
     [catalog]
+  );
+
+  const selectedCategories = useMemo(
+    () => categories.filter((category) => activeCategories.includes(category.id)),
+    [activeCategories]
   );
 
   const filteredProducts = useMemo(() => {
@@ -119,6 +132,29 @@ export default function ProductsPageClient() {
     return result;
   }, [activeBrands, activeCategories, catalog, priceRange, query, sortBy]);
 
+  const directorySummary = useMemo(() => {
+    const brandText =
+      activeBrands.length === 0
+        ? "All brands"
+        : activeBrands.length === 1
+          ? activeBrands[0]
+          : `${activeBrands.length} brands selected`;
+
+    const categoryText =
+      selectedCategories.length === 0
+        ? "All categories"
+        : selectedCategories.length === 1
+          ? selectedCategories[0].name
+          : `${selectedCategories.length} categories selected`;
+
+    return [
+      `${filteredProducts.length.toString().padStart(2, "0")} listings`,
+      brandText,
+      categoryText,
+      formatPriceRange(priceRange),
+    ];
+  }, [activeBrands, filteredProducts.length, priceRange, selectedCategories]);
+
   const hasActiveFilters =
     activeCategories.length > 0 ||
     activeBrands.length > 0 ||
@@ -155,8 +191,8 @@ export default function ProductsPageClient() {
             {mode === "trade" ? "Trade inventory" : "Directory listings"}
           </h1>
           <p className="max-w-lg text-base leading-8 text-text-muted">
-            Browse by brand, category, and price. Product pages stay public and shareable for retail
-            customers, social forwarding, and trade follow-up.
+            Browse the directory by brand, category, and price. Product pages stay public and
+            shareable for retail customers, social forwarding, and trade follow-up.
           </p>
         </div>
 
@@ -242,15 +278,31 @@ export default function ProductsPageClient() {
         </div>
       </div>
 
+      <div className="mb-8 rounded-[24px] border border-border bg-card/75 p-4 backdrop-blur-sm">
+        <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
+          <div>
+            <p className="text-[10px] tracking-[0.3em] uppercase text-text-muted">Directory summary</p>
+            <p className="mt-2 text-sm leading-7 text-text-muted">
+              A working catalog sheet for buyers, with active filters and range context shown up front.
+            </p>
+          </div>
+          <div className="flex flex-wrap gap-2 text-[10px] tracking-[0.24em] uppercase">
+            {directorySummary.map((item) => (
+              <span key={item} className="rounded-full border border-border bg-background px-3 py-2 text-text-muted">
+                {item}
+              </span>
+            ))}
+          </div>
+        </div>
+      </div>
+
       <div className="grid gap-8 lg:grid-cols-[320px_1fr]">
         <aside className={`space-y-6 ${showFilters ? "block" : "hidden lg:block"}`}>
           <div className="sticky top-40 rounded-[32px] border border-border bg-card/80 p-5 backdrop-blur-sm">
             <div className="mb-5 flex items-center justify-between">
               <div>
                 <p className="text-[10px] tracking-[0.28em] uppercase text-text-muted">Brand index</p>
-                <p className="mt-2 text-sm text-text-muted">
-                  {brandOptions.length} brands organized alphabetically
-                </p>
+                <p className="mt-2 text-sm text-text-muted">{brandOptions.length} brands / A-Z index</p>
               </div>
               {hasActiveFilters && (
                 <button onClick={clearFilters} className="text-xs text-gold lg:hidden">
@@ -264,17 +316,22 @@ export default function ProductsPageClient() {
                 <a
                   key={letter}
                   href={`#brand-${letter}`}
-                  className="rounded-full border border-border bg-background px-3 py-1 text-[10px] tracking-[0.22em] uppercase text-text-muted transition-colors hover:border-gold/30 hover:text-gold"
+                  className="rounded-full border border-border bg-background px-3 py-1.5 text-[10px] tracking-[0.22em] uppercase text-text-muted transition-colors hover:border-gold/30 hover:text-gold"
                 >
                   {letter}
                 </a>
               ))}
             </div>
 
-            <div className="max-h-[60vh] space-y-5 overflow-y-auto pr-1">
+            <div className="max-h-[60vh] space-y-4 overflow-y-auto pr-1">
               {brandInitials.map((letter) => (
                 <div key={letter} id={`brand-${letter}`} className="space-y-2">
-                  <p className="text-[10px] tracking-[0.3em] uppercase text-text-muted">{letter}</p>
+                  <div className="flex items-center justify-between">
+                    <p className="text-[10px] tracking-[0.3em] uppercase text-text-muted">{letter}</p>
+                    <p className="text-[10px] tracking-[0.22em] uppercase text-text-muted">
+                      {brandGroups[letter].length.toString().padStart(2, "0")} brands
+                    </p>
+                  </div>
                   <div className="space-y-2">
                     {brandGroups[letter].map((brand) => {
                       const active = activeBrands.includes(brand);
@@ -282,15 +339,21 @@ export default function ProductsPageClient() {
                         <button
                           key={brand}
                           onClick={() => toggleBrand(brand)}
-                          className={`flex w-full items-center justify-between rounded-2xl border px-4 py-3 text-left transition-colors ${
+                          className={`flex w-full items-center justify-between rounded-2xl border px-3.5 py-2.5 text-left transition-colors ${
                             active
                               ? "border-gold bg-gold/10 text-foreground"
                               : "border-border bg-background text-text-muted hover:border-gold/30"
                           }`}
                         >
-                          <span className="text-sm">{brand}</span>
-                          <span className="text-[10px] tracking-[0.2em] uppercase">
+                          <span className="flex items-center gap-3 text-sm">
+                            <span>{brand}</span>
+                            <span className="hidden text-[10px] tracking-[0.18em] uppercase text-text-muted sm:inline">
+                              open
+                            </span>
+                          </span>
+                          <span className="flex items-center gap-2 text-[10px] tracking-[0.2em] uppercase">
                             {String(brandCounts[brand] ?? 0).padStart(2, "0")}
+                            <ChevronRight className="h-3 w-3" />
                           </span>
                         </button>
                       );
