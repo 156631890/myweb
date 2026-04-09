@@ -6,7 +6,6 @@ import { useSearchParams } from "next/navigation";
 import { ProductGrid } from "@/components/product/product-grid";
 import { Select, Input } from "@/components/ui/input";
 import { categories, getProductsForView } from "@/lib/products";
-import { formatPrice } from "@/lib/utils";
 import type { CategorySlug, SortOption, ViewMode } from "@/types";
 
 const sortOptions: Array<{ value: SortOption; label: string }> = [
@@ -15,14 +14,6 @@ const sortOptions: Array<{ value: SortOption; label: string }> = [
   { value: "price-low", label: "Price: low to high" },
   { value: "price-high", label: "Price: high to low" },
 ];
-
-function formatPriceRange(range: [number, number]) {
-  if (range[0] === 0 && range[1] === 1000) {
-    return "All prices";
-  }
-
-  return `${formatPrice(range[0])} - ${formatPrice(range[1])}`;
-}
 
 export default function ProductsPageClient() {
   const searchParams = useSearchParams();
@@ -39,11 +30,6 @@ export default function ProductsPageClient() {
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
 
   const catalog = useMemo(() => getProductsForView(mode), [mode]);
-
-  const selectedCategories = useMemo(
-    () => categories.filter((category) => activeCategories.includes(category.id)),
-    [activeCategories]
-  );
 
   const filteredProducts = useMemo(() => {
     let result = [...catalog];
@@ -91,21 +77,6 @@ export default function ProductsPageClient() {
 
     return result;
   }, [activeCategories, catalog, priceRange, query, sortBy]);
-
-  const directorySummary = useMemo(() => {
-    const categoryText =
-      selectedCategories.length === 0
-        ? "All categories"
-        : selectedCategories.length === 1
-          ? selectedCategories[0].name
-          : `${selectedCategories.length} categories selected`;
-
-    return [
-      `${filteredProducts.length.toString().padStart(2, "0")} listings`,
-      categoryText,
-      formatPriceRange(priceRange),
-    ];
-  }, [filteredProducts.length, priceRange, selectedCategories]);
 
   const hasActiveFilters =
     activeCategories.length > 0 ||
@@ -169,7 +140,6 @@ export default function ProductsPageClient() {
         <div className="flex flex-col gap-4 lg:flex-row lg:items-center">
           <div className="flex flex-1 flex-col gap-3 sm:flex-row">
             <Input
-              label="Search directory"
               placeholder="Search brand, category, or product"
               value={query}
               onChange={(event) => setQuery(event.target.value)}
@@ -218,24 +188,6 @@ export default function ProductsPageClient() {
                 Clear all
               </button>
             )}
-          </div>
-        </div>
-      </div>
-
-      <div className="mb-8 rounded-[24px] border border-border bg-card/75 p-4 backdrop-blur-sm">
-        <div className="flex flex-col gap-3 lg:flex-row lg:items-center lg:justify-between">
-          <div>
-            <p className="text-[10px] tracking-[0.3em] uppercase text-text-muted">Directory summary</p>
-            <p className="mt-2 text-sm leading-7 text-text-muted">
-              A working catalog sheet for buyers, with active filters and range context shown up front.
-            </p>
-          </div>
-          <div className="flex flex-wrap gap-2 text-[10px] tracking-[0.24em] uppercase">
-            {directorySummary.map((item) => (
-              <span key={item} className="rounded-full border border-border bg-background px-3 py-2 text-text-muted">
-                {item}
-              </span>
-            ))}
           </div>
         </div>
       </div>
