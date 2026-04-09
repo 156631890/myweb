@@ -30,6 +30,24 @@ export default function ProductsPageClient() {
   const [priceRange, setPriceRange] = useState<[number, number]>([0, 1000]);
 
   const catalog = useMemo(() => getProductsForView(mode), [mode]);
+  const categoryCounts = useMemo(
+    () =>
+      catalog.reduce<Record<CategorySlug, number>>(
+        (counts, product) => {
+          counts[product.category] = (counts[product.category] ?? 0) + 1;
+          return counts;
+        },
+        {
+          sunglasses: 0,
+          "women-clothes": 0,
+          "men-clothes": 0,
+          bags: 0,
+          shoes: 0,
+          jewelry: 0,
+        }
+      ),
+    [catalog]
+  );
 
   const filteredProducts = useMemo(() => {
     let result = [...catalog];
@@ -99,36 +117,12 @@ export default function ProductsPageClient() {
 
   return (
     <div className="mx-auto max-w-[88rem] px-4 py-8 sm:px-6 lg:py-10">
-      <div className="mb-6 flex flex-wrap items-end justify-between gap-4 border-b border-border pb-5">
+      <div className="mb-6 border-b border-border pb-5">
         <div className="space-y-2">
           <p className="text-[10px] tracking-[0.34em] uppercase text-text-muted">Products</p>
           <h1 className="text-[2rem] leading-[0.96] sm:text-[2.8rem]">
             {mode === "trade" ? "Trade inventory" : "Directory listings"}
           </h1>
-        </div>
-
-        <div className="flex items-center gap-3">
-          <div className="inline-flex rounded-full border border-border bg-card p-1">
-            {[
-              { label: "Retail", value: "retail" as ViewMode },
-              { label: "Trade", value: "trade" as ViewMode },
-            ].map((tab) => (
-              <button
-                key={tab.value}
-                onClick={() => setMode(tab.value)}
-                className={`rounded-full px-4 py-2 text-[10px] tracking-[0.24em] uppercase transition-colors ${
-                  mode === tab.value
-                    ? "bg-foreground text-background"
-                    : "text-text-muted hover:text-foreground"
-                }`}
-              >
-                {tab.label}
-              </button>
-            ))}
-          </div>
-          <div className="rounded-full border border-border bg-card px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-text-muted">
-            {filteredProducts.length} items
-          </div>
         </div>
       </div>
 
@@ -137,10 +131,12 @@ export default function ProductsPageClient() {
           <div className="flex flex-1 flex-wrap gap-2">
             {categories.map((category) => {
               const active = activeCategories.includes(category.id);
+              const count = categoryCounts[category.id] ?? 0;
               return (
                 <button
                   key={category.id}
                   onClick={() => toggleCategory(category.id)}
+                  aria-pressed={active}
                   className={`inline-flex items-center justify-between rounded-full border px-4 py-2 text-[10px] tracking-[0.22em] uppercase transition-colors ${
                     active
                       ? "border-foreground bg-foreground text-background"
@@ -149,14 +145,11 @@ export default function ProductsPageClient() {
                 >
                   <span>{category.name}</span>
                   <span className="ml-3 text-[10px] tracking-[0.2em] uppercase">
-                    {String(category.productCount).padStart(2, "0")}
+                    {String(count).padStart(2, "0")}
                   </span>
                 </button>
               );
             })}
-          </div>
-          <div className="rounded-full border border-border bg-background px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-text-muted">
-            {filteredProducts.length} items
           </div>
         </div>
       </div>
@@ -189,6 +182,7 @@ export default function ProductsPageClient() {
                 <button
                   key={tab.value}
                   onClick={() => setMode(tab.value)}
+                  aria-pressed={mode === tab.value}
                   className={`rounded-full px-3 py-2 text-[10px] tracking-[0.22em] uppercase transition-colors ${
                     mode === tab.value
                       ? "bg-foreground text-background"
@@ -198,6 +192,10 @@ export default function ProductsPageClient() {
                   {tab.label}
                 </button>
               ))}
+            </div>
+
+            <div className="rounded-full border border-border bg-background px-4 py-2 text-[10px] tracking-[0.24em] uppercase text-text-muted">
+              {filteredProducts.length} items
             </div>
 
             <button
@@ -261,6 +259,7 @@ export default function ProductsPageClient() {
                 <button
                   key={category}
                   onClick={() => toggleCategory(category)}
+                  aria-pressed={true}
                   className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-2 text-[10px] tracking-[0.2em] uppercase text-foreground"
                 >
                   {categories.find((item) => item.id === category)?.name}
