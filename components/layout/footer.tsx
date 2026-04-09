@@ -4,7 +4,7 @@ import { Instagram, Facebook, Mail, ArrowRight } from "lucide-react";
 
 const footerColumns = {
   shop: [
-    { name: "Sunglasses", href: "/products?category=sunglasses" },
+    { name: "Eyewear", href: "/products?category=sunglasses" },
     { name: "Women", href: "/products?category=women-clothes" },
     { name: "Men", href: "/products?category=men-clothes" },
     { name: "Bags", href: "/products?category=bags" },

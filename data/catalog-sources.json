@@ -1,14 +1,14 @@
 [
   {
     "id": "sunglasses",
-    "label": "Luxury Eyewear",
+    "label": "Eyewear",
     "category": "sunglasses",
     "url": "https://luxuryeyewear.x.yupoo.com/",
     "note": "Primary sunglasses source."
   },
   {
     "id": "women-clothes",
-    "label": "Designer Women Clothes",
+    "label": "Women",
     "category": "women-clothes",
     "url": "https://dapaiclothing.x.yupoo.com/categories"
   },
@@ -33,7 +33,7 @@
   },
   {
     "id": "men-clothes",
-    "label": "Designer Men Clothes",
+    "label": "Men",
     "category": "men-clothes",
     "url": "https://1234qwer888.x.yupoo.com/categories"
   }

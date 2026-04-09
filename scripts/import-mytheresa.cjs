@@ -34,9 +34,9 @@ const SOURCE_URLS = [
 ];
 
 const categoryLabels = {
-  sunglasses: 'Sunglasses',
-  'women-clothes': 'Designer Women',
-  'men-clothes': 'Designer Men',
+  sunglasses: 'Eyewear',
+  'women-clothes': 'Women',
+  'men-clothes': 'Men',
   bags: 'Bags',
   shoes: 'Shoes',
   jewelry: 'Jewelry',

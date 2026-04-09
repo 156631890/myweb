@@ -223,7 +223,7 @@ export default function WholesalePage() {
               label="Items of interest"
               value={form.items}
               onChange={(event) => setForm({ ...form, items: event.target.value })}
-              placeholder="Sunglasses, bags, shoes..."
+              placeholder="Eyewear, bags, shoes..."
               required
             />
             <Input

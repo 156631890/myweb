@@ -42,9 +42,9 @@ interface ImportedProductResult {
 export const sourceFeeds: SourceFeed[] = sourceFeedsData as SourceFeed[];
 
 const categoryLabels: Record<CategorySlug, string> = {
-  sunglasses: "Sunglasses",
-  "women-clothes": "Designer Women",
-  "men-clothes": "Designer Men",
+  sunglasses: "Eyewear",
+  "women-clothes": "Women",
+  "men-clothes": "Men",
   bags: "Bags",
   shoes: "Shoes",
   jewelry: "Jewelry",

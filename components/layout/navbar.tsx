@@ -7,9 +7,10 @@ import { Search, ShoppingBag, Menu, X } from "lucide-react";
 import { useCartStore } from "@/lib/store";
 
 const navLinks = [
+  { name: "Eyewear", href: "/products?category=sunglasses" },
   { name: "Women", href: "/products?category=women-clothes" },
   { name: "Men", href: "/products?category=men-clothes" },
-  { name: "Accessories", href: "/products?category=bags" },
+  { name: "Bags", href: "/products?category=bags" },
   { name: "Trade", href: "/wholesale" },
 ];
 
